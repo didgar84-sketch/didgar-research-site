@@ -1,0 +1,11 @@
+{
+  "project_version": "1.0.0",
+  "status": "entirely synthetic teaching data",
+  "n": 12,
+  "mean_score": 67.33333333333333,
+  "sd_score": 9.128709291752768,
+  "source_sha256": "4de731b0f3032d6812290ae08463729e66fcc976ebeb29f46e1dbf5f4e569325",
+  "analysis_paths": 6,
+  "coefficient_units": "score points per study hour",
+  "limitations": "Descriptive OLS examples; no inference, causality or real-population estimates."
+}

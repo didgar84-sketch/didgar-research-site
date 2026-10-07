@@ -1,0 +1,13 @@
+participant_id,study_hours,baseline,score,quality_flag
+S01,2,52,58,none
+S02,4,61,64,none
+S03,1,49,51,A
+S04,6,65,72,none
+S05,3,55,61,none
+S06,7,70,74,B
+S07,5,60,69,none
+S08,8,68,79,none
+S09,2,57,60,none
+S10,9,72,82,A
+S11,4,59,65,none
+S12,6,63,73,B

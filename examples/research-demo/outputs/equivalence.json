@@ -1,0 +1,50 @@
+[
+  {
+    "model": "normal, justified known or large-sample standard error",
+    "estimate": 0.2,
+    "standard_error": 0.15,
+    "bounds": [
+      -0.5,
+      0.5
+    ],
+    "alpha": 0.05,
+    "p_lower": 1.530626736467866e-06,
+    "p_upper": 0.02275013194817921,
+    "p_tost": 0.02275013194817921,
+    "equivalent": true,
+    "equivalence_interval": [
+      -0.04672804404272071,
+      0.4467280440427207
+    ],
+    "difference_interval": [
+      -0.09399459768100804,
+      0.49399459768100806
+    ],
+    "different_from_zero": false,
+    "status": "synthetic numerical teaching scenario; not estimated from synthetic.csv"
+  },
+  {
+    "model": "normal, justified known or large-sample standard error",
+    "estimate": 0.2,
+    "standard_error": 1.0,
+    "bounds": [
+      -0.5,
+      0.5
+    ],
+    "alpha": 0.05,
+    "p_lower": 0.24196365222307303,
+    "p_upper": 0.3820885778110474,
+    "p_tost": 0.3820885778110474,
+    "equivalent": false,
+    "equivalence_interval": [
+      -1.4448536269514716,
+      1.8448536269514715
+    ],
+    "difference_interval": [
+      -1.7599639845400536,
+      2.159963984540054
+    ],
+    "different_from_zero": false,
+    "status": "synthetic numerical teaching scenario; not estimated from synthetic.csv"
+  }
+]

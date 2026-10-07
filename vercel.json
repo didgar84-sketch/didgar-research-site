@@ -1,0 +1,3731 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://wa.me"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/404.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/assets/downloads/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    }
+  ],
+  "framework": null,
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/fa",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/ai-research-ethics/index.html",
+      "destination": "/ar/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/ai-research-ethics/index",
+      "destination": "/ar/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/citation-styles/index.html",
+      "destination": "/ar/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/citation-styles/index",
+      "destination": "/ar/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/index.html",
+      "destination": "/ar/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/index",
+      "destination": "/ar/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/journal-submission/index.html",
+      "destination": "/ar/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/journal-submission/index",
+      "destination": "/ar/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-articles/index.html",
+      "destination": "/ar/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-articles/index",
+      "destination": "/ar/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-data/index.html",
+      "destination": "/ar/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-data/index",
+      "destination": "/ar/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-programming/index.html",
+      "destination": "/ar/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-programming/index",
+      "destination": "/ar/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-proposal/index.html",
+      "destination": "/ar/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-proposal/index",
+      "destination": "/ar/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/similarity-check/index.html",
+      "destination": "/ar/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/similarity-check/index",
+      "destination": "/ar/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/similarity-report/index.html",
+      "destination": "/ar/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/similarity-report/index",
+      "destination": "/ar/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/statistical-software/index.html",
+      "destination": "/ar/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/statistical-software/index",
+      "destination": "/ar/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/systematic-review/index.html",
+      "destination": "/ar/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/systematic-review/index",
+      "destination": "/ar/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/thesis-dissertation/index.html",
+      "destination": "/ar/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/thesis-dissertation/index",
+      "destination": "/ar/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/index.html",
+      "destination": "/ar/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/index",
+      "destination": "/ar/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/planner/index.html",
+      "destination": "/ar/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/planner/index",
+      "destination": "/ar/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/privacy/index.html",
+      "destination": "/ar/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/privacy/index",
+      "destination": "/ar/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/data-analysis/index.html",
+      "destination": "/ar/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/data-analysis/index",
+      "destination": "/ar/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/editing/index.html",
+      "destination": "/ar/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/editing/index",
+      "destination": "/ar/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/originality/index.html",
+      "destination": "/ar/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/originality/index",
+      "destination": "/ar/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/programming/index.html",
+      "destination": "/ar/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/programming/index",
+      "destination": "/ar/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/proposal/index.html",
+      "destination": "/ar/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/proposal/index",
+      "destination": "/ar/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/scientific-writing/index.html",
+      "destination": "/ar/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/scientific-writing/index",
+      "destination": "/ar/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/terms/index.html",
+      "destination": "/ar/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/terms/index",
+      "destination": "/ar/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/ai-research-ethics/index.html",
+      "destination": "/en/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/ai-research-ethics/index",
+      "destination": "/en/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/citation-styles/index.html",
+      "destination": "/en/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/citation-styles/index",
+      "destination": "/en/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/index.html",
+      "destination": "/en/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/index",
+      "destination": "/en/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/journal-submission/index.html",
+      "destination": "/en/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/journal-submission/index",
+      "destination": "/en/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-articles/index.html",
+      "destination": "/en/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-articles/index",
+      "destination": "/en/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-data/index.html",
+      "destination": "/en/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-data/index",
+      "destination": "/en/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-programming/index.html",
+      "destination": "/en/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-programming/index",
+      "destination": "/en/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-proposal/index.html",
+      "destination": "/en/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-proposal/index",
+      "destination": "/en/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/similarity-check/index.html",
+      "destination": "/en/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/similarity-check/index",
+      "destination": "/en/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/similarity-report/index.html",
+      "destination": "/en/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/similarity-report/index",
+      "destination": "/en/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/statistical-software/index.html",
+      "destination": "/en/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/statistical-software/index",
+      "destination": "/en/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/systematic-review/index.html",
+      "destination": "/en/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/systematic-review/index",
+      "destination": "/en/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/thesis-dissertation/index.html",
+      "destination": "/en/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/thesis-dissertation/index",
+      "destination": "/en/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/en/index.html",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/en/index",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/en/planner/index.html",
+      "destination": "/en/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/en/planner/index",
+      "destination": "/en/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/en/privacy/index.html",
+      "destination": "/en/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/en/privacy/index",
+      "destination": "/en/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/data-analysis/index.html",
+      "destination": "/en/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/data-analysis/index",
+      "destination": "/en/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/editing/index.html",
+      "destination": "/en/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/editing/index",
+      "destination": "/en/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/originality/index.html",
+      "destination": "/en/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/originality/index",
+      "destination": "/en/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/programming/index.html",
+      "destination": "/en/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/programming/index",
+      "destination": "/en/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/proposal/index.html",
+      "destination": "/en/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/proposal/index",
+      "destination": "/en/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/scientific-writing/index.html",
+      "destination": "/en/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/scientific-writing/index",
+      "destination": "/en/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/terms/index.html",
+      "destination": "/en/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/en/terms/index",
+      "destination": "/en/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/ai-research-ethics/index.html",
+      "destination": "/fa/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/ai-research-ethics/index",
+      "destination": "/fa/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/citation-styles/index.html",
+      "destination": "/fa/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/citation-styles/index",
+      "destination": "/fa/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/index.html",
+      "destination": "/fa/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/index",
+      "destination": "/fa/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/journal-submission/index.html",
+      "destination": "/fa/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/journal-submission/index",
+      "destination": "/fa/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-articles/index.html",
+      "destination": "/fa/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-articles/index",
+      "destination": "/fa/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-data/index.html",
+      "destination": "/fa/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-data/index",
+      "destination": "/fa/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-programming/index.html",
+      "destination": "/fa/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-programming/index",
+      "destination": "/fa/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-proposal/index.html",
+      "destination": "/fa/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-proposal/index",
+      "destination": "/fa/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/similarity-check/index.html",
+      "destination": "/fa/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/similarity-check/index",
+      "destination": "/fa/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/similarity-report/index.html",
+      "destination": "/fa/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/similarity-report/index",
+      "destination": "/fa/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/statistical-software/index.html",
+      "destination": "/fa/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/statistical-software/index",
+      "destination": "/fa/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/systematic-review/index.html",
+      "destination": "/fa/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/systematic-review/index",
+      "destination": "/fa/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/thesis-dissertation/index.html",
+      "destination": "/fa/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/thesis-dissertation/index",
+      "destination": "/fa/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/index",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/planner/index.html",
+      "destination": "/fa/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/planner/index",
+      "destination": "/fa/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/privacy/index.html",
+      "destination": "/fa/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/privacy/index",
+      "destination": "/fa/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/data-analysis/index.html",
+      "destination": "/fa/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/data-analysis/index",
+      "destination": "/fa/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/editing/index.html",
+      "destination": "/fa/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/editing/index",
+      "destination": "/fa/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/originality/index.html",
+      "destination": "/fa/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/originality/index",
+      "destination": "/fa/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/programming/index.html",
+      "destination": "/fa/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/programming/index",
+      "destination": "/fa/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/proposal/index.html",
+      "destination": "/fa/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/proposal/index",
+      "destination": "/fa/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/scientific-writing/index.html",
+      "destination": "/fa/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/scientific-writing/index",
+      "destination": "/fa/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/terms/index.html",
+      "destination": "/fa/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/terms/index",
+      "destination": "/fa/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides.html",
+      "destination": "/fa/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/proposal.html",
+      "destination": "/fa/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/data-analysis.html",
+      "destination": "/fa/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/programming.html",
+      "destination": "/fa/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/scientific-writing.html",
+      "destination": "/fa/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/editing.html",
+      "destination": "/fa/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/originality.html",
+      "destination": "/fa/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-proposal.html",
+      "destination": "/fa/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/thesis-dissertation.html",
+      "destination": "/fa/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/statistical-software.html",
+      "destination": "/fa/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-programming.html",
+      "destination": "/fa/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/citation-styles.html",
+      "destination": "/fa/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/similarity-check.html",
+      "destination": "/fa/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/similarity-report.html",
+      "destination": "/fa/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-articles.html",
+      "destination": "/fa/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/systematic-review.html",
+      "destination": "/fa/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/journal-submission.html",
+      "destination": "/fa/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-data.html",
+      "destination": "/fa/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/ai-research-ethics.html",
+      "destination": "/fa/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/literature-search.html",
+      "destination": "/fa/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/literature-search/index.html",
+      "destination": "/fa/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-design.html",
+      "destination": "/fa/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-design/index.html",
+      "destination": "/fa/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/preregistration.html",
+      "destination": "/fa/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/preregistration/index.html",
+      "destination": "/fa/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/sample-size-power.html",
+      "destination": "/fa/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/sample-size-power/index.html",
+      "destination": "/fa/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/effect-size-uncertainty.html",
+      "destination": "/fa/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/effect-size-uncertainty/index.html",
+      "destination": "/fa/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/missing-data.html",
+      "destination": "/fa/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/missing-data/index.html",
+      "destination": "/fa/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/qualitative-research.html",
+      "destination": "/fa/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/qualitative-research/index.html",
+      "destination": "/fa/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/survey-design.html",
+      "destination": "/fa/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/survey-design/index.html",
+      "destination": "/fa/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/causal-inference.html",
+      "destination": "/fa/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/causal-inference/index.html",
+      "destination": "/fa/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reproducible-notebooks.html",
+      "destination": "/fa/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reproducible-notebooks/index.html",
+      "destination": "/fa/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/fair-open-data.html",
+      "destination": "/fa/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/fair-open-data/index.html",
+      "destination": "/fa/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/open-access.html",
+      "destination": "/fa/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/open-access/index.html",
+      "destination": "/fa/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/researcher-identifiers.html",
+      "destination": "/fa/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/researcher-identifiers/index.html",
+      "destination": "/fa/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reporting-guidelines.html",
+      "destination": "/fa/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reporting-guidelines/index.html",
+      "destination": "/fa/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/grant-planning.html",
+      "destination": "/fa/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/grant-planning/index.html",
+      "destination": "/fa/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/critical-appraisal.html",
+      "destination": "/fa/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/critical-appraisal/index.html",
+      "destination": "/fa/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/planner.html",
+      "destination": "/fa/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/privacy.html",
+      "destination": "/fa/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/terms.html",
+      "destination": "/fa/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/resources.html",
+      "destination": "/fa/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/resources/index.html",
+      "destination": "/fa/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/toolkit.html",
+      "destination": "/fa/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/toolkit/index.html",
+      "destination": "/fa/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/editorial.html",
+      "destination": "/fa/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/editorial/index.html",
+      "destination": "/fa/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/en.html",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides.html",
+      "destination": "/en/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/proposal.html",
+      "destination": "/en/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/data-analysis.html",
+      "destination": "/en/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/programming.html",
+      "destination": "/en/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/scientific-writing.html",
+      "destination": "/en/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/editing.html",
+      "destination": "/en/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/originality.html",
+      "destination": "/en/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-proposal.html",
+      "destination": "/en/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/thesis-dissertation.html",
+      "destination": "/en/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/statistical-software.html",
+      "destination": "/en/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-programming.html",
+      "destination": "/en/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/citation-styles.html",
+      "destination": "/en/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/similarity-check.html",
+      "destination": "/en/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/similarity-report.html",
+      "destination": "/en/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-articles.html",
+      "destination": "/en/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/systematic-review.html",
+      "destination": "/en/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/journal-submission.html",
+      "destination": "/en/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-data.html",
+      "destination": "/en/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/ai-research-ethics.html",
+      "destination": "/en/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/literature-search.html",
+      "destination": "/en/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/literature-search/index.html",
+      "destination": "/en/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-design.html",
+      "destination": "/en/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-design/index.html",
+      "destination": "/en/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/preregistration.html",
+      "destination": "/en/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/preregistration/index.html",
+      "destination": "/en/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/sample-size-power.html",
+      "destination": "/en/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/sample-size-power/index.html",
+      "destination": "/en/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/effect-size-uncertainty.html",
+      "destination": "/en/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/effect-size-uncertainty/index.html",
+      "destination": "/en/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/missing-data.html",
+      "destination": "/en/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/missing-data/index.html",
+      "destination": "/en/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/qualitative-research.html",
+      "destination": "/en/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/qualitative-research/index.html",
+      "destination": "/en/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/survey-design.html",
+      "destination": "/en/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/survey-design/index.html",
+      "destination": "/en/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/causal-inference.html",
+      "destination": "/en/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/causal-inference/index.html",
+      "destination": "/en/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reproducible-notebooks.html",
+      "destination": "/en/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reproducible-notebooks/index.html",
+      "destination": "/en/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/fair-open-data.html",
+      "destination": "/en/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/fair-open-data/index.html",
+      "destination": "/en/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/open-access.html",
+      "destination": "/en/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/open-access/index.html",
+      "destination": "/en/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/researcher-identifiers.html",
+      "destination": "/en/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/researcher-identifiers/index.html",
+      "destination": "/en/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reporting-guidelines.html",
+      "destination": "/en/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reporting-guidelines/index.html",
+      "destination": "/en/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/grant-planning.html",
+      "destination": "/en/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/grant-planning/index.html",
+      "destination": "/en/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/critical-appraisal.html",
+      "destination": "/en/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/critical-appraisal/index.html",
+      "destination": "/en/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/planner.html",
+      "destination": "/en/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/en/privacy.html",
+      "destination": "/en/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/en/terms.html",
+      "destination": "/en/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/en/resources.html",
+      "destination": "/en/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/en/resources/index.html",
+      "destination": "/en/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/en/toolkit.html",
+      "destination": "/en/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/en/toolkit/index.html",
+      "destination": "/en/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/en/editorial.html",
+      "destination": "/en/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/en/editorial/index.html",
+      "destination": "/en/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/ar.html",
+      "destination": "/ar/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides.html",
+      "destination": "/ar/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/proposal.html",
+      "destination": "/ar/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/data-analysis.html",
+      "destination": "/ar/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/programming.html",
+      "destination": "/ar/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/scientific-writing.html",
+      "destination": "/ar/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/editing.html",
+      "destination": "/ar/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/originality.html",
+      "destination": "/ar/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-proposal.html",
+      "destination": "/ar/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/thesis-dissertation.html",
+      "destination": "/ar/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/statistical-software.html",
+      "destination": "/ar/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-programming.html",
+      "destination": "/ar/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/citation-styles.html",
+      "destination": "/ar/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/similarity-check.html",
+      "destination": "/ar/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/similarity-report.html",
+      "destination": "/ar/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-articles.html",
+      "destination": "/ar/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/systematic-review.html",
+      "destination": "/ar/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/journal-submission.html",
+      "destination": "/ar/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-data.html",
+      "destination": "/ar/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/ai-research-ethics.html",
+      "destination": "/ar/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/literature-search.html",
+      "destination": "/ar/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/literature-search/index.html",
+      "destination": "/ar/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-design.html",
+      "destination": "/ar/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-design/index.html",
+      "destination": "/ar/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/preregistration.html",
+      "destination": "/ar/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/preregistration/index.html",
+      "destination": "/ar/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/sample-size-power.html",
+      "destination": "/ar/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/sample-size-power/index.html",
+      "destination": "/ar/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/effect-size-uncertainty.html",
+      "destination": "/ar/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/effect-size-uncertainty/index.html",
+      "destination": "/ar/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/missing-data.html",
+      "destination": "/ar/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/missing-data/index.html",
+      "destination": "/ar/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/qualitative-research.html",
+      "destination": "/ar/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/qualitative-research/index.html",
+      "destination": "/ar/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/survey-design.html",
+      "destination": "/ar/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/survey-design/index.html",
+      "destination": "/ar/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/causal-inference.html",
+      "destination": "/ar/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/causal-inference/index.html",
+      "destination": "/ar/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reproducible-notebooks.html",
+      "destination": "/ar/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reproducible-notebooks/index.html",
+      "destination": "/ar/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/fair-open-data.html",
+      "destination": "/ar/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/fair-open-data/index.html",
+      "destination": "/ar/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/open-access.html",
+      "destination": "/ar/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/open-access/index.html",
+      "destination": "/ar/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/researcher-identifiers.html",
+      "destination": "/ar/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/researcher-identifiers/index.html",
+      "destination": "/ar/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reporting-guidelines.html",
+      "destination": "/ar/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reporting-guidelines/index.html",
+      "destination": "/ar/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/grant-planning.html",
+      "destination": "/ar/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/grant-planning/index.html",
+      "destination": "/ar/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/critical-appraisal.html",
+      "destination": "/ar/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/critical-appraisal/index.html",
+      "destination": "/ar/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/planner.html",
+      "destination": "/ar/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/privacy.html",
+      "destination": "/ar/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/terms.html",
+      "destination": "/ar/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/resources.html",
+      "destination": "/ar/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/resources/index.html",
+      "destination": "/ar/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/toolkit.html",
+      "destination": "/ar/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/toolkit/index.html",
+      "destination": "/ar/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/editorial.html",
+      "destination": "/ar/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/editorial/index.html",
+      "destination": "/ar/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/registered-reports.html",
+      "destination": "/fa/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/registered-reports/index.html",
+      "destination": "/fa/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/secondary-data-preregistration.html",
+      "destination": "/fa/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/secondary-data-preregistration/index.html",
+      "destination": "/fa/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/qualitative-preregistration.html",
+      "destination": "/fa/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/qualitative-preregistration/index.html",
+      "destination": "/fa/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/top-2025-transparency.html",
+      "destination": "/fa/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/top-2025-transparency/index.html",
+      "destination": "/fa/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/multiverse-analysis.html",
+      "destination": "/fa/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/multiverse-analysis/index.html",
+      "destination": "/fa/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/computational-thesis-quarto.html",
+      "destination": "/fa/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/computational-thesis-quarto/index.html",
+      "destination": "/fa/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/thesis-by-publication.html",
+      "destination": "/fa/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/thesis-by-publication/index.html",
+      "destination": "/fa/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/open-peer-review.html",
+      "destination": "/fa/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/open-peer-review/index.html",
+      "destination": "/fa/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/data-papers.html",
+      "destination": "/fa/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/data-papers/index.html",
+      "destination": "/fa/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-software-papers.html",
+      "destination": "/fa/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-software-papers/index.html",
+      "destination": "/fa/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/rights-retention.html",
+      "destination": "/fa/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/rights-retention/index.html",
+      "destination": "/fa/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/equivalence-testing.html",
+      "destination": "/fa/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/equivalence-testing/index.html",
+      "destination": "/fa/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/constraints-on-generality.html",
+      "destination": "/fa/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/constraints-on-generality/index.html",
+      "destination": "/fa/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/living-systematic-reviews.html",
+      "destination": "/fa/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/living-systematic-reviews/index.html",
+      "destination": "/fa/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/chatbot-health-studies.html",
+      "destination": "/fa/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/chatbot-health-studies/index.html",
+      "destination": "/fa/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/consort-spirit-2025.html",
+      "destination": "/fa/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/consort-spirit-2025/index.html",
+      "destination": "/fa/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reporting-standard-verification.html",
+      "destination": "/fa/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reporting-standard-verification/index.html",
+      "destination": "/fa/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/learning-paths.html",
+      "destination": "/fa/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/learning-paths/index.html",
+      "destination": "/fa/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/glossary.html",
+      "destination": "/fa/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/glossary/index.html",
+      "destination": "/fa/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/registered-reports.html",
+      "destination": "/en/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/registered-reports/index.html",
+      "destination": "/en/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/secondary-data-preregistration.html",
+      "destination": "/en/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/secondary-data-preregistration/index.html",
+      "destination": "/en/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/qualitative-preregistration.html",
+      "destination": "/en/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/qualitative-preregistration/index.html",
+      "destination": "/en/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/top-2025-transparency.html",
+      "destination": "/en/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/top-2025-transparency/index.html",
+      "destination": "/en/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/multiverse-analysis.html",
+      "destination": "/en/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/multiverse-analysis/index.html",
+      "destination": "/en/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/computational-thesis-quarto.html",
+      "destination": "/en/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/computational-thesis-quarto/index.html",
+      "destination": "/en/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/thesis-by-publication.html",
+      "destination": "/en/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/thesis-by-publication/index.html",
+      "destination": "/en/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/open-peer-review.html",
+      "destination": "/en/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/open-peer-review/index.html",
+      "destination": "/en/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/data-papers.html",
+      "destination": "/en/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/data-papers/index.html",
+      "destination": "/en/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-software-papers.html",
+      "destination": "/en/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-software-papers/index.html",
+      "destination": "/en/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/rights-retention.html",
+      "destination": "/en/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/rights-retention/index.html",
+      "destination": "/en/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/equivalence-testing.html",
+      "destination": "/en/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/equivalence-testing/index.html",
+      "destination": "/en/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/constraints-on-generality.html",
+      "destination": "/en/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/constraints-on-generality/index.html",
+      "destination": "/en/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/living-systematic-reviews.html",
+      "destination": "/en/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/living-systematic-reviews/index.html",
+      "destination": "/en/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/chatbot-health-studies.html",
+      "destination": "/en/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/chatbot-health-studies/index.html",
+      "destination": "/en/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/consort-spirit-2025.html",
+      "destination": "/en/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/consort-spirit-2025/index.html",
+      "destination": "/en/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reporting-standard-verification.html",
+      "destination": "/en/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reporting-standard-verification/index.html",
+      "destination": "/en/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/en/learning-paths.html",
+      "destination": "/en/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/en/learning-paths/index.html",
+      "destination": "/en/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/en/glossary.html",
+      "destination": "/en/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/en/glossary/index.html",
+      "destination": "/en/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/registered-reports.html",
+      "destination": "/ar/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/registered-reports/index.html",
+      "destination": "/ar/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/secondary-data-preregistration.html",
+      "destination": "/ar/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/secondary-data-preregistration/index.html",
+      "destination": "/ar/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/qualitative-preregistration.html",
+      "destination": "/ar/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/qualitative-preregistration/index.html",
+      "destination": "/ar/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/top-2025-transparency.html",
+      "destination": "/ar/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/top-2025-transparency/index.html",
+      "destination": "/ar/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/multiverse-analysis.html",
+      "destination": "/ar/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/multiverse-analysis/index.html",
+      "destination": "/ar/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/computational-thesis-quarto.html",
+      "destination": "/ar/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/computational-thesis-quarto/index.html",
+      "destination": "/ar/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/thesis-by-publication.html",
+      "destination": "/ar/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/thesis-by-publication/index.html",
+      "destination": "/ar/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/open-peer-review.html",
+      "destination": "/ar/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/open-peer-review/index.html",
+      "destination": "/ar/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/data-papers.html",
+      "destination": "/ar/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/data-papers/index.html",
+      "destination": "/ar/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-software-papers.html",
+      "destination": "/ar/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-software-papers/index.html",
+      "destination": "/ar/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/rights-retention.html",
+      "destination": "/ar/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/rights-retention/index.html",
+      "destination": "/ar/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/equivalence-testing.html",
+      "destination": "/ar/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/equivalence-testing/index.html",
+      "destination": "/ar/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/constraints-on-generality.html",
+      "destination": "/ar/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/constraints-on-generality/index.html",
+      "destination": "/ar/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/living-systematic-reviews.html",
+      "destination": "/ar/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/living-systematic-reviews/index.html",
+      "destination": "/ar/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/chatbot-health-studies.html",
+      "destination": "/ar/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/chatbot-health-studies/index.html",
+      "destination": "/ar/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/consort-spirit-2025.html",
+      "destination": "/ar/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/consort-spirit-2025/index.html",
+      "destination": "/ar/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reporting-standard-verification.html",
+      "destination": "/ar/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reporting-standard-verification/index.html",
+      "destination": "/ar/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/learning-paths.html",
+      "destination": "/ar/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/learning-paths/index.html",
+      "destination": "/ar/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/glossary.html",
+      "destination": "/ar/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/glossary/index.html",
+      "destination": "/ar/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/index/",
+      "destination": "/fa/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/proposal/index/",
+      "destination": "/fa/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/data-analysis/index/",
+      "destination": "/fa/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/programming/index/",
+      "destination": "/fa/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/scientific-writing/index/",
+      "destination": "/fa/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/editing/index/",
+      "destination": "/fa/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/services/originality/index/",
+      "destination": "/fa/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-proposal/index/",
+      "destination": "/fa/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/thesis-dissertation/index/",
+      "destination": "/fa/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/statistical-software/index/",
+      "destination": "/fa/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-programming/index/",
+      "destination": "/fa/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/citation-styles/index/",
+      "destination": "/fa/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/similarity-check/index/",
+      "destination": "/fa/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/similarity-report/index/",
+      "destination": "/fa/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-articles/index/",
+      "destination": "/fa/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/systematic-review/index/",
+      "destination": "/fa/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/journal-submission/index/",
+      "destination": "/fa/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-data/index/",
+      "destination": "/fa/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/ai-research-ethics/index/",
+      "destination": "/fa/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/literature-search/index",
+      "destination": "/fa/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/literature-search/index/",
+      "destination": "/fa/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-design/index",
+      "destination": "/fa/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-design/index/",
+      "destination": "/fa/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/preregistration/index",
+      "destination": "/fa/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/preregistration/index/",
+      "destination": "/fa/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/sample-size-power/index",
+      "destination": "/fa/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/sample-size-power/index/",
+      "destination": "/fa/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/effect-size-uncertainty/index",
+      "destination": "/fa/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/effect-size-uncertainty/index/",
+      "destination": "/fa/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/missing-data/index",
+      "destination": "/fa/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/missing-data/index/",
+      "destination": "/fa/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/qualitative-research/index",
+      "destination": "/fa/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/qualitative-research/index/",
+      "destination": "/fa/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/survey-design/index",
+      "destination": "/fa/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/survey-design/index/",
+      "destination": "/fa/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/causal-inference/index",
+      "destination": "/fa/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/causal-inference/index/",
+      "destination": "/fa/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reproducible-notebooks/index",
+      "destination": "/fa/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reproducible-notebooks/index/",
+      "destination": "/fa/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/fair-open-data/index",
+      "destination": "/fa/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/fair-open-data/index/",
+      "destination": "/fa/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/open-access/index",
+      "destination": "/fa/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/open-access/index/",
+      "destination": "/fa/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/researcher-identifiers/index",
+      "destination": "/fa/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/researcher-identifiers/index/",
+      "destination": "/fa/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reporting-guidelines/index",
+      "destination": "/fa/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reporting-guidelines/index/",
+      "destination": "/fa/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/grant-planning/index",
+      "destination": "/fa/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/grant-planning/index/",
+      "destination": "/fa/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/critical-appraisal/index",
+      "destination": "/fa/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/critical-appraisal/index/",
+      "destination": "/fa/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/registered-reports/index",
+      "destination": "/fa/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/registered-reports/index/",
+      "destination": "/fa/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/secondary-data-preregistration/index",
+      "destination": "/fa/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/secondary-data-preregistration/index/",
+      "destination": "/fa/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/qualitative-preregistration/index",
+      "destination": "/fa/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/qualitative-preregistration/index/",
+      "destination": "/fa/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/top-2025-transparency/index",
+      "destination": "/fa/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/top-2025-transparency/index/",
+      "destination": "/fa/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/multiverse-analysis/index",
+      "destination": "/fa/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/multiverse-analysis/index/",
+      "destination": "/fa/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/computational-thesis-quarto/index",
+      "destination": "/fa/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/computational-thesis-quarto/index/",
+      "destination": "/fa/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/thesis-by-publication/index",
+      "destination": "/fa/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/thesis-by-publication/index/",
+      "destination": "/fa/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/open-peer-review/index",
+      "destination": "/fa/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/open-peer-review/index/",
+      "destination": "/fa/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/data-papers/index",
+      "destination": "/fa/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/data-papers/index/",
+      "destination": "/fa/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-software-papers/index",
+      "destination": "/fa/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/research-software-papers/index/",
+      "destination": "/fa/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/rights-retention/index",
+      "destination": "/fa/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/rights-retention/index/",
+      "destination": "/fa/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/equivalence-testing/index",
+      "destination": "/fa/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/equivalence-testing/index/",
+      "destination": "/fa/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/constraints-on-generality/index",
+      "destination": "/fa/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/constraints-on-generality/index/",
+      "destination": "/fa/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/living-systematic-reviews/index",
+      "destination": "/fa/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/living-systematic-reviews/index/",
+      "destination": "/fa/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/chatbot-health-studies/index",
+      "destination": "/fa/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/chatbot-health-studies/index/",
+      "destination": "/fa/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/consort-spirit-2025/index",
+      "destination": "/fa/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/consort-spirit-2025/index/",
+      "destination": "/fa/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reporting-standard-verification/index",
+      "destination": "/fa/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/guides/reporting-standard-verification/index/",
+      "destination": "/fa/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/planner/index/",
+      "destination": "/fa/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/privacy/index/",
+      "destination": "/fa/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/terms/index/",
+      "destination": "/fa/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/resources/index",
+      "destination": "/fa/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/resources/index/",
+      "destination": "/fa/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/toolkit/index",
+      "destination": "/fa/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/toolkit/index/",
+      "destination": "/fa/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/editorial/index",
+      "destination": "/fa/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/editorial/index/",
+      "destination": "/fa/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/learning-paths/index",
+      "destination": "/fa/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/learning-paths/index/",
+      "destination": "/fa/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/glossary/index",
+      "destination": "/fa/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/fa/glossary/index/",
+      "destination": "/fa/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/en/index/",
+      "destination": "/en/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/index/",
+      "destination": "/en/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/proposal/index/",
+      "destination": "/en/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/data-analysis/index/",
+      "destination": "/en/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/programming/index/",
+      "destination": "/en/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/scientific-writing/index/",
+      "destination": "/en/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/editing/index/",
+      "destination": "/en/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/services/originality/index/",
+      "destination": "/en/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-proposal/index/",
+      "destination": "/en/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/thesis-dissertation/index/",
+      "destination": "/en/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/statistical-software/index/",
+      "destination": "/en/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-programming/index/",
+      "destination": "/en/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/citation-styles/index/",
+      "destination": "/en/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/similarity-check/index/",
+      "destination": "/en/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/similarity-report/index/",
+      "destination": "/en/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-articles/index/",
+      "destination": "/en/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/systematic-review/index/",
+      "destination": "/en/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/journal-submission/index/",
+      "destination": "/en/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-data/index/",
+      "destination": "/en/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/ai-research-ethics/index/",
+      "destination": "/en/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/literature-search/index",
+      "destination": "/en/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/literature-search/index/",
+      "destination": "/en/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-design/index",
+      "destination": "/en/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-design/index/",
+      "destination": "/en/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/preregistration/index",
+      "destination": "/en/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/preregistration/index/",
+      "destination": "/en/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/sample-size-power/index",
+      "destination": "/en/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/sample-size-power/index/",
+      "destination": "/en/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/effect-size-uncertainty/index",
+      "destination": "/en/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/effect-size-uncertainty/index/",
+      "destination": "/en/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/missing-data/index",
+      "destination": "/en/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/missing-data/index/",
+      "destination": "/en/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/qualitative-research/index",
+      "destination": "/en/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/qualitative-research/index/",
+      "destination": "/en/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/survey-design/index",
+      "destination": "/en/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/survey-design/index/",
+      "destination": "/en/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/causal-inference/index",
+      "destination": "/en/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/causal-inference/index/",
+      "destination": "/en/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reproducible-notebooks/index",
+      "destination": "/en/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reproducible-notebooks/index/",
+      "destination": "/en/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/fair-open-data/index",
+      "destination": "/en/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/fair-open-data/index/",
+      "destination": "/en/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/open-access/index",
+      "destination": "/en/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/open-access/index/",
+      "destination": "/en/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/researcher-identifiers/index",
+      "destination": "/en/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/researcher-identifiers/index/",
+      "destination": "/en/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reporting-guidelines/index",
+      "destination": "/en/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reporting-guidelines/index/",
+      "destination": "/en/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/grant-planning/index",
+      "destination": "/en/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/grant-planning/index/",
+      "destination": "/en/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/critical-appraisal/index",
+      "destination": "/en/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/critical-appraisal/index/",
+      "destination": "/en/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/registered-reports/index",
+      "destination": "/en/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/registered-reports/index/",
+      "destination": "/en/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/secondary-data-preregistration/index",
+      "destination": "/en/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/secondary-data-preregistration/index/",
+      "destination": "/en/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/qualitative-preregistration/index",
+      "destination": "/en/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/qualitative-preregistration/index/",
+      "destination": "/en/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/top-2025-transparency/index",
+      "destination": "/en/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/top-2025-transparency/index/",
+      "destination": "/en/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/multiverse-analysis/index",
+      "destination": "/en/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/multiverse-analysis/index/",
+      "destination": "/en/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/computational-thesis-quarto/index",
+      "destination": "/en/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/computational-thesis-quarto/index/",
+      "destination": "/en/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/thesis-by-publication/index",
+      "destination": "/en/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/thesis-by-publication/index/",
+      "destination": "/en/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/open-peer-review/index",
+      "destination": "/en/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/open-peer-review/index/",
+      "destination": "/en/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/data-papers/index",
+      "destination": "/en/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/data-papers/index/",
+      "destination": "/en/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-software-papers/index",
+      "destination": "/en/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/research-software-papers/index/",
+      "destination": "/en/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/rights-retention/index",
+      "destination": "/en/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/rights-retention/index/",
+      "destination": "/en/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/equivalence-testing/index",
+      "destination": "/en/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/equivalence-testing/index/",
+      "destination": "/en/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/constraints-on-generality/index",
+      "destination": "/en/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/constraints-on-generality/index/",
+      "destination": "/en/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/living-systematic-reviews/index",
+      "destination": "/en/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/living-systematic-reviews/index/",
+      "destination": "/en/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/chatbot-health-studies/index",
+      "destination": "/en/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/chatbot-health-studies/index/",
+      "destination": "/en/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/consort-spirit-2025/index",
+      "destination": "/en/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/consort-spirit-2025/index/",
+      "destination": "/en/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reporting-standard-verification/index",
+      "destination": "/en/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/en/guides/reporting-standard-verification/index/",
+      "destination": "/en/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/en/planner/index/",
+      "destination": "/en/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/en/privacy/index/",
+      "destination": "/en/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/en/terms/index/",
+      "destination": "/en/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/en/resources/index",
+      "destination": "/en/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/en/resources/index/",
+      "destination": "/en/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/en/toolkit/index",
+      "destination": "/en/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/en/toolkit/index/",
+      "destination": "/en/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/en/editorial/index",
+      "destination": "/en/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/en/editorial/index/",
+      "destination": "/en/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/en/learning-paths/index",
+      "destination": "/en/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/en/learning-paths/index/",
+      "destination": "/en/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/en/glossary/index",
+      "destination": "/en/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/en/glossary/index/",
+      "destination": "/en/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/index/",
+      "destination": "/ar/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/index/",
+      "destination": "/ar/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/proposal/index/",
+      "destination": "/ar/services/proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/data-analysis/index/",
+      "destination": "/ar/services/data-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/programming/index/",
+      "destination": "/ar/services/programming/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/scientific-writing/index/",
+      "destination": "/ar/services/scientific-writing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/editing/index/",
+      "destination": "/ar/services/editing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/services/originality/index/",
+      "destination": "/ar/services/originality/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-proposal/index/",
+      "destination": "/ar/guides/research-proposal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/thesis-dissertation/index/",
+      "destination": "/ar/guides/thesis-dissertation/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/statistical-software/index/",
+      "destination": "/ar/guides/statistical-software/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-programming/index/",
+      "destination": "/ar/guides/research-programming/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/citation-styles/index/",
+      "destination": "/ar/guides/citation-styles/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/similarity-check/index/",
+      "destination": "/ar/guides/similarity-check/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/similarity-report/index/",
+      "destination": "/ar/guides/similarity-report/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-articles/index/",
+      "destination": "/ar/guides/research-articles/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/systematic-review/index/",
+      "destination": "/ar/guides/systematic-review/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/journal-submission/index/",
+      "destination": "/ar/guides/journal-submission/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-data/index/",
+      "destination": "/ar/guides/research-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/ai-research-ethics/index/",
+      "destination": "/ar/guides/ai-research-ethics/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/literature-search/index",
+      "destination": "/ar/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/literature-search/index/",
+      "destination": "/ar/guides/literature-search/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-design/index",
+      "destination": "/ar/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-design/index/",
+      "destination": "/ar/guides/research-design/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/preregistration/index",
+      "destination": "/ar/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/preregistration/index/",
+      "destination": "/ar/guides/preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/sample-size-power/index",
+      "destination": "/ar/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/sample-size-power/index/",
+      "destination": "/ar/guides/sample-size-power/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/effect-size-uncertainty/index",
+      "destination": "/ar/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/effect-size-uncertainty/index/",
+      "destination": "/ar/guides/effect-size-uncertainty/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/missing-data/index",
+      "destination": "/ar/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/missing-data/index/",
+      "destination": "/ar/guides/missing-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/qualitative-research/index",
+      "destination": "/ar/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/qualitative-research/index/",
+      "destination": "/ar/guides/qualitative-research/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/survey-design/index",
+      "destination": "/ar/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/survey-design/index/",
+      "destination": "/ar/guides/survey-design/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/causal-inference/index",
+      "destination": "/ar/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/causal-inference/index/",
+      "destination": "/ar/guides/causal-inference/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reproducible-notebooks/index",
+      "destination": "/ar/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reproducible-notebooks/index/",
+      "destination": "/ar/guides/reproducible-notebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/fair-open-data/index",
+      "destination": "/ar/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/fair-open-data/index/",
+      "destination": "/ar/guides/fair-open-data/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/open-access/index",
+      "destination": "/ar/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/open-access/index/",
+      "destination": "/ar/guides/open-access/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/researcher-identifiers/index",
+      "destination": "/ar/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/researcher-identifiers/index/",
+      "destination": "/ar/guides/researcher-identifiers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reporting-guidelines/index",
+      "destination": "/ar/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reporting-guidelines/index/",
+      "destination": "/ar/guides/reporting-guidelines/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/grant-planning/index",
+      "destination": "/ar/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/grant-planning/index/",
+      "destination": "/ar/guides/grant-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/critical-appraisal/index",
+      "destination": "/ar/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/critical-appraisal/index/",
+      "destination": "/ar/guides/critical-appraisal/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/registered-reports/index",
+      "destination": "/ar/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/registered-reports/index/",
+      "destination": "/ar/guides/registered-reports/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/secondary-data-preregistration/index",
+      "destination": "/ar/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/secondary-data-preregistration/index/",
+      "destination": "/ar/guides/secondary-data-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/qualitative-preregistration/index",
+      "destination": "/ar/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/qualitative-preregistration/index/",
+      "destination": "/ar/guides/qualitative-preregistration/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/top-2025-transparency/index",
+      "destination": "/ar/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/top-2025-transparency/index/",
+      "destination": "/ar/guides/top-2025-transparency/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/multiverse-analysis/index",
+      "destination": "/ar/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/multiverse-analysis/index/",
+      "destination": "/ar/guides/multiverse-analysis/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/computational-thesis-quarto/index",
+      "destination": "/ar/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/computational-thesis-quarto/index/",
+      "destination": "/ar/guides/computational-thesis-quarto/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/thesis-by-publication/index",
+      "destination": "/ar/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/thesis-by-publication/index/",
+      "destination": "/ar/guides/thesis-by-publication/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/open-peer-review/index",
+      "destination": "/ar/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/open-peer-review/index/",
+      "destination": "/ar/guides/open-peer-review/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/data-papers/index",
+      "destination": "/ar/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/data-papers/index/",
+      "destination": "/ar/guides/data-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-software-papers/index",
+      "destination": "/ar/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/research-software-papers/index/",
+      "destination": "/ar/guides/research-software-papers/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/rights-retention/index",
+      "destination": "/ar/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/rights-retention/index/",
+      "destination": "/ar/guides/rights-retention/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/equivalence-testing/index",
+      "destination": "/ar/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/equivalence-testing/index/",
+      "destination": "/ar/guides/equivalence-testing/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/constraints-on-generality/index",
+      "destination": "/ar/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/constraints-on-generality/index/",
+      "destination": "/ar/guides/constraints-on-generality/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/living-systematic-reviews/index",
+      "destination": "/ar/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/living-systematic-reviews/index/",
+      "destination": "/ar/guides/living-systematic-reviews/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/chatbot-health-studies/index",
+      "destination": "/ar/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/chatbot-health-studies/index/",
+      "destination": "/ar/guides/chatbot-health-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/consort-spirit-2025/index",
+      "destination": "/ar/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/consort-spirit-2025/index/",
+      "destination": "/ar/guides/consort-spirit-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reporting-standard-verification/index",
+      "destination": "/ar/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/guides/reporting-standard-verification/index/",
+      "destination": "/ar/guides/reporting-standard-verification/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/planner/index/",
+      "destination": "/ar/planner/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/privacy/index/",
+      "destination": "/ar/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/terms/index/",
+      "destination": "/ar/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/resources/index",
+      "destination": "/ar/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/resources/index/",
+      "destination": "/ar/resources/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/toolkit/index",
+      "destination": "/ar/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/toolkit/index/",
+      "destination": "/ar/toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/editorial/index",
+      "destination": "/ar/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/editorial/index/",
+      "destination": "/ar/editorial/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/learning-paths/index",
+      "destination": "/ar/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/learning-paths/index/",
+      "destination": "/ar/learning-paths/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/glossary/index",
+      "destination": "/ar/glossary/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/glossary/index/",
+      "destination": "/ar/glossary/",
+      "permanent": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "didgar-research",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Trilingual research website with 183 static pages, 45 guides per language, worked cases and offline HTML",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/check.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test:http": "node scripts/http-check.mjs",
+    "generate": "python3 scripts/build_examples.py && python3 scripts/generate_content.py",
+    "test:seo": "python3 scripts/seo-check.py",
+    "standalone": "python3 scripts/standalone.py",
+    "test:build": "node scripts/build-check.mjs",
+    "test:standalone": "python3 scripts/standalone-check.py ../deliverables/didgar-preview.html",
+    "test:interactions": "node scripts/interaction-check.mjs",
+    "test:browser": "node scripts/browser-check.mjs",
+    "test:release": "python3 scripts/release-check.py",
+    "test:content": "python3 scripts/content-check.py",
+    "test:examples": "python3 examples/research-demo/test_examples.py"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

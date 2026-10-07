@@ -1,0 +1,62 @@
+---
+title: "An auditable synthetic research example"
+lang: en
+jupyter: python3
+format:
+  html:
+    toc: true
+    code-fold: true
+  docx: default
+  pdf:
+    pdf-engine: xelatex
+execute:
+  echo: false
+  cache: false
+  error: false
+---
+
+## Teaching scope
+
+All records are invented. The six regression paths illustrate decisions rather
+than actual findings, valid specification-curve inference or causal effects.
+The TOST numbers are separate normal-model teaching scenarios.
+
+```{python}
+from pathlib import Path
+from IPython.display import Markdown, SVG, display
+import research
+
+results = research.run_project()
+mean_score = round(results["summary"]["mean_score"], 3)
+n_records = results["summary"]["n"]
+```
+
+## Data and computations
+
+This run contains `{python} n_records` synthetic records, with a mean score of
+`{python} mean_score` points. These numbers come from the code cell rather than
+manually typed results. The dictionary defines units and illustrative quality
+flags; it does not license exclusion rules for a real study.
+
+```{python}
+lines = ["| Quality rule | Model | n | Hours coefficient |",
+         "| --- | --- | --- | --- |"]
+for path in results["paths"]:
+    lines.append(f'| {path["quality_rule"]} | {path["specification"]} | '
+                 f'{path["n"]} | {path["beta_hours"]:.6f} |')
+display(Markdown("\n".join(lines)))
+```
+
+```{python}
+#| label: fig-paths
+#| fig-cap: "Six descriptive OLS paths on entirely synthetic teaching data."
+display(SVG(filename=str(research.ROOT / "outputs/specification.svg")))
+```
+
+## Limitations and reporting
+
+The coefficient changes with both the sample rule and the baseline adjustment.
+No confidence intervals or empirical claims are made. A file hash links this run
+to its exact input. Rendering Word/PDF and RTL typography requires the relevant
+engine, fonts and format-specific checking; these outputs are not prevalidated
+by the supplied Python tests.

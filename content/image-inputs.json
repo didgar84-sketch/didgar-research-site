@@ -1,0 +1,11 @@
+{
+  "proposal": "reference/photo-masters/proposal.jpg",
+  "data-analysis": "reference/photo-masters/data-analysis.jpg",
+  "programming": "reference/photo-masters/programming.jpg",
+  "scientific-writing": "reference/photo-masters/scientific-writing.jpg",
+  "editing": "reference/photo-masters/editing.jpg",
+  "originality": "reference/photo-masters/originality.jpg",
+  "library": "assets/library-hero.webp",
+  "team": "assets/research-team.webp",
+  "desk": "assets/research-desk.webp"
+}

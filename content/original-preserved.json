@@ -1,0 +1,429 @@
+{
+  "services": {
+    "fa": [
+      {
+        "slug": "proposal",
+        "title": "طراحی و تدوین پروپوزال",
+        "desc": "تعیین سوال و هدف پژوهش با رویکرد علمی و نوآورانه، شناسایی خلأ پژوهشی و تدوین چارچوب نظری مناسب",
+        "items": [
+          "تعریف دقیق مسئله و اهمیت پژوهش",
+          "بررسی جامع ادبیات و شناسایی خلأ پژوهشی",
+          "تدوین اهداف کلی و جزئی با رویکرد SMART",
+          "طراحی سوالات و فرضیه‌های پژوهشی",
+          "تعیین روش‌شناسی مناسب (کمی، کیفی، آمیخته)",
+          "برنامه‌ریزی زمانی دقیق و تخمین بودجه",
+          "تدوین چارچوب نظری و مفهومی"
+        ]
+      },
+      {
+        "slug": "data-analysis",
+        "title": "تحلیل آماری و مدل‌سازی پیشرفته",
+        "desc": "تحلیل داده‌ها با نرم‌افزارهای تخصصی SPSS, R, Python, Stata, MATLAB و ارائه گزارش‌های تفصیلی",
+        "items": [
+          "آمار توصیفی و استنباطی پیشرفته",
+          "تحلیل رگرسیون (خطی، لجستیک، چندگانه، چندسطحی)",
+          "تحلیل واریانس (ANOVA, MANOVA, ANCOVA)",
+          "تحلیل عاملی (اکتشافی و تأیدی) و خوشه‌بندی",
+          "مدل‌سازی معادلات ساختاری (SEM) با AMOS و Lisrel",
+          "تحلیل سری زمانی، پیش‌بینی و تحلیل بقا",
+          "تحلیل‌های غیرپارامتریک و روش‌های بوت استرپ",
+          "تحلیل داده‌های کیفی با نرم‌افزار NVivo"
+        ]
+      },
+      {
+        "slug": "programming",
+        "title": "پیاده‌سازی کد و شبیه‌سازی",
+        "desc": "توسعه الگوریتم‌ها، شبیه‌سازی سیستم‌ها و پروژه‌های برنامه‌نویسی تخصصی در حوزه‌های مختلف",
+        "items": [
+          "Python (NumPy, Pandas, Scikit-learn, TensorFlow)",
+          "MATLAB/Simulink برای شبیه‌سازی سیستم‌ها",
+          "R و RStudio برای تحلیل‌های آماری پیشرفته",
+          "C++, Java, JavaScript برای پروژه‌های نرم‌افزاری",
+          "شبیه‌سازی سیستم‌های پیچیده و مدل‌سازی ریاضی",
+          "الگوریتم‌های هوش مصنوعی و یادگیری ماشین",
+          "توسعه اپلیکیشن‌های وب و موبایل",
+          "پردازش تصویر و بینایی کامپیوتر"
+        ]
+      },
+      {
+        "slug": "scientific-writing",
+        "title": "نگارش علمی و تألیف",
+        "desc": "نگارش فصول پایان‌نامه، گزارش‌های نهایی، مقالات علمی و کتب تخصصی با رعایت استانداردهای بین‌المللی",
+        "items": [
+          "فصل مقدمه، بیان مسئله و اهمیت پژوهش",
+          "مرور جامع ادبیات و پیشینه پژوهش",
+          "روش‌شناسی پژوهش و طراحی مطالعه",
+          "تحلیل یافته‌ها، نتایج و بحث",
+          "نتیجه‌گیری، پیشنهادات و محدودیت‌ها",
+          "چکیده فارسی و انگلیسی با کلیدواژه‌ها",
+          "نگارش مقالات ISI و علمی-پژوهشی",
+          "تألیف کتب درسی و مرجع تخصصی"
+        ]
+      },
+      {
+        "slug": "editing",
+        "title": "ویرایش و قالب‌بندی تخصصی",
+        "desc": "ویرایش محتوایی، زبانی و قالب‌بندی طبق استانداردهای APA, IEEE, Harvard و سایر سبک‌های معتبر",
+        "items": [
+          "ویرایش محتوایی و ساختاری متون",
+          "ویرایش زبانی، دستوری و املایی",
+          "قالب‌بندی طبق استانداردهای دانشگاه",
+          "ارجاع‌دهی صحیح منابع و فهرست مراجع",
+          "تنظیم فهرست مطالب، جداول و نمودارها",
+          "آماده‌سازی برای چاپ و ارائه",
+          "ترجمه تخصصی انگلیسی به فارسی و بالعکس",
+          "بازنویسی و بهبود کیفیت متن"
+        ]
+      },
+      {
+        "slug": "originality",
+        "title": "تضمین اصالت و کیفیت",
+        "desc": "بررسی اصالت با نرم‌افزارهای معتبر، گزارش‌های تفصیلی و پشتیبانی مستمر پس از تحویل",
+        "items": [
+          "بررسی اصالت با Turnitin، iThenticate و سایر نرم‌افزارها",
+          "گزارش کامل Plagiarism Check با درصد دقیق",
+          "تضمین کیفیت و اصالت ۱۰۰٪ محتوا",
+          "پشتیبانی ۳ ماهه رایگان پس از تحویل",
+          "اصلاحات و بازنگری رایگان در صورت نیاز",
+          "محرمانگی کامل اطلاعات و پروژه‌ها",
+          "ضمانت بازگشت وجه در صورت عدم رضایت",
+          "مشاوره رایگان در تمام مراحل پروژه"
+        ]
+      }
+    ],
+    "en": [
+      {
+        "slug": "proposal",
+        "title": "Proposal Design & Development",
+        "desc": "Research question formulation with scientific and innovative approach, identifying research gaps and developing appropriate theoretical frameworks",
+        "items": [
+          "Precise problem definition and research significance",
+          "Comprehensive literature review and gap identification",
+          "SMART approach for general and specific objectives",
+          "Research questions and hypotheses design",
+          "Appropriate methodology selection (quantitative, qualitative, mixed)",
+          "Detailed timeline planning and budget estimation",
+          "Theoretical and conceptual framework development"
+        ]
+      },
+      {
+        "slug": "data-analysis",
+        "title": "Advanced Statistical Analysis & Modeling",
+        "desc": "Data analysis using specialized software SPSS, R, Python, Stata, MATLAB with detailed reporting",
+        "items": [
+          "Advanced descriptive and inferential statistics",
+          "Regression analysis (linear, logistic, multiple, multilevel)",
+          "Analysis of variance (ANOVA, MANOVA, ANCOVA)",
+          "Factor analysis (exploratory & confirmatory) and clustering",
+          "Structural equation modeling (SEM) with AMOS & Lisrel",
+          "Time series analysis, forecasting, and survival analysis",
+          "Non-parametric analyses and bootstrap methods",
+          "Qualitative data analysis using NVivo software"
+        ]
+      },
+      {
+        "slug": "programming",
+        "title": "Code Implementation & Simulation",
+        "desc": "Algorithm development, system simulation, and specialized programming projects across various domains",
+        "items": [
+          "Python (NumPy, Pandas, Scikit-learn, TensorFlow)",
+          "MATLAB/Simulink for system simulation",
+          "R and RStudio for advanced statistical analysis",
+          "C++, Java, JavaScript for software projects",
+          "Complex systems simulation and mathematical modeling",
+          "AI algorithms and machine learning",
+          "Web and mobile application development",
+          "Image processing and computer vision"
+        ]
+      },
+      {
+        "slug": "scientific-writing",
+        "title": "Scientific Writing & Authoring",
+        "desc": "Thesis chapters, final reports, scientific articles, and specialized books following international standards",
+        "items": [
+          "Introduction, problem statement, and research significance",
+          "Comprehensive literature review and background",
+          "Research methodology and study design",
+          "Results analysis and discussion",
+          "Conclusions, recommendations, and limitations",
+          "Abstract in multiple languages with keywords",
+          "ISI and peer-reviewed scientific articles",
+          "Textbook and specialized reference authoring"
+        ]
+      },
+      {
+        "slug": "editing",
+        "title": "Specialized Editing & Formatting",
+        "desc": "Content and language editing, formatting according to APA, IEEE, Harvard, and other recognized styles",
+        "items": [
+          "Content and structural editing of texts",
+          "Language, grammar, and spelling editing",
+          "University standard formatting",
+          "Proper reference citation and bibliography",
+          "Table of contents, tables, and figures formatting",
+          "Print and presentation preparation",
+          "Specialized English-Persian translation and vice versa",
+          "Rewriting and text quality improvement"
+        ]
+      },
+      {
+        "slug": "originality",
+        "title": "Originality Assurance & Quality",
+        "desc": "Originality checks with certified software, detailed reports, and continuous post-delivery support",
+        "items": [
+          "Originality check with Turnitin, iThenticate, and other software",
+          "Comprehensive plagiarism reports with precise percentages",
+          "100% content quality and originality guarantee",
+          "Free 3-month post-delivery support",
+          "Free revisions and modifications when needed",
+          "Complete confidentiality of information and projects",
+          "Money-back guarantee in case of dissatisfaction",
+          "Free consultation throughout all project phases"
+        ]
+      }
+    ],
+    "ar": [
+      {
+        "slug": "proposal",
+        "title": "تصميم وإعداد مقترح البحث",
+        "desc": "تحديد الأسئلة والأهداف البحثية بنهج علمي ومبتكر، وتحديد الفجوة البحثية وصياغة الإطار النظري المناسب",
+        "items": [
+          "تعريف دقيق للمشكلة وأهمية البحث",
+          "مراجعة شاملة للأدبيات وتحديد الفجوة البحثية",
+          "صياغة الأهداف العامة والتفصيلية بمنهج SMART",
+          "تصميم الأسئلة والفرضيات البحثية",
+          "تحديد المنهجية المناسبة (كمية، نوعية، مختلطة)",
+          "التخطيط الزمني الدقيق وتقدير الميزانية",
+          "صياغة الإطار النظري والمفاهيمي"
+        ]
+      },
+      {
+        "slug": "data-analysis",
+        "title": "التحليل الإحصائي والنمذجة المتقدمة",
+        "desc": "تحليل البيانات بالبرامج المتخصصة SPSS, R, Python, Stata, MATLAB وتقديم التقارير التفصيلية",
+        "items": [
+          "الإحصاء الوصفي والاستنتاجي المتقدم",
+          "تحليل الانحدار (خطي، لوجستي، متعدد، متعدد المستويات)",
+          "تحليل التباين (ANOVA, MANOVA, ANCOVA)",
+          "التحليل العاملي (استكشافي وتأكيدي) والتجميع",
+          "نمذجة المعادلات الهيكلية (SEM) باستخدام AMOS و Lisrel",
+          "تحليل السلاسل الزمنية والتنبؤ وتحليل البقاء",
+          "التحليلات غير المعلمية وطرق البوت ستراب",
+          "تحليل البيانات النوعية ببرنامج NVivo"
+        ]
+      },
+      {
+        "slug": "programming",
+        "title": "تنفيذ الأكواد والمحاكاة",
+        "desc": "تطوير الخوارزميات ومحاكاة الأنظمة والمشاريع البرمجية المتخصصة في مختلف المجالات",
+        "items": [
+          "Python (NumPy, Pandas, Scikit-learn, TensorFlow)",
+          "MATLAB/Simulink لمحاكاة الأنظمة",
+          "R و RStudio للتحليلات الإحصائية المتقدمة",
+          "C++, Java, JavaScript للمشاريع البرمجية",
+          "محاكاة الأنظمة المعقدة والنمذجة الرياضية",
+          "خوارزميات الذكاء الاصطناعي والتعلم الآلي",
+          "تطوير تطبيقات الويب والهاتف المحمول",
+          "معالجة الصور والرؤية الحاسوبية"
+        ]
+      },
+      {
+        "slug": "scientific-writing",
+        "title": "الكتابة العلمية والتأليف",
+        "desc": "كتابة فصول الأطروحة والتقارير النهائية والمقالات العلمية والكتب المتخصصة وفق المعايير الدولية",
+        "items": [
+          "فصل المقدمة وبيان المشكلة وأهمية البحث",
+          "المراجعة الشاملة للأدبيات وخلفية البحث",
+          "منهجية البحث وتصميم الدراسة",
+          "تحليل النتائج والمناقشة",
+          "الخلاصة والتوصيات والقيود",
+          "الملخص بالعربية والإنجليزية مع الكلمات المفتاحية",
+          "كتابة المقالات العلمية المحكمة وISI",
+          "تأليف الكتب الدراسية والمراجع المتخصصة"
+        ]
+      },
+      {
+        "slug": "editing",
+        "title": "التحرير والتنسيق المتخصص",
+        "desc": "التحرير المحتوائي واللغوي والتنسيق وفق معايير APA, IEEE, Harvard وغيرها من الأنماط المعتمدة",
+        "items": [
+          "التحرير المحتوائي والهيكلي للنصوص",
+          "التحرير اللغوي والنحوي والإملائي",
+          "التنسيق وفق معايير الجامعة",
+          "الاقتباس الصحيح للمراجع وقائمة المصادر",
+          "تنسيق فهرس المحتويات والجداول والرسوم",
+          "الإعداد للطباعة والعرض",
+          "الترجمة المتخصصة من الإنجليزية إلى العربية والعكس",
+          "إعادة الكتابة وتحسين جودة النص"
+        ]
+      },
+      {
+        "slug": "originality",
+        "title": "ضمان الأصالة والجودة",
+        "desc": "فحص الأصالة بالبرامج المعتمدة والتقارير التفصيلية والدعم المستمر بعد التسليم",
+        "items": [
+          "فحص الأصالة بـ Turnitin و iThenticate وبرامج أخرى",
+          "تقرير شامل لفحص الانتحال بنسبة دقيقة",
+          "ضمان جودة وأصالة المحتوى ١٠٠٪",
+          "دعم مجاني لمدة ٣ أشهر بعد التسليم",
+          "تعديلات ومراجعات مجانية عند الحاجة",
+          "سرية تامة للمعلومات والمشاريع",
+          "ضمان استرداد المبلغ في حالة عدم الرضا",
+          "استشارة مجانية في جميع مراحل المشروع"
+        ]
+      }
+    ]
+  },
+  "guides": {
+    "fa": [
+      {
+        "slug": "research-proposal",
+        "title": "پروپوزال: ساختار کامل و راهنمای تصویری",
+        "body": "<div>\n<p><strong>تعریف و هدف:</strong> پروپوزال یک سند ساختاریافته است که طرح کلی پژوهش پیشنهادی را توصیف می‌کند؛ هدف آن قانع کردن داوران/اساتید دربارهٔ ضرورت، روش‌شناسی و قابلیت اجرا بودن پژوهش است.</p>\n\n<h3>عنوان پژوهش — چگونه یک عنوان مؤثر بنویسیم</h3>\n<div>\n<p>عنوان باید کوتاه، شفاف و شامل متغیرها/نمونه مورد مطالعه باشد. از واژگان مبهم خودداری کنید. مثال‌ها و فرمت پیشنهادی:</p>\n<ul>\n<li>فرمت: «تأثیر [عامل X] بر [نتیجه Y] در [نمونه Z]»</li>\n<li>مثال: «تأثیر استفاده از روش یادگیری فعال بر انگیزهٔ تحصیلی دانشجویان مهندسی دانشگاه X»</li>\n<li>نکته: از عناوین طولانی و شامل زیرنویس‌های طولانی پرهیز کنید.</li>\n</ul>\n</div>\n\n\n\n\n<h3>چکیدهٔ پروپوزال — نگارش یک خلاصهٔ مؤثر</h3>\n<div>\n<p>چکیده باید حداکثر 250-300 کلمه باشد و شامل: زمینه، مسئله، هدف، روش کلی، نتایج مورد انتظار و اهمیت پژوهش. در پروژه‌های کمی، اشارهٔ کوتاه به روش نمونه‌گیری و روش‌های تحلیل کافی است.</p>\n</div>\n\n\n<h3>بیان مسئله و اهمیت پژوهش</h3>\n<div>\n<p>بیان مسئله باید نشان دهد که چه مشکلی وجود دارد، چرا مهم است و چرا پژوهش شما می‌تواند به حل آن کمک کند. شواهد و آمارهای به‌روز را (در متن پروپوزال) برای نشان دادن اهمیت موضوع بیاورید.</p>\n<ol>\n<li>شرح وضع موجود یا مشکل</li>\n<li>پیوند دادن مشکل به نیازهای علمی یا اجتماعی</li>\n<li>پرسش‌های فرعی که از نشانه‌ها نشأت می‌گیرند</li>\n</ol>\n</div>\n\n\n<h3>مرور ادبیات و شناسایی خلأ پژوهشی (Research Gap)</h3>\n<div>\n<p>مرور ادبیات باید سازمان‌یافته، موضوع‌محور و انتقادی باشد. مراحل عملی:</p>\n<ol>\n<li>تعریف کلیدواژه‌ها و استراتژی جستجو (پایگاه‌ها: Scopus, Web of Science, PubMed, Google Scholar).</li>\n<li>ساخت جدول خلاصهٔ مقالات (Author, Year, Method, Sample, Key Findings, Limitations).</li>\n<li>تحلیل نقادانه و استخراج خلأهای نظری، متدولوژیک و کاربردی.</li>\n<li>بیان روشن «چه چیزی هنوز شناخته نشده» و چگونه پژوهش شما آن را پر می‌کند.</li>\n</ol>\n</div>\n\n\n<h3>اهداف پژوهش و چارچوب SMART</h3>\n<div>\n<p>اهداف باید شفاف، قابل اندازه‌گیری و مرتبط با سؤال پژوهشی باشند. مثال هدف کلی و اهداف جزئی:</p>\n<ul>\n<li>هدف کلی: «بررسی اثر روش X بر متغیر Y در گروه Z طی 12 ماه»</li>\n<li>هدف جزئی 1: «مقایسه میانگین Y بین گروه شاهد و مداخله در ماه سوم»</li>\n<li>هدف جزئی 2: «تعیین فاکتورهای پیش‌بینی‌کننده Y با استفاده از رگرسیون چندگانه»</li>\n</ul>\n<p>هر هدف را با معیارهای SMART بررسی کنید: Specific, Measurable, Achievable, Relevant, Time-bound.</p>\n</div>\n\n\n<h3>سؤال(ها) و فرضیه(ها)</h3>\n<div>\n<p>سؤال پژوهشی باید روشن و قابل آزمون باشد. فرضیه‌ها (در پژوهش‌های کمّی) باید فرمال و قابل آزمون با روش‌های آماری باشند. مثال‌های تبدیل سؤال به فرضیه و نحوهٔ بیان آماری هر فرضیه.</p>\n</div>\n\n\n<h3>روش‌شناسی: طراحی، نمونه‌گیری، ابزارها</h3>\n<div>\n<p>بخش روش‌شناسی باید شامل توضیحات دقیق دربارهٔ روش پژوهش (کمّی/کیفی/آمیخته)، جامعه و نمونه، روش نمونه‌گیری، ابزارهای جمع‌آوری داده، فرایند جمع‌آوری و تحلیل داده‌ها باشد.</p>\n<h4>نمونه‌گیری</h4>\n<p>روش‌های نمونه‌گیری (احتمالی و غیراحتمالی) و فرمول تعیین حجم نمونه (مثال: فرمول کوکران برای تخمین نمونه در مطالعات توصیفی).</p>\n<h4>ابزارها و مقیاس‌ها</h4>\n<p>توضیح اعتبار و روایی ابزار: روایی محتوا، روایی همگرا/واگرایی، ضریب آلفای کرونباخ برای پایایی.</p>\n</div>\n\n\n<h3>تحلیل داده‌ها — برنامهٔ آماری</h3>\n<div>\n<p>برنامهٔ تحلیلی باید گام‌به‌گام شامل تحلیل توصیفی (میانگین، میانه، انحراف معیار)، آزمون فروض، انتخاب مدل‌های رگرسیونی مناسب، آزمون‌های چندگانه و اصلاح برای چندآزمونی باشد. ذکر نرم‌افزار مورد استفاده و نسخهٔ آن (مثلاً R 4.x، SPSS 28، Python 3.9).</p>\n</div>\n\n\n<h3>مسائل اخلاقی و اجازه‌نامه‌ها</h3>\n<div>\n<p>توضیح نیاز به گرفتن مجوز از کمیتهٔ اخلاق، فرم رضایت آگاهانه، حفاظت از حریم خصوصی و ذخیرهٔ امن داده‌ها.</p>\n</div>\n\n\n<h3>برنامه زمانی نمونه و تخمین بودجه</h3>\n<div>\n<p>نمونه جدول زمانی فازی (Gantt-like) با فازهای اصلی: طراحی، جمع‌آوری، تحلیل، نگارش. الگوی سادهٔ بودجه شامل حقوق نمونه‌گیر، هزینه سفر، نرم‌افزار و تجهیزات، چاپ و انتشار.</p>\n</div>\n\n\n<h3>پیوست‌ها، پرسش‌نامه و مستندات پشتیبان</h3>\n<div>\n<p>در پیوست‌ها نمونهٔ پرسش‌نامه، فرم رضایت، جداول کدگذاری و نمونه خروجی‌های نرم‌افزاری قرار می‌گیرد. این بخش باید به گونه‌ای سازمان‌دهی شود که هر شخص ثالث بتواند پژوهش را بازتولید کند.</p>\n</div>\n\n<h4>چک‌لیست سریع پروپوزال</h4>\n<ul>\n<li>وجود عنوان، چکیده، بیان مسئله</li>\n<li>مرور ادبیات و استخراج خلأ</li>\n<li>اهداف SMART، سوالات و فرضیه‌ها</li>\n<li>روش‌شناسی کامل و برنامهٔ آماری</li>\n<li>منابع کلیدی و پیوست‌ها</li>\n</ul>\n</div>\n\n\n",
+        "desc": "تعریف و هدف:  پروپوزال یک سند ساختاریافته است که طرح کلی پژوهش پیشنهادی را توصیف می‌کند؛ هدف آن قانع کردن داوران/اساتید دربارهٔ ضرورت، روش‌شناسی "
+      },
+      {
+        "slug": "thesis-dissertation",
+        "title": "پایان‌نامه: ساختار فصل‌به‌فصل و نکات نگارشی",
+        "body": "<div>\n<p>در این قسمت به‌صورت مفصل به محتوای هر فصل پایان‌نامه، استانداردهای نگارش و نکات دفاع خواهیم پرداخت.</p>\n\n<h3>صفحات آغازین و الزامات فرمت</h3>\n<div>\n<p>صفحه عنوان، تقدیم، سپاسگزاری، چکیده فارسی و انگلیسی، فهرست مطالب، فهرست شکل‌ها و جداول و صفحات لازم. توضیحات قالب بندی و استانداردهای فونت و فاصله‌گذاری.</p>\n</div>\n\n\n<h3>فصل اول — مقدمه و تعریف مسئله</h3>\n<div>\n<p>مقدمۀ قوی شامل پس‌زمینه، اهمیت موضوع، اهداف، محدودهٔ پژوهش و ساختار پایان‌نامه.</p>\n</div>\n\n\n<h3>فصل دوم — مروری بر ادبیات و چارچوب نظری</h3>\n<div>\n<p>تدوین مدل مفهومی، ترکیب نتایج پیشین و ترسیم نقشه پژوهشی. نحوهٔ ارجاع‌دهی و سازمان‌دهی بخش‌های مروری.</p>\n</div>\n\n\n<h3>فصل سوم — روش‌ها</h3>\n<div>\n<p>توضیحات مفصل دربارهٔ جامعه و نمونه، ابزارهای اندازه‌گیری، اعتبار و پایایی ابزارها، روش‌های تحلیل داده‌ها و نرم‌افزارهای مورد استفاده.</p>\n</div>\n\n\n<h3>فصل چهارم — نتایج</h3>\n<div>\n<p>نمایش دقیق یافته‌ها به‌همراه جداول، نمودارها و تحلیل‌های آماری. نکات نگارشی برای گزارش نتایج بدون تفسیر زائد.</p>\n</div>\n\n\n<h3>فصل پنجم — بحث و نتیجه‌گیری</h3>\n<div>\n<p>تفسیر نتایج، مقایسه با مطالعات پیشین، محدودیت‌ها، پیامدهای عملی و پیشنهادات برای تحقیقات بعدی.</p>\n</div>\n\n\n<h3>پیوست‌ها و داده‌های مکمل</h3>\n<div>\n<p>قرار دادن پرسش‌نامه‌ها، کدها، خروجی‌های نرم‌افزار و جداول خام در پیوست برای شفافیت و بازتولیدپذیری.</p>\n</div>\n\n<h4>نکات دفاع پایان‌نامه</h4>\n<ol>\n<li>آماده‌سازی پرزنتیشن خلاصه و روشن (15-20 دقیقه)</li>\n<li>آمادگی برای سوالات متداول (روش‌ها، محدودیت‌ها، چرایی انتخاب متد)</li>\n<li>گزارش مختصر از نوآوری‌ها و دستاوردها</li>\n</ol>\n</div>\n\n\n",
+        "desc": "در این قسمت به‌صورت مفصل به محتوای هر فصل پایان‌نامه، استانداردهای نگارش و نکات دفاع خواهیم پرداخت. \n\n صفحات آغازین و الزامات فرمت \n \n صفحه عنوان"
+      },
+      {
+        "slug": "statistical-software",
+        "title": "نرم‌افزارهای آماری: معرفی، مقایسه و مثال‌های عملی",
+        "body": "<div>\n<p>جزئیات هر نرم‌افزار، موارد استفاده، نمونهٔ کد/دستورالعمل و محدودیت‌ها.</p>\n\n<h3>SPSS</h3>\n<div>\n<p>محیط گرافیکی مناسب برای تحلیل‌های توصیفی و آزمون‌های پایه. مثال: اجرای t-test و رگرسیون خطی از طریق منوها و نیز امکان اسکریپت‌نویسی با Syntax.</p>\n</div>\n\n\n<h3>R / RStudio</h3>\n<div>\n<p>زبان متن‌باز با بسته‌های گسترده (tidyverse, lme4, lavaan). مثال کوتاه: بارگذاری داده و اجرای تحلیل توصیفی.</p>\n<pre># R example\nlibrary(tidyverse)\ndf &lt;- read.csv('data.csv')\nsummary(df)\n</pre>\n</div>\n\n\n<h3>Python (Pandas, Statsmodels, scikit-learn)</h3>\n<div>\n<p>محیط مناسب برای پردازش داده، یادگیری ماشین و تحلیل آماری. مثال کوتاه:</p>\n<pre># Python example\nimport pandas as pd\ndf = pd.read_csv('data.csv')\ndf.describe()</pre>\n</div>\n\n\n<h3>Stata</h3>\n<div>\n<p>قوی در اقتصادسنجی و تحلیل‌های پنل و سری زمانی.</p>\n</div>\n\n\n<h3>MATLAB / Simulink</h3>\n<div>\n<p>مناسب برای محاسبات عددی، شبیه‌سازی و پردازش سیگنال.</p>\n</div>\n\n\n<h3>AMOS / Lisrel / lavaan</h3>\n<div>\n<p>ابزارها و بسته‌های مورد استفاده برای مدل‌سازی معادلات ساختاری (SEM).</p>\n</div>\n\n\n<h3>NVivo</h3>\n<div>\n<p>محیط تحلیل کیفی برای کدگذاری متون و تحلیل تماتیک.</p>\n</div>\n\n</div>\n\n\n",
+        "desc": "جزئیات هر نرم‌افزار، موارد استفاده، نمونهٔ کد/دستورالعمل و محدودیت‌ها. \n\n SPSS \n \n محیط گرافیکی مناسب برای تحلیل‌های توصیفی و آزمون‌های پایه. مثا"
+      },
+      {
+        "slug": "research-programming",
+        "title": "کدنویسی: زبان‌ها، الگوها و بهترین شیوه‌ها",
+        "body": "<div>\n<p>راهنمای انتخاب زبان بر اساس کاربرد و نمونه‌هایی از الگوهای کدنویسی و دستورالعمل‌های تولیدی.</p>\n\n<h3>Python</h3>\n<div>\n<p>مناسب برای تحلیل داده، یادگیری ماشین و توسعهٔ وب سبک. پکیج‌های کلیدی: NumPy, Pandas, scikit-learn, TensorFlow، و توصیه‌ها دربارهٔ سازمان‌دهی پروژه و virtualenv/conda.</p>\n</div>\n\n\n<h3>R</h3>\n<div>\n<p>برای تحلیل‌های آماری و مصورسازی پیشرفته.</p>\n</div>\n\n\n<h3>C++, Java, JavaScript, SQL</h3>\n<div>\n<p>کاربردهای هر زبان و نکات بهینه‌سازی و مدیریت حافظه، ساختار پروژه و امنیت ورودی/خروجی.</p>\n</div>\n\n<h4>بهترین شیوه‌ها</h4>\n<ul>\n<li>کنترل نسخه (Git) با branching مناسب</li>\n<li>محیط‌های تولیدپذیر (Docker, conda)</li>\n<li>مستندسازی و نوشتن تست</li>\n</ul>\n</div>\n\n\n",
+        "desc": "راهنمای انتخاب زبان بر اساس کاربرد و نمونه‌هایی از الگوهای کدنویسی و دستورالعمل‌های تولیدی. \n\n Python \n \n مناسب برای تحلیل داده، یادگیری ماشین و "
+      },
+      {
+        "slug": "citation-styles",
+        "title": "استانداردهای ارجاع‌دهی: APA, IEEE, Harvard (نمونه‌ها و قالب‌ها)",
+        "body": "<div>\n<p>نمونه‌های قالب مرجع برای هر استاندارد با مثال‌های واقعی:</p>\n\n<h3>APA (7th edition - خلاصه)</h3>\n<div>\n<p>مرجع مقالهٔ ژورنالی:</p>\n<pre>نویسنده، الف. (سال). عنوان مقاله. عنوان مجله، جلد(شماره)، صفحات. https://doi.org/xxxx</pre>\n</div>\n\n\n<h3>IEEE</h3>\n<div>\n<p>ارجاع در متن به‌صورت عددی [1] و در فهرست بر اساس شماره:</p>\n<pre>[1] A. Author, \"Title of paper,\" Journal, vol., no., pp., year.</pre>\n</div>\n\n\n<h3>Harvard</h3>\n<div>\n<p>سیستم نویسنده-سال؛ مثال:</p>\n<pre>(Author, Year) — فهرست مرجع به‌صورت الفبایی</pre>\n</div>\n\n</div>\n\n\n",
+        "desc": "نمونه‌های قالب مرجع برای هر استاندارد با مثال‌های واقعی: \n\n APA (7th edition - خلاصه) \n \n مرجع مقالهٔ ژورنالی: \n نویسنده، الف. (سال). عنوان مقاله"
+      },
+      {
+        "slug": "similarity-check",
+        "title": "بررسی اصالت: Turnitin، iThenticate و ابزارهای دیگر",
+        "body": "<div>\n<p>روش‌های عملی برای استفاده و تفسیر نتایج ابزارهای بررسی مشابهت و نحوهٔ اصلاح متن برای کاهش شباهت غیرمجاز.</p>\n\n<h3>Turnitin vs iThenticate</h3>\n<div>\n<p>تفاوت‌های کلیدی: Turnitin برای محیط دانشگاهی (تکالیف) و iThenticate برای اسناد پژوهشی/نشر. نکات در بارگذاری، محدودیت‌ها و بررسی نتایج.</p>\n</div>\n\n\n<h3>تفسیر گزارش مشابهت</h3>\n<div>\n<p>گزارش باید شامل درصد کلی، لیست منابع مشابه، بخش‌های های‌لایت‌شده و توضیح دربارهٔ نوع شباهت (نقل‌قول مجاز، منابع عمومی، انتشار قبلی خود نویسنده).</p>\n</div>\n\n\n<h3>رفع مشکل و بازنویسی</h3>\n<div>\n<p>الگوهای بازنویسی، ارجاع‌دهی صحیح و ثبت منابع برای کاهش درصد مشابهت.</p>\n</div>\n\n</div>\n\n\n",
+        "desc": "روش‌های عملی برای استفاده و تفسیر نتایج ابزارهای بررسی مشابهت و نحوهٔ اصلاح متن برای کاهش شباهت غیرمجاز. \n\n Turnitin vs iThenticate \n \n تفاوت‌های"
+      },
+      {
+        "slug": "similarity-report",
+        "title": "گزارش کامل Plagiarism Check (نمونه و اجزاء)",
+        "body": "<div>\n<p>یک گزارش کامل باید شامل بخش‌های زیر باشد:</p>\n<ol>\n<li>خلاصهٔ اجرایی — درصد کلی و نتیجه‌گیری</li>\n<li>جزئیات هر منبع مشابه با لینک/ارجاع</li>\n<li>متن‌های مشابه با مشخص کردن صفحات/بخش‌ها</li>\n<li>پیشنهادات اصلاحی و قدم‌های بعدی</li>\n<li>نتیجه‌گیری و توصیه برای انتشار یا بازنگری</li>\n</ol>\n</div>\n\n\n",
+        "desc": "یک گزارش کامل باید شامل بخش‌های زیر باشد: \n \n خلاصهٔ اجرایی — درصد کلی و نتیجه‌گیری \n جزئیات هر منبع مشابه با لینک/ارجاع \n متن‌های مشابه با مشخص "
+      },
+      {
+        "slug": "research-articles",
+        "title": "انواع مقاله: ISI, علمی-پژوهشی و دیگر انواع",
+        "body": "<div>\n<p>توضیح انواع مقالات، معیارهای پذیرش، ساختار معمول و نکات کلیدی در ارسال به ژورنال‌های ISI و غیر-ISI.</p>\n<ul>\n<li><strong>Original Research (مقاله پژوهشی):</strong> ارائهٔ یافته‌های جدید و داده‌های تجربی.</li>\n<li><strong>Review Article:</strong> مرور نظام‌مند یا مروری روایی.</li>\n<li><strong>Conference Paper:</strong> خلاصهٔ نتایج اولیه یا ارائه‌های کنفرانسی.</li>\n<li><strong>Short Communication, Case Study:</strong> نوع دیگر که محدود به گزارش‌های مختصر و متمرکز یا توصیف‌های خاص است.  \n\n          \n\n</li></ul></div>\n\n",
+        "desc": "توضیح انواع مقالات، معیارهای پذیرش، ساختار معمول و نکات کلیدی در ارسال به ژورنال‌های ISI و غیر-ISI. \n \n  Original Research (مقاله پژوهشی):  ارائه"
+      }
+    ],
+    "en": [
+      {
+        "slug": "research-proposal",
+        "title": "Research Proposal: Full structure and practical guide",
+        "body": "<div>\n<p><strong>Definition and purpose:</strong> A research proposal is a structured document that describes the overall design of the proposed study. Its purpose is to convince reviewers/supervisors of the importance, methodological soundness and feasibility of the study.</p>\n\n<h3>Research title — how to write an effective title</h3>\n<div>\n<p>The title should be concise, clear and include the main variables and sample. Avoid vague expressions. Suggested format and examples:</p>\n<ul>\n<li>Format: \"Effect of [X] on [Y] in [Z] sample\"</li>\n<li>Example: \"Effect of active learning on academic motivation of engineering students at University X\"</li>\n<li>Tip: Avoid excessively long titles and long subtitles.</li>\n</ul>\n</div>\n\n\n<h3>Abstract — writing an effective abstract</h3>\n<div>\n<p>The abstract should be 200–300 words and include: background, problem statement, research aim, general methods, expected results and the significance of the study. For quantitative projects briefly mention sampling method and main analysis techniques.</p>\n</div>\n\n\n<h3>Problem statement and research significance</h3>\n<div>\n<p>The problem statement must describe what the problem is, why it is important, and how your research can help address it. Use up-to-date facts and statistics when applicable to demonstrate relevance.</p>\n<ol>\n<li>Description of the current situation or gap</li>\n<li>Link the problem to scientific or social needs</li>\n<li>Sub-questions that derive from observed indicators</li>\n</ol>\n</div>\n\n\n<h3>Literature review and gap identification</h3>\n<div>\n<p>The literature review must be organized, topic-focused and critical. Practical steps:</p>\n<ol>\n<li>Define keywords and search strategy (databases: Scopus, Web of Science, PubMed, Google Scholar)</li>\n<li>Create a summary table (Author, Year, Method, Sample, Key Findings, Limitations)</li>\n<li>Critical appraisal and extraction of theoretical, methodological and practical gaps</li>\n<li>State explicitly what is unknown and how your study will address it</li>\n</ol>\n</div>\n\n\n<h3>Objectives and SMART framework</h3>\n<div>\n<p>Objectives should be clear, measurable and aligned with the research question. Example general and specific objectives:</p>\n<ul>\n<li>General objective: \"Assess the effect of method X on variable Y in group Z over 12 months\"</li>\n<li>Specific objective 1: \"Compare mean Y between control and intervention groups at month 3\"</li>\n<li>Specific objective 2: \"Identify predictors of Y using multiple regression\"</li>\n</ul>\n<p>Check each objective against SMART criteria: Specific, Measurable, Achievable, Relevant, Time-bound.</p>\n</div>\n\n\n<h3>Research questions and hypotheses</h3>\n<div>\n<p>Research questions need to be clear and testable. Hypotheses in quantitative studies should be formal and testable using statistical methods. Examples of converting a research question to hypotheses and how to express them statistically are provided.</p>\n</div>\n\n\n<h3>Methodology: design, sampling, instruments</h3>\n<div>\n<p>The methodology section must clearly describe the study design (quantitative/qualitative/mixed), population and sampling, data collection instruments, data collection process and analysis procedures.</p>\n<h4>Sampling</h4>\n<p>Describe sampling methods (probability and non-probability), sample size calculation (e.g., Cochran formula for descriptive studies) and justification for choices.</p>\n<h4>Instruments and scales</h4>\n<p>Discuss instrument validity and reliability: content validity, convergent/divergent validity, and Cronbach's alpha for internal consistency.</p>\n</div>\n\n\n<h3>Data analysis — statistical plan</h3>\n<div>\n<p>The analysis plan should include step-by-step procedures: descriptive analysis (mean, median, SD), assumption testing, selecting appropriate regression models, multiple testing corrections, and model validation. State the software and version used (e.g., R 4.x, SPSS 28, Python 3.9).</p>\n</div>\n\n\n<h3>Ethical issues and approvals</h3>\n<div>\n<p>Explain need for ethics committee approval, informed consent forms, data privacy and secure storage.</p>\n</div>\n\n\n<h3>Timeline and budget estimation</h3>\n<div>\n<p>Provide a sample phased timeline (Gantt-like) with main phases: design, data collection, analysis, writing. Provide a simple budget template covering personnel, travel, software, equipment, printing and publication costs.</p>\n</div>\n\n\n<h3>Appendices, questionnaires and supporting documents</h3>\n<div>\n<p>Include questionnaires, consent forms, codebooks and sample software outputs in appendices. Organize these so a third party could reproduce the study.</p>\n</div>\n\n<h4>Quick proposal checklist</h4>\n<ul>\n<li>Title, abstract, problem statement</li>\n<li>Literature review and gap extraction</li>\n<li>SMART objectives, questions and hypotheses</li>\n<li>Full methodology and statistical plan</li>\n<li>Key references and appendices</li>\n</ul>\n</div>\n\n\n",
+        "desc": "Definition and purpose:  A research proposal is a structured document that describes the overall design of the proposed study. Its purpose is to "
+      },
+      {
+        "slug": "thesis-dissertation",
+        "title": "Thesis/Dissertation: chapter-by-chapter structure and writing tips",
+        "body": "<div>\n<p>This section covers in depth the content of each thesis chapter, formatting standards, and defense advice.</p>\n\n<h3>Front matter and formatting requirements</h3>\n<div>\n<p>Title page, dedication, acknowledgements, abstract in local and English language, table of contents, list of figures and tables. Guidance on fonts, spacing and formal layout rules.</p>\n</div>\n\n\n<h3>Chapter 1 — Introduction and problem definition</h3>\n<div>\n<p>A strong introduction including background, significance, aims, scope and thesis structure.</p>\n</div>\n\n\n<h3>Chapter 2 — Literature review and theoretical framework</h3>\n<div>\n<p>Develop a conceptual model, synthesize previous findings and draw a research map. How to organize the review and proper referencing.</p>\n</div>\n\n\n<h3>Chapter 3 — Methods</h3>\n<div>\n<p>Detailed explanation of population and sample, measurement tools, validity and reliability checks, and analysis software.</p>\n</div>\n\n\n<h3>Chapter 4 — Results</h3>\n<div>\n<p>Present results with tables, charts and statistical summaries. Tips for reporting results without excessive interpretation.</p>\n</div>\n\n\n<h3>Chapter 5 — Discussion and conclusion</h3>\n<div>\n<p>Interpret results, compare with literature, list limitations, practical implications and recommendations for future research.</p>\n</div>\n\n\n<h3>Appendices and supplementary data</h3>\n<div>\n<p>Include code, raw tables and questionnaire forms to ensure reproducibility.</p>\n</div>\n\n<h4>Defense tips</h4>\n<ol>\n<li>Prepare a concise presentation (15–20 minutes)</li>\n<li>Be ready to answer common questions (methods, limitations, rationale for choices)</li>\n<li>Summarize the novelty and contributions clearly</li>\n</ol>\n</div>\n\n\n",
+        "desc": "This section covers in depth the content of each thesis chapter, formatting standards, and defense advice. \n\n Front matter and formatting require"
+      },
+      {
+        "slug": "statistical-software",
+        "title": "Statistical software: overview, comparison and practical examples",
+        "body": "<div>\n<p>Detailed notes on each software, typical use-cases, short code examples and limitations.</p>\n\n<h3>SPSS</h3>\n<div>\n<p>Graphical interface suitable for descriptive statistics and basic inferential tests. Example: running t-test and linear regression using menus, and using Syntax for reproducibility.</p>\n</div>\n\n\n<h3>R / RStudio</h3>\n<div>\n<p>Open-source environment with comprehensive packages (tidyverse, lme4, lavaan). Small example:</p>\n<pre># R example\nlibrary(tidyverse)\ndf &lt;- read.csv('data.csv')\nsummary(df)</pre>\n</div>\n\n\n<h3>Python (Pandas, Statsmodels, scikit-learn)</h3>\n<div>\n<p>Suitable for data processing, machine learning and statistical analysis. Short example:</p>\n<pre># Python example\nimport pandas as pd\ndf = pd.read_csv('data.csv')\ndf.describe()</pre>\n</div>\n\n\n<h3>Stata</h3>\n<div>\n<p>Strong in econometrics, panel data and time-series analysis.</p>\n</div>\n\n\n<h3>MATLAB / Simulink</h3>\n<div>\n<p>Useful for numerical computation, simulations and signal processing.</p>\n</div>\n\n\n<h3>AMOS / Lisrel / lavaan</h3>\n<div>\n<p>Tools and packages used for structural equation modeling (SEM).</p>\n</div>\n\n\n<h3>NVivo</h3>\n<div>\n<p>Qualitative analysis environment for coding texts and thematic analysis.</p>\n</div>\n\n</div>\n\n\n",
+        "desc": "Detailed notes on each software, typical use-cases, short code examples and limitations. \n\n SPSS \n \n Graphical interface suitable for descriptive"
+      },
+      {
+        "slug": "research-programming",
+        "title": "Coding: languages, patterns and best practices",
+        "body": "<div>\n<p>Guide to choose languages according to application, design patterns and production-ready recommendations.</p>\n\n<h3>Python</h3>\n<div>\n<p>Suitable for data analysis, machine learning and lightweight web development. Key packages include NumPy, Pandas, scikit-learn and TensorFlow. Advice on project structure and virtual environments (virtualenv/conda).</p>\n</div>\n\n\n<h3>R</h3>\n<div>\n<p>Specialized for statistical analysis and advanced visualization.</p>\n</div>\n\n\n<h3>C++, Java, JavaScript, SQL</h3>\n<div>\n<p>Application areas, performance considerations, memory management tips, project structure and input/output security.</p>\n</div>\n\n<h4>Best practices</h4>\n<ul>\n<li>Version control (Git) with proper branching</li>\n<li>Reproducible environments (Docker, conda)</li>\n<li>Documentation and unit testing</li>\n</ul>\n</div>\n\n\n",
+        "desc": "Guide to choose languages according to application, design patterns and production-ready recommendations. \n\n Python \n \n Suitable for data analysi"
+      },
+      {
+        "slug": "citation-styles",
+        "title": "Citation standards: APA, IEEE, Harvard (examples and templates)",
+        "body": "<div>\n<p>Examples of reference formats for each standard with real-style templates.</p>\n\n<h3>APA (7th edition - summary)</h3>\n<div>\n<p>Journal article reference:</p>\n<pre>Author, A. (Year). Title of article. Journal Title, volume(issue), pages. https://doi.org/xxxx</pre>\n</div>\n\n\n<h3>IEEE</h3>\n<div>\n<p>In-text citations are numeric [1] and the reference list is numbered:</p>\n<pre>[1] A. Author, \"Title of paper,\" Journal, vol., no., pp., year.</pre>\n</div>\n\n\n<h3>Harvard</h3>\n<div>\n<p>Author-date system: (Author, Year) — references listed alphabetically.</p>\n</div>\n\n</div>\n\n\n",
+        "desc": "Examples of reference formats for each standard with real-style templates. \n\n APA (7th edition - summary) \n \n Journal article reference: \n Author"
+      },
+      {
+        "slug": "similarity-check",
+        "title": "Originality checks: Turnitin, iThenticate and other tools",
+        "body": "<div>\n<p>Practical procedures for using similarity-check tools and interpreting results, plus methods to reduce non-permitted similarity.</p>\n\n<h3>Turnitin vs iThenticate</h3>\n<div>\n<p>Key differences: Turnitin is widely used in academic coursework contexts, while iThenticate is designed for manuscripts and publication screening. Tips on uploading, limits and result analysis.</p>\n</div>\n\n\n<h3>Interpreting similarity reports</h3>\n<div>\n<p>The report should include overall percentage, matched sources list, highlighted segments and annotation about the type of match (quoted text, common phrases, prior self-publication).</p>\n</div>\n\n\n<h3>Reduction strategies and rewriting</h3>\n<div>\n<p>Patterns for rewriting, correct referencing, paraphrasing strategies and documentation to reduce similarity percentage.</p>\n</div>\n\n</div>\n\n\n",
+        "desc": "Practical procedures for using similarity-check tools and interpreting results, plus methods to reduce non-permitted similarity. \n\n Turnitin vs i"
+      },
+      {
+        "slug": "similarity-report",
+        "title": "Complete Plagiarism Check Report (components and sample)",
+        "body": "<div>\n<p>A comprehensive report must include the following sections:</p>\n<ol>\n<li>Executive summary — overall similarity percentage and recommended action</li>\n<li>Details of each matched source with reference/link</li>\n<li>Highlighted matching text with location/page references</li>\n<li>Recommended corrective actions and next steps</li>\n<li>Final assessment and recommendation for publication or revision</li>\n</ol>\n</div>\n\n\n",
+        "desc": "A comprehensive report must include the following sections: \n \n Executive summary — overall similarity percentage and recommended action \n Detail"
+      },
+      {
+        "slug": "research-articles",
+        "title": "Types of articles: ISI, Research, Review and other categories",
+        "body": "<div>\n<p>Explanation of article types, acceptance criteria, typical structure and submission tips for ISI-indexed and non-ISI journals.</p>\n<ul>\n<li><strong>Original Research:</strong> Papers that present new empirical findings and data.</li>\n<li><strong>Review Article:</strong> Systematic or narrative reviews summarizing existing knowledge.</li>\n<li><strong>Conference Paper:</strong> Shorter reports or preliminary findings presented at conferences.</li>\n<li><strong>Short Communication / Case Study:</strong> Small focused reports or specific case descriptions.</li>\n</ul>\n</div>\n\n<p></p>\n",
+        "desc": "Explanation of article types, acceptance criteria, typical structure and submission tips for ISI-indexed and non-ISI journals. \n \n  Original Rese"
+      }
+    ],
+    "ar": [
+      {
+        "slug": "research-proposal",
+        "title": "مقترح البحث: الهيكل الكامل والدليل العملي",
+        "body": "<div>\n<p><strong>التعريف والهدف:</strong> مقترح البحث مستند منظم يصف التصميم العام للدراسة المقترحة. هدفه إقناع المراجعين/المشرفين بأهمية الدراسة ومنهجيتها وقابليتها للتنفيذ.</p>\n\n<h3>عنوان البحث — كيفية كتابة عنوان فعّال</h3>\n<div>\n<p>يجب أن يكون العنوان موجزًا وواضحًا ويتضمن المتغيرات الرئيسية والعينة. تجنّب التعابير المبهمة.</p>\n\n\n\n<h3>ملخص الاقتراح — كتابة ملخص فعّال</h3>\n<div>\n<p>يجب ألا يتجاوز الملخص 250-300 كلمة ويشمل: الخلفية، المشكلة، الهدف، المنهج العام، النتائج المتوقعة وأهمية البحث. في المشاريع الكمية، يكفي إشارة موجزة إلى طريقة العينة وطرق التحليل.</p>\n</div>\n\n\n<h3>بيان المشكلة وأهمية البحث</h3>\n<div>\n<p>يجب أن يُبيّن بيان المشكلة أيّة مشكلة قائمة، لماذا هي مهمة ولماذا يمكن لبحثك أن يساهم في حلّها. أدرج أدلّة وإحصاءات مُحدّثة (ضمن نص الاقتراح) لإظهار أهمية الموضوع.</p>\n<ol>\n<li>وصف الحالة الراهنة أو المشكلة</li>\n<li>ربط المشكلة بالاحتياجات العلمية أو الاجتماعية</li>\n<li>الأسئلة الفرعية الناشئة عن العلامات والمؤشرات</li>\n</ol>\n</div>\n\n\n<h3>مراجعة الأدبيات وتحديد فجوة البحث (Research Gap)</h3>\n<div>\n<p>يجب أن تكون مراجعة الأدبيات منظمة ومحورية وناقدة. خطوات عملية:</p>\n<ol>\n<li>تعريف الكلمات المفتاحية واستراتيجية البحث (قواعد البيانات: Scopus, Web of Science, PubMed, Google Scholar).</li>\n<li>بناء جدول ملخَّص للمقالات (المؤلف، السنة، المنهج، العينة، النتائج الرئيسية، القيود).</li>\n<li>تحليل نقدي واستخلاص الفجوات النظرية والمنهجية والتطبيقية.</li>\n<li>البيان الواضح لـ«ما الذي لم يُعرف بعد» وكيف يملأ بحثك هذا الفراغ.</li>\n</ol>\n</div>\n\n\n<h3>أهداف البحث وإطار SMART</h3>\n<div>\n<p>يجب أن تكون الأهداف واضحة وقابلة للقياس ومرتبطة بسؤال البحث. مثال على هدف عام وأهداف فرعية:</p>\n<ul>\n<li>الهدف العام: «دراسة أثر الطريقة X على المتغير Y في المجموعة Z خلال 12 شهراً»</li>\n<li>الهدف الفرعي 1: «مقارنة متوسط Y بين مجموعة الضبط ومجموعة التدخّل في الشهر الثالث»</li>\n<li>الهدف الفرعي 2: «تحديد عوامل التنبؤ بـ Y باستخدام الانحدار المتعدد»</li>\n</ul>\n<p>راجع كل هدف بمعايير SMART: Specific, Measurable, Achievable, Relevant, Time-bound.</p>\n</div>\n\n\n<h3>السؤال(ات) والفرضية(ات)</h3>\n<div>\n<p>يجب أن يكون سؤال البحث واضحاً وقابلاً للاختبار. الفرضيات (في البحوث الكمية) يجب أن تكون رسمية وقابلة للاختبار بالأساليب الإحصائية. أمثلة على تحويل السؤال إلى فرضية وكيفية التعبير الإحصائي لكل فرضية.</p>\n</div>\n\n\n<h3>المنهجية: التصميم، العينة، الأدوات</h3>\n<div>\n<p>يجب أن يتضمن قسم المنهجية شرحاً مفصلاً عن منهج البحث (كمّي/كيفي/مختلط)، المجتمع والعينة، طريقة أخذ العينات، أدوات جمع البيانات، إجراءات الجمع وتحليل البيانات.</p>\n<h4>أخذ العينات</h4>\n<p>طرق أخذ العينات (احتمالية وغير احتمالية) ومعادلة تحديد حجم العينة (مثال: معادلة كوكران لتقدير العينة في الدراسات الوصفية).</p>\n<h4>الأدوات والمقاييس</h4>\n<p>شرح صلاحية وموثوقية الأدوات: صلاحية المحتوى، الصلاحية التقاربية/التفرّقية، معامل ألفا كرونباخ للموثوقية.</p>\n</div>\n\n\n<h3>تحليل البيانات — الخطة الإحصائية</h3>\n<div>\n<p>يجب أن تتضمن الخطة التحليلية خطوات واضحة تشمل التحليل الوصفي (المتوسط، الوسيط، الانحراف المعياري)، اختبار الفرضيات، اختيار نماذج الانحدار المناسبة، الاختبارات المتعددة وتصحيح تعدد الاختبارات. اذكر البرنامج المستخدم وإصداره (مثلاً R 4.x، SPSS 28، Python 3.9).</p>\n</div>\n\n\n<h3>القضايا الأخلاقية والتصاريح</h3>\n<div>\n<p>اشرح الحاجة للحصول على موافقة لجنة الأخلاقيات، نموذج الموافقة المستنيرة، حماية الخصوصية وتخزين البيانات بأمان.</p>\n</div>\n\n\n<h3>الجدول الزمني النموذجي وتقدير الميزانية</h3>\n<div>\n<p>نموذج جدول زمني تقريبي (شبيه Gantt) مع المراحل الرئيسية: التصميم، الجمع، التحليل، الكتابة. نموذج ميزانية بسيط يشمل أجور جامعي العينات، تكاليف التنقل، البرامج والمعدات، الطباعة والنشر.</p>\n</div>\n\n\n<h3>الملاحق، الاستبيان والوثائق الداعمة</h3>\n<div>\n<p>في الملاحق ضع نموذج الاستبيان، نموذج الموافقة، جداول الترميز وعينات من مخرجات البرمجيات. يجب تنظيم هذا القسم بحيث يمكن لأي طرف ثالث إعادة إنتاج البحث.</p>\n</div>\n\n<h4>قائمة التحقق السريعة للاقتراح</h4>\n<ul>\n<li>وجود العنوان، الملخص، بيان المشكلة</li>\n<li>مراجعة الأدبيات واستخلاص الفجوة</li>\n<li>أهداف SMART، الأسئلة والفرضيات</li>\n<li>منهجية كاملة والخطة الإحصائية</li>\n<li>المراجع الأساسية والملاحق</li>\n</ul>\n</div>\n\n\n</div>",
+        "desc": "التعريف والهدف:  مقترح البحث مستند منظم يصف التصميم العام للدراسة المقترحة. هدفه إقناع المراجعين/المشرفين بأهمية الدراسة ومنهجيتها وقابليتها للتن"
+      },
+      {
+        "slug": "thesis-dissertation",
+        "title": "الأطروحة: هيكل فصل تلو الآخر ونصائح تحريرية",
+        "body": "<div>\n<p>في هذا القسم سنَعرض بالتفصيل محتوى كل فصل من فصول الأطروحة، مع معايير الكتابة ونصائح للدفاع.</p>\n\n<h3>الصفحات الافتتاحية ومتطلبات التنسيق</h3>\n<div>\n<p>صفحة العنوان، الإهداء، الشكر، الملخص بالفارسي والإنجليزية، جدول المحتويات، قائمة الأشكال والجداول. إرشادات التنسيق والمعايير المتعلقة بالخط والمسافات.</p>\n</div>\n\n\n<h3>الفصل الأول — المقدمة وتعريف المشكلة</h3>\n<div>\n<p>مقدمة قوية تشمل الخلفية، أهمية الموضوع، الأهداف، نطاق البحث وبنية الأطروحة.</p>\n</div>\n\n\n<h3>الفصل الثاني — مراجعة الأدبيات والإطار النظري</h3>\n<div>\n<p>صياغة النموذج المفاهيمي، دمج نتائج الدراسات السابقة ورسم خريطة البحث. كيفية الاستشهاد وتنظيم قسم المراجعة.</p>\n</div>\n\n\n<h3>الفصل الثالث — الطرق</h3>\n<div>\n<p>تفاصيل حول المجتمع والعينة، أدوات القياس، صلاحية وموثوقية الأدوات، طرق تحليل البيانات والبرمجيات المستخدمة.</p>\n</div>\n\n\n<h3>الفصل الرابع — النتائج</h3>\n<div>\n<p>عرض دقيق للنتائج مع جداول، رسوم بيانية وتحليلات إحصائية. نصائح تحريرية لعرض النتائج دون تفسير زائد.</p>\n</div>\n\n\n<h3>الفصل الخامس — المناقشة والاستنتاج</h3>\n<div>\n<p>تفسير النتائج، المقارنة مع الدراسات السابقة، القيود، الآثار التطبيقية والتوصيات للبحوث المستقبلية.</p>\n</div>\n\n\n<h3>الملاحق والبيانات التكميلية</h3>\n<div>\n<p>إدراج الاستبيانات، الشيفرات، مخرجات البرامج والجداول الخام في الملاحق لزيادة الوضوح وإمكانية إعادة الإنتاج.</p>\n</div>\n\n<h4>نصائح الدفاع عن الأطروحة</h4>\n<ol>\n<li>تحضير عرض تقديمي موجز وواضح (15-20 دقيقة)</li>\n<li>الاستعداد للأسئلة الشائعة (المنهج، القيود، سبب اختيار المنهج)</li>\n<li>تقديم تقرير مختصر عن الابتكارات والإنجازات</li>\n</ol>\n</div>\n\n\n",
+        "desc": "في هذا القسم سنَعرض بالتفصيل محتوى كل فصل من فصول الأطروحة، مع معايير الكتابة ونصائح للدفاع. \n\n الصفحات الافتتاحية ومتطلبات التنسيق \n \n صفحة العن"
+      },
+      {
+        "slug": "statistical-software",
+        "title": "البرامج الإحصائية: مقدمة، مقارنة وأمثلة عملية",
+        "body": "<div>\n<p>تفاصيل كل برنامج، حالات الاستخدام، أمثلة للأوامر / الكود والقيود.</p>\n\n<h3>SPSS</h3>\n<div>\n<p>بيئة رسومية مناسبة للتحليلات الوصفية والاختبارات الأساسية. مثال: تنفيذ اختبار t والانحدار الخطي من خلال القوائم وإمكانية كتابة السكربت باستخدام Syntax.</p>\n</div>\n\n\n<h3>R / RStudio</h3>\n<div>\n<p>لغة مفتوحة المصدر مع حزم واسعة (tidyverse, lme4, lavaan). مثال قصير: تحميل بيانات وتنفيذ تحليل وصفي.</p>\n<pre># مثال R\nlibrary(tidyverse)\ndf &lt;- read.csv('data.csv')\nsummary(df)\n</pre>\n</div>\n\n\n<h3>Python (Pandas, Statsmodels, scikit-learn)</h3>\n<div>\n<p>بيئة مناسبة لمعالجة البيانات، التعلم الآلي والتحليل الإحصائي. مثال قصير:</p>\n<pre># مثال Python\nimport pandas as pd\ndf = pd.read_csv('data.csv')\ndf.describe()</pre>\n</div>\n\n\n<h3>Stata</h3>\n<div>\n<p>قوية في قياسات الاقتصاد التحليلي وتحليلات البيانات اللوحية والسلاسل الزمنية.</p>\n</div>\n\n\n<h3>MATLAB / Simulink</h3>\n<div>\n<p>مناسبة للحسابات العددية، المحاكاة ومعالجة الإشارة.</p>\n</div>\n\n\n<h3>AMOS / Lisrel / lavaan</h3>\n<div>\n<p>الأدوات والحزم المستخدمة لنمذجة المعادلات البنائية (SEM).</p>\n</div>\n\n\n<h3>NVivo</h3>\n<div>\n<p>بيئة لتحليل النوعيّة من أجل ترميز النصوص وتحليل الموضوعات.</p>\n</div>\n\n</div>\n\n\n",
+        "desc": "تفاصيل كل برنامج، حالات الاستخدام، أمثلة للأوامر / الكود والقيود. \n\n SPSS \n \n بيئة رسومية مناسبة للتحليلات الوصفية والاختبارات الأساسية. مثال: تن"
+      },
+      {
+        "slug": "research-programming",
+        "title": "البرمجة: اللغات، الأنماط وأفضل الممارسات",
+        "body": "<div>\n<p>دليل لاختيار اللغة بناءً على الاستخدام وأمثلة عن أنماط البرمجة وإرشادات الإنتاج.</p>\n\n<h3>Python</h3>\n<div>\n<p>مناسبة لتحليل البيانات، التعلم الآلي وتطوير الويب الخفيف. الحزم الأساسية: NumPy, Pandas, scikit-learn, TensorFlow، وتوصيات حول تنظيم المشروع وvirtualenv/conda.</p>\n</div>\n\n\n<h3>R</h3>\n<div>\n<p>للتحليلات الإحصائية والتصوير المتقدِّم.</p>\n</div>\n\n\n<h3>C++, Java, JavaScript, SQL</h3>\n<div>\n<p>توضيح استخدامات كل لغة ونصائح لتحسين الأداء وإدارة الذاكرة، هيكل المشروع وأمن الإدخال/الإخراج.</p>\n</div>\n\n<h4>أفضل الممارسات</h4>\n<ul>\n<li>التحكم بالإصدار (Git) مع استراتيجيات branching مناسبة</li>\n<li>بيئات قابلة لإعادة الإنتاج (Docker, conda)</li>\n<li>التوثيق وكتابة الاختبارات</li>\n</ul>\n</div>\n\n\n",
+        "desc": "دليل لاختيار اللغة بناءً على الاستخدام وأمثلة عن أنماط البرمجة وإرشادات الإنتاج. \n\n Python \n \n مناسبة لتحليل البيانات، التعلم الآلي وتطوير الويب "
+      },
+      {
+        "slug": "citation-styles",
+        "title": "معايير الاستشهاد: APA, IEEE, Harvard (نماذج وقوالب)",
+        "body": "<div>\n<p>نماذج للقالب المرجعي لكل معيار مع أمثلة حقيقية:</p>\n\n<h3>APA (الطبعة السابعة - ملخّص)</h3>\n<div>\n<p>مرجع لمقال دوري:</p>\n<pre>المؤلف، أ. (السنة). عنوان المقال. اسم المجلة، المجلد(العدد)، الصفحات. https://doi.org/xxxx</pre>\n</div>\n\n\n<h3>IEEE</h3>\n<div>\n<p>الاستشهاد داخل النص يكون رقميًا [1] وفي القائمة حسب الترقيم:</p>\n<pre>[1] A. Author, \"Title of paper,\" Journal, vol., no., pp., year.</pre>\n</div>\n\n\n<h3>Harvard</h3>\n<div>\n<p>نظام المؤلف-السنة؛ مثال:</p>\n<pre>(Author, Year) — قائمة المراجع بترتيب أبجدي</pre>\n</div>\n\n</div>\n\n\n",
+        "desc": "نماذج للقالب المرجعي لكل معيار مع أمثلة حقيقية: \n\n APA (الطبعة السابعة - ملخّص) \n \n مرجع لمقال دوري: \n المؤلف، أ. (السنة). عنوان المقال. اسم المج"
+      },
+      {
+        "slug": "similarity-check",
+        "title": "فحص الأصالة: Turnitin، iThenticate وأدوات أخرى",
+        "body": "<div>\n<p>طرق عملية لاستخدام وتفسير نتائج أدوات التحقق من التشابه وكيفية تعديل النص لتقليل التشابه غير المسموح.</p>\n\n<h3>Turnitin مقابل iThenticate</h3>\n<div>\n<p>الاختلافات الرئيسية: Turnitin موجه للبيئة الجامعية (الواجبات) وiThenticate للوثائق البحثية/النشر. نصائح للرفع والقيود وتفسير النتائج.</p>\n</div>\n\n\n<h3>تفسير تقرير التشابه</h3>\n<div>\n<p>يجب أن يتضمن التقرير نسبة كلية، قائمة المصادر المشابهة، المقاطع المظللة وشرح نوع التشابه (اقتباس مسموح، مصادر عامة، نشر سابق للمؤلف نفسه).</p>\n</div>\n\n\n<h3>التعامل مع المشكلة وإعادة الصياغة</h3>\n<div>\n<p>نماذج لإعادة الصياغة، الاستشهاد الصحيح وتسجيل المصادر لتقليل نسبة التشابه.</p>\n</div>\n\n</div>\n\n\n",
+        "desc": "طرق عملية لاستخدام وتفسير نتائج أدوات التحقق من التشابه وكيفية تعديل النص لتقليل التشابه غير المسموح. \n\n Turnitin مقابل iThenticate \n \n الاختلافا"
+      },
+      {
+        "slug": "similarity-report",
+        "title": "تقرير كامل لفحص الانتحال (نموذج ومكوّنات)",
+        "body": "<div>\n<p>يجب أن يتضمن تقرير كامل الأقسام التالية:</p>\n<ol>\n<li>ملخّص تنفيذي — النسبة الإجمالية والاستنتاج</li>\n<li>تفاصيل كل مصدر مشابه مع رابط/مرجع</li>\n<li>النصوص المماثلة مع تحديد الصفحات/الأقسام</li>\n<li>اقتراحات تصحيحية وخطوات لاحقة</li>\n<li>الخلاصة وتوصية بالنشر أو المراجعة</li>\n</ol>\n</div>\n\n\n",
+        "desc": "يجب أن يتضمن تقرير كامل الأقسام التالية: \n \n ملخّص تنفيذي — النسبة الإجمالية والاستنتاج \n تفاصيل كل مصدر مشابه مع رابط/مرجع \n النصوص المماثلة مع "
+      },
+      {
+        "slug": "research-articles",
+        "title": "أنواع المقالات: ISI، علمي-بحثي وأنواع أخرى",
+        "body": "<div>\n<p>شرحأنواع المقالات، معايير القبول، البنية المعتادة ونصائح رئيسية للإرسال إلى مجلات ISI وغير ISI.</p>\n<ul>\n<li><strong>مقال أصلي (Original Research):</strong> عرض نتائج جديدة وبيانات تجريبية.</li>\n<li><strong>مقال مراجعة (Review Article):</strong> مراجعة نظامية أو سردية.</li>\n<li><strong>مقالات مؤتمر:</strong> عرض النتائج الأولية أو العروض المقدمة في المؤتمرات.</li>\n<li><strong>Short Communication, Case Study:</strong> أنواع مختصرة تركز على تقارير مركزة أو وصف حالات.</li>\n</ul>\n\n</div>\n\n\n\n\n\n\n\n",
+        "desc": "شرحأنواع المقالات، معايير القبول، البنية المعتادة ونصائح رئيسية للإرسال إلى مجلات ISI وغير ISI. \n \n  مقال أصلي (Original Research):  عرض نتائج جد"
+      }
+    ]
+  }
+}

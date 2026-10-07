@@ -1,0 +1,6 @@
+The invented records in synthetic.csv are released under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+No actual people are represented. This dedication does not cover third-party
+sources, branding, photographs, fonts or the rest of the institute website.
+Code licensing is described separately in LICENSE.
