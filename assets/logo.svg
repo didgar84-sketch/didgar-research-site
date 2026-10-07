@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Dr. Didgar Research Institute</title>
+  <desc id="desc">A gold D, a scholarly quill and an open book on deep navy.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a97932"/><stop offset=".32" stop-color="#f4d99a"/><stop offset=".64" stop-color="#c2954c"/><stop offset="1" stop-color="#ebcb83"/></linearGradient>
+  </defs>
+  <rect x="6" y="6" width="500" height="500" rx="80" fill="#071c2c"/>
+  <rect x="20" y="20" width="472" height="472" rx="68" fill="none" stroke="#b79355" stroke-opacity=".32" stroke-width="2"/>
+  <path fill="url(#gold)" fill-rule="evenodd" d="M122 82H232C344 82 403 142 403 239C403 335 345 379 239 379H122V369C153 367 162 353 162 326V133C162 106 153 94 122 93ZM209 110V331C209 352 217 355 246 355C323 355 355 309 355 239C355 160 323 110 246 110Z"/>
+  <path fill="url(#gold)" d="M229 306C241 268 255 230 277 199C303 164 337 145 341 114C361 152 345 186 324 203L344 193C337 215 321 229 297 239L316 236C303 254 287 266 265 270L279 272C262 287 245 293 229 306Z"/>
+  <path d="M220 327C247 275 274 230 318 179" fill="none" stroke="#edcc83" stroke-width="7" stroke-linecap="round"/>
+  <path d="M101 407C155 395 208 390 256 421C304 390 357 395 411 407L438 440C372 424 308 422 256 447C204 422 140 424 74 440Z" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M256 421V447M115 417C163 408 208 410 241 429M397 417C349 408 304 410 271 429" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+</svg>
