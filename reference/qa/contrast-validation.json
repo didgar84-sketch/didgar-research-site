@@ -1,0 +1,76 @@
+{
+  "scope": "Specified color pairs; no browser compositing or full WCAG conformance claim",
+  "passed": true,
+  "checks": [
+    {
+      "label": "Main text",
+      "foreground": "#122d40",
+      "background": "#f8fafb",
+      "ratio": 13.6,
+      "required": 4.5
+    },
+    {
+      "label": "Secondary text",
+      "foreground": "#536979",
+      "background": "#ffffff",
+      "ratio": 5.73,
+      "required": 4.5
+    },
+    {
+      "label": "Gold text on light",
+      "foreground": "#715421",
+      "background": "#f8fafb",
+      "ratio": 6.7,
+      "required": 4.5
+    },
+    {
+      "label": "Gold text on dark",
+      "foreground": "#ddbe87",
+      "background": "#071c2c",
+      "ratio": 9.73,
+      "required": 4.5
+    },
+    {
+      "label": "Contact text",
+      "foreground": "#f3f6f8",
+      "background": "#071c2c",
+      "ratio": 15.97,
+      "required": 4.5
+    },
+    {
+      "label": "Contact sublabel",
+      "foreground": "#c6d5df",
+      "background": "#071c2c",
+      "ratio": 11.54,
+      "required": 4.5
+    },
+    {
+      "label": "CTA text",
+      "foreground": "#071c2c",
+      "background": "#b79355",
+      "ratio": 6.04,
+      "required": 4.5
+    },
+    {
+      "label": "Body link",
+      "foreground": "#725221",
+      "background": "#f8fafb",
+      "ratio": 6.81,
+      "required": 4.5
+    },
+    {
+      "label": "Input boundary",
+      "foreground": "#718796",
+      "background": "#ffffff",
+      "ratio": 3.74,
+      "required": 3
+    },
+    {
+      "label": "Ghost hover text",
+      "foreground": "#071c2c",
+      "background": "#eee7db",
+      "ratio": 14.11,
+      "required": 4.5
+    }
+  ]
+}

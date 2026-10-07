@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "search": [
+    "Arabic/Persian letters",
+    "half-space and joined words",
+    "Arabic/Persian/Latin numerals",
+    "acronym metadata",
+    "category intersection",
+    "empty results"
+  ],
+  "doi": true,
+  "plannerLanguages": [
+    "fa",
+    "en",
+    "ar"
+  ],
+  "consultation": [
+    "online preparation",
+    "offline preparation",
+    "invalid input rejection"
+  ],
+  "messagesSent": 0,
+  "browserRendering": false
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "productionOrigin": true,
+  "explicitOrigin": true,
+  "markdownOrigin": true,
+  "previewNoindex": true,
+  "verificationToken": true,
+  "invalidOriginRejection": true,
+  "privateFilesExcluded": true,
+  "finalOrigin": "https://dr17.vercel.app"
+}

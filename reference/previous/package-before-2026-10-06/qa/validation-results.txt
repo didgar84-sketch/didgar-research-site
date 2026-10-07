@@ -1,0 +1,71 @@
+$ npm test
+
+> didgar-research@2.0.0 test
+> node scripts/check.mjs
+
+PASS: 126 pages; internal links, unique IDs, language metadata, structured data and consultation API validation.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+$ npm run test:seo
+
+> didgar-research@2.0.0 test:seo
+> python3 scripts/seo-check.py
+
+PASS: {"internal_links_and_assets": 7368, "visible_images": 513, "article_entities": 84, "responsive_image_candidates": 1566, "canonical_pages": 126, "service_entities": 18, "reachable_pages": 126}
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+$ npm run test:interactions
+
+> didgar-research@2.0.0 test:interactions
+> node scripts/interaction-check.mjs
+
+PASS: real shipped JS; normalized multiword search, category intersections, empty search, DOI formatting and unsafe inputs, three-language timelines, online/offline consultation preparation. No messages sent.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+$ npm run test:build
+
+> didgar-research@2.0.0 test:build
+> node scripts/build-check.mjs
+
+PASS: production origin, explicit origin, preview noindex, optional verification, invalid input rejection and clean publication output.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+$ python3 scripts/seo-check.py dist
+PASS: {"internal_links_and_assets": 7368, "visible_images": 513, "responsive_image_candidates": 1566, "canonical_pages": 126, "article_entities": 84, "service_entities": 18, "reachable_pages": 126}
+
+$ npm run test:http
+
+> didgar-research@2.0.0 test:http
+> node scripts/http-check.mjs
+
+PASS: 126 HTTP pages, 324 permanent aliases, query preservation, slash normalization, 404/noindex, HEAD, static assets and consultation API.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+$ npm run standalone
+
+> didgar-research@2.0.0 standalone
+> python3 scripts/standalone.py
+
+Created didgar-preview.html: 126 pages, embedded CSS/JS and 10 images (3,372,385 bytes).
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+$ npm run test:standalone
+
+> didgar-research@2.0.0 test:standalone
+> python3 scripts/standalone-check.py ../deliverables/didgar-preview.html
+
+PASS: 126 offline templates, all local routes and fragments, embedded images, no external CSS/JS and JavaScript syntax.
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+FOLLOW-UP 2026-10-04: Standalone missing photographs corrected.
+Previous delivered HTML rejected: / expected 20 displayed image elements, got 2
+$ python3 scripts/standalone-check.py /workspace/scratch/f4854918ae02/deliverables/didgar-preview.html
+PASS: 126 offline templates, 513 preserved image elements, 261 nonempty pictures, 20 directly embedded home images, routes/fragments, fonts and JavaScript syntax.
+$ npm run test:seo
+
+> didgar-research@2.0.0 test:seo
+> python3 scripts/seo-check.py
+
+PASS: {"internal_links_and_assets": 7368, "visible_images": 513, "service_entities": 18, "responsive_image_candidates": 1566, "canonical_pages": 126, "article_entities": 84, "reachable_pages": 126}
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+Image assets and both fonts unchanged byte-for-byte; real browser and Lighthouse not executed.

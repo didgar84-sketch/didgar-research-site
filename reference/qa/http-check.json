@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "pages": 183,
+  "aliases": 734,
+  "queryPreservation": true,
+  "slashNormalization": true,
+  "noindex404": true,
+  "downloadBytes": true,
+  "downloadNoindex": true,
+  "apiPreparationOnly": true
+}

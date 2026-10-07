@@ -1,0 +1,33 @@
+[
+  {
+    "file": "assets/fonts/Vazirmatn-Variable.woff2",
+    "family": "Vazirmatn",
+    "glyphs": 811,
+    "sample_glyphs_present": true,
+    "weights": [
+      {
+        "tag": "wght",
+        "minimum": 100.0,
+        "maximum": 900.0
+      }
+    ]
+  },
+  {
+    "file": "assets/fonts/Cairo-Variable.woff2",
+    "family": "Cairo",
+    "glyphs": 699,
+    "sample_glyphs_present": true,
+    "weights": [
+      {
+        "tag": "wght",
+        "minimum": 200.0,
+        "maximum": 1000.0
+      },
+      {
+        "tag": "slnt",
+        "minimum": -11.0,
+        "maximum": 11.0
+      }
+    ]
+  }
+]

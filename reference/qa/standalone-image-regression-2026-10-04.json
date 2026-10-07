@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-04",
+  "cause": "lxml HTML parsing nests the fallback img under source; subtree removal erased photographs during standalone generation",
+  "fix": "Unwrap source with drop_tag, preserving the img descendant",
+  "previous_file_sha256": "1065f5c3f472b2d9881f0f13b21f8ac56d6ad67c8ef8141fb559e4a7c5c9a4e1",
+  "corrected_file_sha256": "2c99e95a03e654040385a04f6d5c9e3ae837ec0b3e08833410e88fd4f157753c",
+  "previous_home_images": 2,
+  "corrected_home_images": 20,
+  "corrected_home_photographs": 18,
+  "routes_checked": 126,
+  "previous_template_images": 252,
+  "corrected_template_images": 513,
+  "lost_photograph_placements_restored": 261,
+  "embedded_unique_photos": 9,
+  "embedded_logo_files": 1,
+  "image_bytes_unchanged": true,
+  "font_bytes_unchanged": true,
+  "negative_regression": "Previous delivered HTML rejected: / expected 20 displayed image elements, got 2",
+  "browser_visual_test_executed": false,
+  "lighthouse_executed": false,
+  "validation": [
+    {
+      "command": [
+        "python3",
+        "scripts/standalone-check.py",
+        "/workspace/scratch/f4854918ae02/deliverables/didgar-preview.html"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 126 offline templates, 513 preserved image elements, 261 nonempty pictures, 20 directly embedded home images, routes/fragments, fonts and JavaScript syntax.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "test:seo"
+      ],
+      "exit_code": 0,
+      "stdout": "\n> didgar-research@2.0.0 test:seo\n> python3 scripts/seo-check.py\n\nPASS: {\"internal_links_and_assets\": 7368, \"visible_images\": 513, \"service_entities\": 18, \"responsive_image_candidates\": 1566, \"canonical_pages\": 126, \"article_entities\": 84, \"reachable_pages\": 126}\n",
+      "stderr": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n"
+    }
+  ]
+}

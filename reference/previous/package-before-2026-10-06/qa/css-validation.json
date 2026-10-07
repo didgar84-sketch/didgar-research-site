@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "parser": "css-tree",
+  "rules": 396,
+  "files": [
+    {
+      "file": "style.css",
+      "rules": 396,
+      "parse_errors": []
+    },
+    {
+      "file": "nojs.css",
+      "rules": 3,
+      "parse_errors": []
+    }
+  ]
+}

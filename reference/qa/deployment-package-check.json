@@ -1,0 +1,47 @@
+{
+  "edition": "2026-10-07",
+  "change": "Project files are directly at the ZIP root; deployment instructions clarify extraction and Vercel settings.",
+  "previous_package_root": "didgar-site",
+  "new_package_root": ".",
+  "vercel_settings": {
+    "rootDirectory": ".",
+    "framework": null,
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist"
+  },
+  "fresh_zip_extraction": true,
+  "root_index_html": true,
+  "root_package_json": true,
+  "root_vercel_json": true,
+  "build_from_extracted_zip": {
+    "passed": true,
+    "canonicalPages": 183,
+    "origin": "https://dr17.vercel.app"
+  },
+  "base_checks": {
+    "passed": true,
+    "pages": 183
+  },
+  "seo_build_checks": {
+    "passed": true,
+    "internalLinksAndAssets": 9245,
+    "canonicalPages": 183
+  },
+  "http_checks": {
+    "passed": true,
+    "pages": 183,
+    "aliases": 734,
+    "queryPreservation": true,
+    "slashNormalization": true,
+    "noindex404": true,
+    "downloadBytes": true,
+    "downloadNoindex": true,
+    "apiPreparationOnly": true
+  },
+  "existing_changes": [
+    "README-FA.md",
+    "scripts/write_release_docs.py"
+  ],
+  "live_deployment": "Not inspected; repository URL, deployment URL and Vercel logs were not supplied.",
+  "scope": "Local build and HTTP validation of the extracted project; no actual Vercel deployment was performed."
+}

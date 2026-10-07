@@ -1,0 +1,3251 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>انجام پروژه دانشگاهی و علمی</title>
+<meta content="مؤسسۀ پژوهشی دکتر دیدگر — انجام پروژه دانشگاهی و علمی" property="og:title"/>
+<meta content="پشتیبانی کامل پروژه‌های دانشگاهی: پروپوزال، تحلیل داده، نگارش و ویرایش علمی با تضمین اصالت." property="og:description"/>
+<meta content="https://dr17.vercel.app/" property="og:url"/>
+<meta content="fa_IR" property="og:locale"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="https://dr17.vercel.app/" rel="canonical"/>
+<link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Vazirmatn:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://dr17.vercel.app/" hreflang="fa" rel="alternate"/>
+<link href="https://dr17.vercel.app/ar" hreflang="ar" rel="alternate"/>
+<link href="https://dr17.vercel.app/en" hreflang="en" rel="alternate"/>
+<style>
+/* merged style blocks (cleaned) */
+/* هدف: همهٔ محتوای داخل لینک .telegram-button سفید و کاملاً خوانا باشد */
+    html body a.telegram-button,
+    html body a.telegram-button * {
+      color: #ffffff !important;
+      opacity: 1 !important;
+      text-shadow: none !important;
+      -webkit-text-fill-color: #ffffff !important; /* برای برخی مرورگرها و فونت آیکن */
+    }
+
+    /* اگر از svg استفاده شده */
+    html body a.telegram-button svg,
+    html body a.telegram-button svg path,
+    html body a.telegram-button svg g {
+      fill: #ffffff !important;
+      stroke: #ffffff !important;
+      opacity: 1 !important;
+    }
+
+    /* بعضی فونت‌آیکن‌ها از ::before استفاده می‌کنند */
+    html body a.telegram-button::before,
+    html body a.telegram-button *::before {
+      color: #ffffff !important;
+      -webkit-text-fill-color: #ffffff !important;
+    }
+
+    /* حفظ رنگ در حالت‌های interaction */
+    html body a.telegram-button:hover,
+    html body a.telegram-button:focus,
+    html body a.telegram-button:visited,
+    html body a.telegram-button *:hover,
+    html body a.telegram-button *:focus {
+      color: #ffffff !important;
+      opacity: 1 !important;
+      -webkit-text-fill-color: #ffffff !important;
+    }
+
+    /* در صورتی که بخواهی یک کلاس کوچک برای تست دستی داشته باشی */
+    .telegram-button-force {
+      color: #ffffff !important;
+    }
+
+.font-persian { font-family: 'Vazirmatn', sans-serif; }
+        .font-english { font-family: 'Inter', sans-serif; }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .luxury-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .floating-animation {
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .pulse-glow {
+            animation: pulse-glow 2s infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(102, 126, 234, 0.4); }
+            50% { box-shadow: 0 0 40px rgba(102, 126, 234, 0.8); }
+        }
+        
+        .slide-in-right {
+            animation: slideInRight 1s ease-out;
+        }
+        
+        .slide-in-left {
+            animation: slideInLeft 1s ease-out;
+        }
+        
+        @keyframes slideInRight {
+            from { transform: translateX(100px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        @keyframes slideInLeft {
+            from { transform: translateX(-100px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        .hover-scale {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        
+        .text-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .luxury-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .luxury-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .luxury-button:hover::before {
+            left: 100%;
+        }
+        
+        .service-icon {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .step-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+        
+        .contact-button {
+            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .contact-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(37, 211, 102, 0.4);
+        }
+        
+        .telegram-button {
+            background: linear-gradient(135deg, #0088cc 0%, #005577 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .telegram-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(0, 136, 204, 0.4);
+        }
+        
+        .lang-switch {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .lang-switch:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .hidden { display: none; }
+        
+        .rtl { direction: rtl; }
+        .ltr { direction: ltr; }
+        
+        .parallax-bg {
+            background-attachment: scroll /* replaced for mobile compatibility */;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .stats-counter {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #667eea;
+        }
+        
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+        }
+    
+        .font-arabic { font-family: 'Cairo', 'Noto Naskh Arabic', sans-serif; }
+
+/* Responsive: move language buttons below header on small screens */
+@media (max-width: 640px) {
+  .lang-switcher {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    margin-top: 1rem;
+    display: flex !important;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  /* ensure hero content has some top padding so buttons don't overlap visual space */
+  .gradient-bg .container.mx-auto {
+    padding-top: 1rem;
+  }
+}
+
+/* Ensure header/title sits lower on small screens for readability */
+@media (max-width: 640px) {
+  .gradient-bg h1 {
+    margin-top: 2.2rem;
+  }
+  .gradient-bg .container.mx-auto {
+    padding-top: 0.75rem;
+  }
+}
+
+/* custom: lower hero title slightly for improved visibility */
+.gradient-bg .hero-title { margin-top: 2rem; }
+
+/* custom: improved responsive styles for slogan and description */
+.hero-slogan { 
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  font-weight: 700;
+  color: var(--hero-slogan-color); /* accessible blue */
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .hero-slogan { font-size: 1.5rem; margin-top: 1rem; }
+}
+.hero-description {
+  font-size: 1.125rem;
+  margin-top: 0.75rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: justify;
+  color: #333;
+  padding: 0 1rem;
+}
+@media (max-width: 768px) {
+  .hero-description { font-size: 1rem; line-height: 1.6; }
+}
+
+/* custom: accessible, responsive styles for hero slogan and description */
+:root {
+  --telegram-color: #1E90FF;
+  --hero-slogan-color: #ffb6c1; /* deep blue - good contrast on light backgrounds */
+  --hero-slogan-color-on-dark: #ffffff; /* fallback if hero area is dark */
+  --hero-max-width: 820px;
+}
+
+/* Ensure hero container uses readable text color if background is dark */
+.gradient-bg, .hero, .hero-section { color: inherit; }
+
+.hero-title { margin-top: 2rem; line-height: 1.05; }
+
+/* Slogan styling */
+.hero-slogan {
+  color: var(--hero-slogan-color);
+  font-size: 1.6rem; /* desktop */
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  text-align: center;
+  letter-spacing: 0.2px;
+  line-height: 1.15;
+}
+
+/* Description text */
+.hero-description {
+  font-size: 1rem;
+  line-height: 1.9;
+  max-width: var(--hero-max-width);
+  margin: 0.25rem auto 1.25rem auto;
+  padding: 0 1.25rem;
+  text-align: center;
+  color: inherit;
+}
+
+/* If the hero background is dark (detect class .dark or .bg-dark), switch slogan color to white */
+.gradient-bg.bg-dark .hero-slogan,
+.hero.bg-dark .hero-slogan {
+  color: var(--hero-slogan-color-on-dark);
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .hero-slogan { font-size: 1.4rem; }
+  .hero-description { font-size: 0.98rem; padding: 0 1rem; }
+  .hero-title { margin-top: 1.6rem; }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .hero-slogan { font-size: 1.25rem; }
+  .hero-description { font-size: 0.95rem; line-height: 1.8; padding: 0 0.9rem; max-width: 92%; }
+  .hero-title { margin-top: 1.2rem; font-size: 1.6rem; }
+}
+
+/* Ensure buttons and nearby elements don't overlap */
+.hero .actions, .hero .cta { margin-top: 0.9rem; }
+
+.telegram-button {
+    background: linear-gradient(135deg, var(--telegram-color) 0%, #38bdf8 100%);
+    transition: all 0.3s ease;
+    color: white !important;
+}
+.telegram-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 35px rgba(56, 189, 248, 0.25);
+}
+.footer-telegram, a[href*="t.me"] {
+    color: var(--telegram-color) !important;
+    transition: color 0.2s ease;
+}
+.footer-telegram:hover, a[href*="t.me"]:hover { color: #61c9f2 !important; }
+.hero-slogan, .hero-slogan * { color: var(--hero-slogan-color) !important; }
+
+/* Defensive fix for white strip at very top:
+   - Remove default margins/padding on root
+   - Prevent margin collapsing by creating a new BFC for the hero (.gradient-bg)
+   - Respect iOS safe-area inset if present
+   - Provide the same gradient on html as an extra fallback so any tiny gap shows the correct background */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+.gradient-bg {
+  display: flow-root !important;
+  box-sizing: border-box !important;
+  padding-top: env(safe-area-inset-top, 0px) !important;
+  padding-top: constant(safe-area-inset-top, 0px) !important;
+}
+
+#user-photo-top-insert { display:flex; justify-content:center; align-items:center; padding:18px 12px 22px; }
+#user-photo-top-insert figure { width: 220px; max-width: 40vw; margin: 0; }
+#user-photo-top-insert img { width:100%; height:100%; aspect-ratio:1/1; object-fit:cover; border-radius:50%; display:block; box-shadow:0 10px 30px rgba(0,0,0,0.18); }
+@media (max-width:640px) { #user-photo-top-insert figure { width:160px; max-width:54vw; } }
+
+/* Only affect the blog overlay titles and the numbered summary headings in each language */
+  #blog-title { color: #764ba2 !important; }
+  /* summary elements inside the blog overlay (for fa/ar/en) */
+  #blog-content .blog-lang[data-lang="fa"] summary,
+  #blog-content .blog-lang[data-lang="ar"] summary,
+  #blog-content .blog-lang[data-lang="en"] summary {
+    color: #764ba2 !important;
+  }
+  /* ensure h3/h4 headings inside the blog sections use the same purple */
+  #blog-content .blog-lang h3,
+  #blog-content .blog-lang h4 {
+    color: #764ba2 !important;
+  }
+  /* specific enforcement for Arabic block: also color strong and summary children */
+  #blog-content .blog-lang[data-lang="ar"] summary * ,
+  #blog-content .blog-lang[data-lang="ar"] h3,
+  #blog-content .blog-lang[data-lang="ar"] h4,
+  #blog-content .blog-lang[data-lang="ar"] strong {
+    color: #764ba2 !important;
+    fill: #764ba2 !important;
+  }
+</style>
+<style> a.telegram-button, a.telegram-button * { color: #fff !important; fill: #fff !important; opacity: 1 !important; }</style>
+
+<style>
+/* Override to fix language switch buttons text color when active/focused/visited */
+a.lang-button:active,
+a.lang-button:focus,
+a.lang-button:visited {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+button.lang-button:active,
+button.lang-button:focus {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+/* Fallback for links containing language codes/text */
+a[href*="fa"]:active, a[href*="fa"]:focus, a[href*="fa"]:visited,
+a[href*="ar"]:active, a[href*="ar"]:focus, a[href*="ar"]:visited,
+a[href*="en"]:active, a[href*="en"]:focus, a[href*="en"]:visited {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+</style>
+
+
+<style id="lang-fix-styles">
+/* Strong override for language buttons to keep text readable in active/focus/visited states */
+.lang-button, a.lang-button, button.lang-button, .lang-button * {
+  color: #000 !important;
+  -webkit-text-fill-color: #000 !important;
+  text-shadow: none !important;
+  fill: #000 !important;
+}
+.lang-button:focus, .lang-button:active, .lang-button:visited,
+a.lang-button:focus, a.lang-button:active, a.lang-button:visited,
+button.lang-button:focus, button.lang-button:active {
+  color: #000 !important;
+  -webkit-text-fill-color: #000 !important;
+  background-color: rgba(255,255,255,0.95) !important;
+  outline: 2px solid rgba(0,0,0,0.08) !important;
+  text-decoration: none !important;
+  fill: #000 !important;
+}
+/* Fallback for svg icons inside the button */
+.lang-button svg * { fill: #000 !important; stroke: #000 !important; }
+</style>
+
+
+<style id="instagram-mobile-fix">
+@media (max-width: 768px) {
+  /* Ensure Instagram icon is visible on mobile */
+  .fa-instagram,
+  i.fa-instagram,
+  svg[class*="instagram"],
+  a[href*="instagram"] svg,
+  a[href*="instagram"] i {
+    color: #E4405F !important; /* Instagram brand pink */
+    fill: #E4405F !important;
+  }
+}
+</style>
+
+</head>
+<body>
+<!-- Cleaned and consolidated by assistant: duplicate DOCTYPE/head/meta removed, styles merged, scripts moved to end of body, lazy-loading added to images, fragile telegram JS replaced with CSS override. -->
+
+<!-- Language Switcher -->
+<div class="fixed top-4 left-4 z-50 flex gap-2 lang-switcher">
+<button aria-label="Blog" class="lang-switch px-4 py-2 rounded-full text-white text-sm font-medium" id="blog-btn">وبلاگ</button>
+<button class="lang-switch px-4 py-2 rounded-full text-white text-sm font-medium" id="fa-btn" onclick="switchLanguage('fa')">فارسی</button>
+<button class="lang-switch px-4 py-2 rounded-full text-white text-sm font-medium" id="ar-btn" onclick="switchLanguage('ar')">العربية</button>
+<button class="lang-switch px-4 py-2 rounded-full text-white text-sm font-medium" id="en-btn" onclick="switchLanguage('en')">English</button>
+</div>
+<!-- user-photo-top-insert: start -->
+<div aria-hidden="false" aria-label="تصویر مؤسس" id="user-photo-top-insert" role="img">
+<figure>
+<img alt="تصویر مؤسس" src="./0J2A6748.JPG" loading="lazy" decoding="async" />
+</figure>
+</div>
+<!-- user-photo-top-insert: end -->
+<!-- Persian Content -->
+<div class="rtl" id="fa-content">
+<!-- Hero Section -->
+<section class="gradient-bg min-h-screen flex items-center justify-center relative overflow-hidden">
+<!-- Floating Elements -->
+<div class="absolute top-20 right-20 w-20 h-20 bg-white bg-opacity-10 rounded-full floating-animation"></div>
+<div class="absolute bottom-32 left-32 w-16 h-16 bg-white bg-opacity-10 rounded-full floating-animation" style="animation-delay: -2s;"></div>
+<div class="absolute top-1/2 left-20 w-12 h-12 bg-white bg-opacity-10 rounded-full floating-animation" style="animation-delay: -4s;"></div>
+<div class="container mx-auto px-6 text-center text-white relative z-10">
+<div class="slide-in-right">
+<h1 class="hero-title text-6xl md:text-8xl font-bold mb-6 leading-tight">
+<span class="text-yellow-300">مؤسسۀ پژوهشی</span> دکتر دیدگر
+                    </h1>
+<h2 class="hero-slogan">دیدگر مشاورِ برتر</h2>
+<p class="hero-description"><span class="desc-short">
+مؤسسۀ پژوهشی دکتر دیدگر، همراهی مطمئن برای دانشجویان و پژوهشگران است که با تبدیل ایده‌ها به پروژه‌ها و دستاوردهای علمیِ مستند و قابل دفاع در محیط‌های دانشگاهی، فرایند پژوهش را تسهیل می‌کند.
+</span>
+<span class="hidden" id="more-desc" style="display:none;">
+تیم ما از مرحلهٔ طراحی تا تحویل نهایی، همواره در کنار شما خواهد بود و کلیه خدمات را با دقت، شفافیت و رعایت کامل اصول اخلاق پژوهش ارائه می‌دهد. این مؤسسه در حوزه‌های گوناگون علمی از جمله مهندسی، علوم پایه، علوم انسانی، پزشکی و مدیریت فعالیت دارد و خدمات جامعی همچون طراحی پروپوزال، تحلیل داده‌ها، نگارش علمی و ویرایش تخصصی را به پژوهشگران ارائه می‌کند.
+</span>
+</p>
+<button class="luxury-button px-6 py-2 rounded-full mt-2 mb-4 text-white font-bold" id="read-more-btn" onclick="toggleReadMore(this)">بیشتر بخوانید</button>
+<div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+<a aria-label="ارتباط در تلگرام" class="telegram-button px-12 py-4 rounded-full text-white font-bold text-lg hover-scale flex items-center gap-3" href="https://t.me/bestprojeh" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-telegram text-2xl"></i>
+                            ارتباط در تلگرام
+                        </a>
+<a aria-label="ارتباط در واتساپ" class="contact-button px-12 py-4 rounded-full text-white font-bold text-lg hover-scale flex items-center gap-3" href="https://wa.me/989124067596" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-whatsapp text-2xl"></i>
+                            ارتباط در واتساپ
+                        </a>
+</div>
+<!-- Quick contact form (non-intrusive) -->
+<p class="text-sm text-white opacity-80 mt-2">از طریق واتساپ/تلگرام با ما در تماس باشید — پاسخ در کمتر از ۲۴ ساعت.</p>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16 slide-in-left">
+<h2 class="text-5xl font-bold text-gradient mb-6">خدماتِ تخصصی مؤسسۀ پژوهشی دکتر دیدگر</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        مجموعه کاملی از خدمات علمی و پژوهشی برای موفقیت پروژه‌های دانشگاهی شما در تمام مقاطع تحصیلی از کارشناسی تا دکتری
+                    </p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-blue-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-lightbulb text-3xl text-blue-600"></i>
+</div>
+<button aria-controls="proposal-fa" aria-expanded="false" class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:bg-blue-600 transition-colors" onclick="toggleDetails('proposal-fa', this)">
+                                اطلاعات بیشتر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">طراحی و تدوین پروپوزال</h3>
+<p class="text-gray-600 leading-relaxed mb-4">تعیین سوال و هدف پژوهش با رویکرد علمی و نوآورانه، شناسایی خلأ پژوهشی و تدوین چارچوب نظری مناسب</p>
+<div class="hidden bg-blue-50 p-4 rounded-lg text-sm text-gray-700" id="proposal-fa">
+<strong>شامل خدمات:</strong><br/>
+                            • تعریف دقیق مسئله و اهمیت پژوهش<br/>
+                            • بررسی جامع ادبیات و شناسایی خلأ پژوهشی<br/>
+                            • تدوین اهداف کلی و جزئی با رویکرد SMART<br/>
+                            • طراحی سوالات و فرضیه‌های پژوهشی<br/>
+                            • تعیین روش‌شناسی مناسب (کمی، کیفی، آمیخته)<br/>
+                            • برنامه‌ریزی زمانی دقیق و تخمین بودجه<br/>
+                            • تدوین چارچوب نظری و مفهومی
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-green-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-chart-line text-3xl text-green-600"></i>
+</div>
+<button aria-controls="analysis-fa" aria-expanded="false" class="bg-green-500 text-white px-3 py-1 rounded-full text-sm hover:bg-green-600 transition-colors" onclick="toggleDetails('analysis-fa', this)">
+                                اطلاعات بیشتر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">تحلیل آماری و مدل‌سازی پیشرفته</h3>
+<p class="text-gray-600 leading-relaxed mb-4">تحلیل داده‌ها با نرم‌افزارهای تخصصی SPSS, R, Python, Stata, MATLAB و ارائه گزارش‌های تفصیلی</p>
+<div class="hidden bg-green-50 p-4 rounded-lg text-sm text-gray-700" id="analysis-fa">
+<strong>خدمات تحلیلی شامل:</strong><br/>
+                            • آمار توصیفی و استنباطی پیشرفته<br/>
+                            • تحلیل رگرسیون (خطی، لجستیک، چندگانه، چندسطحی)<br/>
+                            • تحلیل واریانس (ANOVA, MANOVA, ANCOVA)<br/>
+                            • تحلیل عاملی (اکتشافی و تأیدی) و خوشه‌بندی<br/>
+                            • مدل‌سازی معادلات ساختاری (SEM) با AMOS و Lisrel<br/>
+                            • تحلیل سری زمانی، پیش‌بینی و تحلیل بقا<br/>
+                            • تحلیل‌های غیرپارامتریک و روش‌های بوت استرپ<br/>
+                            • تحلیل داده‌های کیفی با نرم‌افزار NVivo
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-purple-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-code text-3xl text-purple-600"></i>
+</div>
+<button aria-controls="coding-fa" aria-expanded="false" class="bg-purple-500 text-white px-3 py-1 rounded-full text-sm hover:bg-purple-600 transition-colors" onclick="toggleDetails('coding-fa', this)">
+                                اطلاعات بیشتر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">پیاده‌سازی کد و شبیه‌سازی</h3>
+<p class="text-gray-600 leading-relaxed mb-4">توسعه الگوریتم‌ها، شبیه‌سازی سیستم‌ها و پروژه‌های برنامه‌نویسی تخصصی در حوزه‌های مختلف</p>
+<div class="hidden bg-purple-50 p-4 rounded-lg text-sm text-gray-700" id="coding-fa">
+<strong>زبان‌ها و ابزارهای برنامه‌نویسی:</strong><br/>
+                            • Python (NumPy, Pandas, Scikit-learn, TensorFlow)<br/>
+                            • MATLAB/Simulink برای شبیه‌سازی سیستم‌ها<br/>
+                            • R و RStudio برای تحلیل‌های آماری پیشرفته<br/>
+                            • C++, Java, JavaScript برای پروژه‌های نرم‌افزاری<br/>
+                            • شبیه‌سازی سیستم‌های پیچیده و مدل‌سازی ریاضی<br/>
+                            • الگوریتم‌های هوش مصنوعی و یادگیری ماشین<br/>
+                            • توسعه اپلیکیشن‌های وب و موبایل<br/>
+                            • پردازش تصویر و بینایی کامپیوتر
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-orange-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-pen-fancy text-3xl text-orange-600"></i>
+</div>
+<button aria-controls="writing-fa" aria-expanded="false" class="bg-orange-500 text-white px-3 py-1 rounded-full text-sm hover:bg-orange-600 transition-colors" onclick="toggleDetails('writing-fa', this)">
+                                اطلاعات بیشتر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">نگارش علمی و تألیف</h3>
+<p class="text-gray-600 leading-relaxed mb-4">نگارش فصول پایان‌نامه، گزارش‌های نهایی، مقالات علمی و کتب تخصصی با رعایت استانداردهای بین‌المللی</p>
+<div class="hidden bg-orange-50 p-4 rounded-lg text-sm text-gray-700" id="writing-fa">
+<strong>انواع نگارش علمی:</strong><br/>
+                            • فصل مقدمه، بیان مسئله و اهمیت پژوهش<br/>
+                            • مرور جامع ادبیات و پیشینه پژوهش<br/>
+                            • روش‌شناسی پژوهش و طراحی مطالعه<br/>
+                            • تحلیل یافته‌ها، نتایج و بحث<br/>
+                            • نتیجه‌گیری، پیشنهادات و محدودیت‌ها<br/>
+                            • چکیده فارسی و انگلیسی با کلیدواژه‌ها<br/>
+                            • نگارش مقالات ISI و علمی-پژوهشی<br/>
+                            • تألیف کتب درسی و مرجع تخصصی
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-red-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-edit text-3xl text-red-600"></i>
+</div>
+<button aria-controls="editing-fa" aria-expanded="false" class="bg-red-500 text-white px-3 py-1 rounded-full text-sm hover:bg-red-600 transition-colors" onclick="toggleDetails('editing-fa', this)">
+                                اطلاعات بیشتر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">ویرایش و قالب‌بندی تخصصی</h3>
+<p class="text-gray-600 leading-relaxed mb-4">ویرایش محتوایی، زبانی و قالب‌بندی طبق استانداردهای APA, IEEE, Harvard و سایر سبک‌های معتبر</p>
+<div class="hidden bg-red-50 p-4 rounded-lg text-sm text-gray-700" id="editing-fa">
+<strong>خدمات ویرایش شامل:</strong><br/>
+                            • ویرایش محتوایی و ساختاری متون<br/>
+                            • ویرایش زبانی، دستوری و املایی<br/>
+                            • قالب‌بندی طبق استانداردهای دانشگاه<br/>
+                            • ارجاع‌دهی صحیح منابع و فهرست مراجع<br/>
+                            • تنظیم فهرست مطالب، جداول و نمودارها<br/>
+                            • آماده‌سازی برای چاپ و ارائه<br/>
+                            • ترجمه تخصصی انگلیسی به فارسی و بالعکس<br/>
+                            • بازنویسی و بهبود کیفیت متن
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-teal-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-shield-alt text-3xl text-teal-600"></i>
+</div>
+<button aria-controls="originality-fa" aria-expanded="false" class="bg-teal-500 text-white px-3 py-1 rounded-full text-sm hover:bg-teal-600 transition-colors" onclick="toggleDetails('originality-fa', this)">
+                                اطلاعات بیشتر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">تضمین اصالت و کیفیت</h3>
+<p class="text-gray-600 leading-relaxed mb-4">بررسی اصالت با نرم‌افزارهای معتبر، گزارش‌های تفصیلی و پشتیبانی مستمر پس از تحویل</p>
+<div class="hidden bg-teal-50 p-4 rounded-lg text-sm text-gray-700" id="originality-fa">
+<strong>تضمین‌های مؤسسۀ پژوهشی دکتر دیدگر:</strong><br/>
+                            • بررسی اصالت با Turnitin، iThenticate و سایر نرم‌افزارها<br/>
+                            • گزارش کامل Plagiarism Check با درصد دقیق<br/>
+                            • تضمین کیفیت و اصالت ۱۰۰٪ محتوا<br/>
+                            • پشتیبانی ۳ ماهه رایگان پس از تحویل<br/>
+                            • اصلاحات و بازنگری رایگان در صورت نیاز<br/>
+                            • محرمانگی کامل اطلاعات و پروژه‌ها<br/>
+                            • ضمانت بازگشت وجه در صورت عدم رضایت<br/>
+                            • مشاوره رایگان در تمام مراحل پروژه
+                        </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Process Section -->
+<section class="py-20 gradient-bg">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-5xl font-bold text-white mb-6">روند کاریِ شفاف و مرحله‌ای</h2>
+<p class="text-xl text-white opacity-90 max-w-3xl mx-auto">
+                        فرآیند حرفه‌ای و قابل اعتماد مؤسسۀ پژوهشی دکتر دیدگر برای تضمین کیفیت و موفقیت پروژه شما
+                    </p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+<div class="text-center">
+<div class="step-number mx-auto mb-6">۱</div>
+<h3 class="text-xl font-bold text-white mb-4">مشاورهٔ رایگان</h3>
+<p class="text-white opacity-80">نیازسنجی دقیق، تعیین مقطع تحصیلی و بررسی ضرب‌الزمان پروژه</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">۲</div>
+<h3 class="text-xl font-bold text-white mb-4">پیشنهاد فنی</h3>
+<p class="text-white opacity-80">ارائه جدول زمان‌بندی تفصیلی و پیش‌فاکتور شفاف</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">۳</div>
+<h3 class="text-xl font-bold text-white mb-4">اجرای مرحله‌ای</h3>
+<p class="text-white opacity-80">انجام پروژه به صورت مرحله‌ای با گزارش‌های میان‌دوره</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">۴</div>
+<h3 class="text-xl font-bold text-white mb-4">بازبینی و کنترل</h3>
+<p class="text-white opacity-80">کنترل کیفیت توسط تیم متخصص و بررسی اصالت</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">۵</div>
+<h3 class="text-xl font-bold text-white mb-4">تحویل نهایی</h3>
+<p class="text-white opacity-80">ارائه فایل‌های قابل ویرایش، PDF و گزارش اصالت</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us Section -->
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-5xl font-bold text-gradient mb-6">چرا مؤسسۀ پژوهشی دکتر دیدگر؟</h2>
+<p class="text-xl text-gray-600 max-w-4xl mx-auto">
+                        با بیش از یک دهه تجربه در حوزه پژوهش و آموزش، ما بهترین کیفیت خدمات علمی را ارائه می‌دهیم
+                    </p>
+</div>
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="slide-in-left">
+<div class="luxury-card rounded-3xl p-8">
+<h3 class="text-3xl font-bold mb-6 text-gray-800">تجربه و تخصص بالا</h3>
+<ul class="space-y-4 text-lg text-gray-600">
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    تیمی متشکل از فارغ التحصیلان دکتری با سوابق پژوهشی معتبر
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    تجربهٔ همکاری با دانشگاه‌ها و مراکز تحقیقاتی
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    تعهد کامل به شفافیت و اصولِ اخلاق پژوهش
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    تخصص در حوزه‌های مختلف علمی و فنی
+                                </li>
+</ul>
+</div>
+</div>
+<div class="slide-in-right">
+<div class="luxury-card rounded-3xl p-8">
+<h3 class="text-3xl font-bold mb-6 text-gray-800">تضمین کیفیت و رضایت</h3>
+<ul class="space-y-4 text-lg text-gray-600">
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    گزارش‌های مرحله‌ای و شفاف از پیشرفت کار
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    نمونه‌کارهای منتخب و معتبر در پورتفولیو
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    خروجی نهایی آمادهٔ دفاع و انتشار
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    پشتیبانی مستمر و مشاوره رایگان
+                                </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-20 gradient-bg">
+<div class="container mx-auto px-6 text-center">
+<h2 class="text-5xl font-bold text-white mb-8">آمادهٔ شروع همکاری هستید؟</h2>
+<p class="text-2xl text-white opacity-90 mb-12 max-w-3xl mx-auto">
+                    همین الآن موضوع پروژه و مهلت زمانی خود را ارسال کنید — ظرف ۲۴ ساعت برنامهٔ کاری تفصیلی و پیش‌فاکتور شفاف دریافت خواهید کرد
+                </p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+<a class="telegram-button px-16 py-6 rounded-full text-white font-bold text-xl hover-scale flex items-center gap-4" href="https://t.me/bestprojeh" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-telegram text-3xl"></i>
+                        ارتباط سریع
+                    </a>
+<a class="contact-button px-16 py-6 rounded-full text-white font-bold text-xl hover-scale flex items-center gap-4 pulse-glow" href="https://wa.me/989124067596" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-whatsapp text-3xl"></i>
+                        شروع مشاورهٔ رایگان
+                    </a>
+</div>
+</div>
+</section>
+</div>
+<!-- Arabic Content -->
+<div class="hidden rtl font-arabic" id="ar-content">
+<!-- Hero Section -->
+<section class="gradient-bg min-h-screen flex items-center justify-center relative overflow-hidden">
+<div class="absolute top-20 right-20 w-20 h-20 bg-white bg-opacity-10 rounded-full floating-animation"></div>
+<div class="absolute bottom-32 left-32 w-16 h-16 bg-white bg-opacity-10 rounded-full floating-animation" style="animation-delay: -2s;"></div>
+<div class="absolute top-1/2 left-20 w-12 h-12 bg-white bg-opacity-10 rounded-full floating-animation" style="animation-delay: -4s;"></div>
+<div class="container mx-auto px-6 text-center text-white relative z-10">
+<div class="slide-in-right">
+<h1 class="hero-title text-6xl md:text-8xl font-bold mb-6 leading-tight">
+<span class="text-yellow-300">المؤسَّسةُ البحثيةُ للدكتور ديدگر</span> </h1>
+<p class="text-2xl md:text-3xl mb-8 font-light leading-relaxed">
+                        خبراء إنجاز المشاريع الأكاديمية والعلمية
+                    </p>
+<p class="text-lg md:text-xl mb-12 max-w-4xl mx-auto leading-relaxed opacity-90">
+                        مؤسسةُ الدكتور ديدگر البحثية شريكٌ موثوق للطلبة والباحثين؛ إذ تُسهّل مسارَ البحث من خلال تحويلِ الأفكار إلى مشاريعٍ وإنجازاتٍ علمية موثَّقة وقابلةٍ للدفاع في الأوساط الأكاديمية. يرافقُكم فريقُنا دائماً منذ مرحلةِ التصميم وحتى التسليمِ النهائي، ويُقدِّمُ كافةَ الخدماتِ بدقّةٍ وشفافيةٍ مع الالتزامِ التامّ بمبادئِ أخلاقياتِ البحثِ العلمي. تعملُ المؤسسةُ في مجالاتٍ علميةٍ متنوعةٍ، بما في ذلك الهندسة والعلومِ الأساسية والعلومِ الإنسانية والطبّ والإدارة، وتُقدِّمُ خدماتٍ شاملةً مثل إعدادِ مقترحاتِ البحث (بروبوزال)، تحليلِ البيانات، الكتابةَ العلميةَ والتحريرَ المتخصِّصَ للباحثين.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+<a aria-label="ارتباط در تلگرام" class="telegram-button px-12 py-4 rounded-full text-white font-bold text-lg hover-scale flex items-center gap-3" href="https://t.me/bestprojeh" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-telegram text-2xl"></i>
+                            التواصل في تيليجرام
+                        </a>
+<a aria-label="ارتباط در واتساپ" class="contact-button px-12 py-4 rounded-full text-white font-bold text-lg hover-scale flex items-center gap-3" href="https://wa.me/989124067596" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-whatsapp text-2xl"></i>
+                            التواصل في واتساب
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16 slide-in-left">
+<h2 class="text-5xl font-bold text-gradient mb-6">خدمات مؤسَّسة الدكتور ديدگر البحثية المتخصصة</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        مجموعة شاملة من الخدمات العلمية والبحثية لنجاح مشاريعكم الجامعية في جميع المراحل الدراسية من البكالوريوس إلى الدكتوراه
+                    </p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-blue-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-lightbulb text-3xl text-blue-600"></i>
+</div>
+<button aria-controls="proposal-ar" aria-expanded="false" class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:bg-blue-600 transition-colors" onclick="toggleDetails('proposal-ar', this)">
+                                تفاصيل أكثر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">تصميم وإعداد مقترح البحث</h3>
+<p class="text-gray-600 leading-relaxed mb-4">تحديد الأسئلة والأهداف البحثية بنهج علمي ومبتكر، وتحديد الفجوة البحثية وصياغة الإطار النظري المناسب</p>
+<div class="hidden bg-blue-50 p-4 rounded-lg text-sm text-gray-700" id="proposal-ar">
+<strong>يشمل الخدمات:</strong><br/>
+                            • تعريف دقيق للمشكلة وأهمية البحث<br/>
+                            • مراجعة شاملة للأدبيات وتحديد الفجوة البحثية<br/>
+                            • صياغة الأهداف العامة والتفصيلية بمنهج SMART<br/>
+                            • تصميم الأسئلة والفرضيات البحثية<br/>
+                            • تحديد المنهجية المناسبة (كمية، نوعية، مختلطة)<br/>
+                            • التخطيط الزمني الدقيق وتقدير الميزانية<br/>
+                            • صياغة الإطار النظري والمفاهيمي
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-green-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-chart-line text-3xl text-green-600"></i>
+</div>
+<button aria-controls="analysis-ar" aria-expanded="false" class="bg-green-500 text-white px-3 py-1 rounded-full text-sm hover:bg-green-600 transition-colors" onclick="toggleDetails('analysis-ar', this)">
+                                تفاصيل أكثر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">التحليل الإحصائي والنمذجة المتقدمة</h3>
+<p class="text-gray-600 leading-relaxed mb-4">تحليل البيانات بالبرامج المتخصصة SPSS, R, Python, Stata, MATLAB وتقديم التقارير التفصيلية</p>
+<div class="hidden bg-green-50 p-4 rounded-lg text-sm text-gray-700" id="analysis-ar">
+<strong>الخدمات التحليلية تشمل:</strong><br/>
+                            • الإحصاء الوصفي والاستنتاجي المتقدم<br/>
+                            • تحليل الانحدار (خطي، لوجستي، متعدد، متعدد المستويات)<br/>
+                            • تحليل التباين (ANOVA, MANOVA, ANCOVA)<br/>
+                            • التحليل العاملي (استكشافي وتأكيدي) والتجميع<br/>
+                            • نمذجة المعادلات الهيكلية (SEM) باستخدام AMOS و Lisrel<br/>
+                            • تحليل السلاسل الزمنية والتنبؤ وتحليل البقاء<br/>
+                            • التحليلات غير المعلمية وطرق البوت ستراب<br/>
+                            • تحليل البيانات النوعية ببرنامج NVivo
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-purple-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-code text-3xl text-purple-600"></i>
+</div>
+<button aria-controls="coding-ar" aria-expanded="false" class="bg-purple-500 text-white px-3 py-1 rounded-full text-sm hover:bg-purple-600 transition-colors" onclick="toggleDetails('coding-ar', this)">
+                                تفاصيل أكثر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">تنفيذ الأكواد والمحاكاة</h3>
+<p class="text-gray-600 leading-relaxed mb-4">تطوير الخوارزميات ومحاكاة الأنظمة والمشاريع البرمجية المتخصصة في مختلف المجالات</p>
+<div class="hidden bg-purple-50 p-4 rounded-lg text-sm text-gray-700" id="coding-ar">
+<strong>لغات وأدوات البرمجة:</strong><br/>
+                            • Python (NumPy, Pandas, Scikit-learn, TensorFlow)<br/>
+                            • MATLAB/Simulink لمحاكاة الأنظمة<br/>
+                            • R و RStudio للتحليلات الإحصائية المتقدمة<br/>
+                            • C++, Java, JavaScript للمشاريع البرمجية<br/>
+                            • محاكاة الأنظمة المعقدة والنمذجة الرياضية<br/>
+                            • خوارزميات الذكاء الاصطناعي والتعلم الآلي<br/>
+                            • تطوير تطبيقات الويب والهاتف المحمول<br/>
+                            • معالجة الصور والرؤية الحاسوبية
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-orange-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-pen-fancy text-3xl text-orange-600"></i>
+</div>
+<button aria-controls="writing-ar" aria-expanded="false" class="bg-orange-500 text-white px-3 py-1 rounded-full text-sm hover:bg-orange-600 transition-colors" onclick="toggleDetails('writing-ar', this)">
+                                تفاصيل أكثر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">الكتابة العلمية والتأليف</h3>
+<p class="text-gray-600 leading-relaxed mb-4">كتابة فصول الأطروحة والتقارير النهائية والمقالات العلمية والكتب المتخصصة وفق المعايير الدولية</p>
+<div class="hidden bg-orange-50 p-4 rounded-lg text-sm text-gray-700" id="writing-ar">
+<strong>أنواع الكتابة العلمية:</strong><br/>
+                            • فصل المقدمة وبيان المشكلة وأهمية البحث<br/>
+                            • المراجعة الشاملة للأدبيات وخلفية البحث<br/>
+                            • منهجية البحث وتصميم الدراسة<br/>
+                            • تحليل النتائج والمناقشة<br/>
+                            • الخلاصة والتوصيات والقيود<br/>
+                            • الملخص بالعربية والإنجليزية مع الكلمات المفتاحية<br/>
+                            • كتابة المقالات العلمية المحكمة وISI<br/>
+                            • تأليف الكتب الدراسية والمراجع المتخصصة
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-red-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-edit text-3xl text-red-600"></i>
+</div>
+<button aria-controls="editing-ar" aria-expanded="false" class="bg-red-500 text-white px-3 py-1 rounded-full text-sm hover:bg-red-600 transition-colors" onclick="toggleDetails('editing-ar', this)">
+                                تفاصيل أكثر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">التحرير والتنسيق المتخصص</h3>
+<p class="text-gray-600 leading-relaxed mb-4">التحرير المحتوائي واللغوي والتنسيق وفق معايير APA, IEEE, Harvard وغيرها من الأنماط المعتمدة</p>
+<div class="hidden bg-red-50 p-4 rounded-lg text-sm text-gray-700" id="editing-ar">
+<strong>خدمات التحرير تشمل:</strong><br/>
+                            • التحرير المحتوائي والهيكلي للنصوص<br/>
+                            • التحرير اللغوي والنحوي والإملائي<br/>
+                            • التنسيق وفق معايير الجامعة<br/>
+                            • الاقتباس الصحيح للمراجع وقائمة المصادر<br/>
+                            • تنسيق فهرس المحتويات والجداول والرسوم<br/>
+                            • الإعداد للطباعة والعرض<br/>
+                            • الترجمة المتخصصة من الإنجليزية إلى العربية والعكس<br/>
+                            • إعادة الكتابة وتحسين جودة النص
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-r-4 border-teal-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-shield-alt text-3xl text-teal-600"></i>
+</div>
+<button aria-controls="originality-ar" aria-expanded="false" class="bg-teal-500 text-white px-3 py-1 rounded-full text-sm hover:bg-teal-600 transition-colors" onclick="toggleDetails('originality-ar', this)">
+                                تفاصيل أكثر
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">ضمان الأصالة والجودة</h3>
+<p class="text-gray-600 leading-relaxed mb-4">فحص الأصالة بالبرامج المعتمدة والتقارير التفصيلية والدعم المستمر بعد التسليم</p>
+<div class="hidden bg-teal-50 p-4 rounded-lg text-sm text-gray-700" id="originality-ar">
+<strong>ضمانات مؤسَّسة الدكتور ديدگر البحثية:</strong><br/>
+                            • فحص الأصالة بـ Turnitin و iThenticate وبرامج أخرى<br/>
+                            • تقرير شامل لفحص الانتحال بنسبة دقيقة<br/>
+                            • ضمان جودة وأصالة المحتوى ١٠٠٪<br/>
+                            • دعم مجاني لمدة ٣ أشهر بعد التسليم<br/>
+                            • تعديلات ومراجعات مجانية عند الحاجة<br/>
+                            • سرية تامة للمعلومات والمشاريع<br/>
+                            • ضمان استرداد المبلغ في حالة عدم الرضا<br/>
+                            • استشارة مجانية في جميع مراحل المشروع
+                        </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Process Section -->
+<section class="py-20 gradient-bg">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-5xl font-bold text-white mb-6">سير العمل الشفاف والمرحلي</h2>
+<p class="text-xl text-white opacity-90 max-w-3xl mx-auto">
+                        العملية المهنية والموثوقة لمؤسَّسة الدكتور ديدگر البحثية لضمان جودة ونجاح مشروعكم
+                    </p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+<div class="text-center">
+<div class="step-number mx-auto mb-6">١</div>
+<h3 class="text-xl font-bold text-white mb-4">استشارة مجانية</h3>
+<p class="text-white opacity-80">تقييم دقيق للاحتياجات وتحديد المرحلة الدراسية ومراجعة الموعد النهائي</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">٢</div>
+<h3 class="text-xl font-bold text-white mb-4">الاقتراح الفني</h3>
+<p class="text-white opacity-80">تقديم جدول زمني تفصيلي وعرض أسعار شفاف</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">٣</div>
+<h3 class="text-xl font-bold text-white mb-4">التنفيذ المرحلي</h3>
+<p class="text-white opacity-80">إنجاز المشروع بشكل مرحلي مع تقارير دورية</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">٤</div>
+<h3 class="text-xl font-bold text-white mb-4">المراجعة والمراقبة</h3>
+<p class="text-white opacity-80">مراقبة الجودة من قبل فريق متخصص وفحص الأصالة</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">٥</div>
+<h3 class="text-xl font-bold text-white mb-4">التسليم النهائي</h3>
+<p class="text-white opacity-80">تقديم الملفات القابلة للتحرير وPDF وتقرير الأصالة</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us Section -->
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-5xl font-bold text-gradient mb-6">لماذا مؤسَّسة الدكتور ديدگر البحثية؟</h2>
+<p class="text-xl text-gray-600 max-w-4xl mx-auto">
+                        بخبرة تزيد عن عقد من الزمن في مجال البحث والتعليم، نقدم أفضل جودة للخدمات العلمية
+                    </p>
+</div>
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="slide-in-left">
+<div class="luxury-card rounded-3xl p-8">
+<h3 class="text-3xl font-bold mb-6 text-gray-800">الخبرة والتخصص العالي</h3>
+<ul class="space-y-4 text-lg text-gray-600">
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    فريق مكوَّن من خريجي الدكتوراه ذوي خلفيات بحثية موثوقة
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    خبرة في التعاون مع الجامعات ومراكز البحوث
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    التزام كامل بالشفافية وأخلاقيات البحث
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    تخصص في مختلف المجالات العلمية والتقنية
+                                </li>
+</ul>
+</div>
+</div>
+<div class="slide-in-right">
+<div class="luxury-card rounded-3xl p-8">
+<h3 class="text-3xl font-bold mb-6 text-gray-800">ضمان الجودة والرضا</h3>
+<ul class="space-y-4 text-lg text-gray-600">
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    تقارير مرحلية وشفافة عن تقدم العمل
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    نماذج أعمال منتقاة ومعتمدة في المحفظة
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    مخرجات نهائية جاهزة للدفاع والنشر
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    دعم مستمر واستشارة مجانية
+                                </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-20 gradient-bg">
+<div class="container mx-auto px-6 text-center">
+<h2 class="text-5xl font-bold text-white mb-8">مستعدون لبدء التعاون؟</h2>
+<p class="text-2xl text-white opacity-90 mb-12 max-w-3xl mx-auto">
+                    أرسل موضوع مشروعك والموعد النهائي الآن — ستحصل على خطة عمل تفصيلية وعرض أسعار شفاف خلال ٢٤ ساعة
+                </p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+<a class="telegram-button px-16 py-6 rounded-full text-white font-bold text-xl hover-scale flex items-center gap-4" href="https://t.me/bestprojeh" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-telegram text-3xl"></i>
+                        التواصل السريع
+                    </a>
+<a class="contact-button px-16 py-6 rounded-full text-white font-bold text-xl hover-scale flex items-center gap-4 pulse-glow" href="https://wa.me/989124067596" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-whatsapp text-3xl"></i>
+                        بدء الاستشارة المجانية
+                    </a>
+</div>
+</div>
+</section>
+</div>
+<!-- English Content -->
+<div class="hidden ltr font-english" id="en-content">
+<!-- Hero Section -->
+<section class="gradient-bg min-h-screen flex items-center justify-center relative overflow-hidden">
+<div class="absolute top-20 left-20 w-20 h-20 bg-white bg-opacity-10 rounded-full floating-animation"></div>
+<div class="absolute bottom-32 right-32 w-16 h-16 bg-white bg-opacity-10 rounded-full floating-animation" style="animation-delay: -2s;"></div>
+<div class="absolute top-1/2 right-20 w-12 h-12 bg-white bg-opacity-10 rounded-full floating-animation" style="animation-delay: -4s;"></div>
+<div class="container mx-auto px-6 text-center text-white relative z-10">
+<div class="slide-in-left">
+<h1 class="hero-title text-6xl md:text-8xl font-bold mb-6 leading-tight">
+<span class="text-yellow-300">Dr. Didgar</span> Research Institute
+                    </h1>
+<p class="text-2xl md:text-3xl mb-8 font-light leading-relaxed">
+                        Academic &amp; Scientific Project Specialists
+                    </p>
+<p class="text-lg md:text-xl mb-12 max-w-4xl mx-auto leading-relaxed opacity-90">
+                        Dr. Didgar Research Institute is a trusted partner for students and researchers, facilitating the research process by transforming ideas into projects and documented, defensible scientific achievements within academic settings. Our team supports you from the design phase through final delivery, providing all services with precision, transparency, and full adherence to the principles of research ethics. The institute operates across a range of scientific fields—including engineering, the basic sciences, the humanities, medicine, and management—and offers comprehensive services to researchers such as proposal design, data analysis, scientific writing, and specialized editing.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+<a aria-label="ارتباط در تلگرام" class="telegram-button px-12 py-4 rounded-full text-white font-bold text-lg hover-scale flex items-center gap-3" href="https://t.me/bestprojeh" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-telegram text-2xl"></i>
+                            Connect on Telegram
+                        </a>
+<a aria-label="ارتباط در واتساپ" class="contact-button px-12 py-4 rounded-full text-white font-bold text-lg hover-scale flex items-center gap-3" href="https://wa.me/989124067596" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-whatsapp text-2xl"></i>
+                            Connect on WhatsApp
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16 slide-in-right">
+<h2 class="text-5xl font-bold text-gradient mb-6">Dr. Didgar Research Institute Specialized Services</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Comprehensive scientific and research services for the success of your academic projects across all educational levels from bachelor's to doctoral degrees
+                    </p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="luxury-card rounded-3xl p-8 hover-scale border-l-4 border-blue-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-lightbulb text-3xl text-blue-600"></i>
+</div>
+<button aria-controls="proposal-en" aria-expanded="false" class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:bg-blue-600 transition-colors" onclick="toggleDetails('proposal-en', this)">
+                                More Details
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">Proposal Design &amp; Development</h3>
+<p class="text-gray-600 leading-relaxed mb-4">Research question formulation with scientific and innovative approach, identifying research gaps and developing appropriate theoretical frameworks</p>
+<div class="hidden bg-blue-50 p-4 rounded-lg text-sm text-gray-700" id="proposal-en">
+<strong>Services Include:</strong><br/>
+                            • Precise problem definition and research significance<br/>
+                            • Comprehensive literature review and gap identification<br/>
+                            • SMART approach for general and specific objectives<br/>
+                            • Research questions and hypotheses design<br/>
+                            • Appropriate methodology selection (quantitative, qualitative, mixed)<br/>
+                            • Detailed timeline planning and budget estimation<br/>
+                            • Theoretical and conceptual framework development
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-l-4 border-green-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-chart-line text-3xl text-green-600"></i>
+</div>
+<button aria-controls="analysis-en" aria-expanded="false" class="bg-green-500 text-white px-3 py-1 rounded-full text-sm hover:bg-green-600 transition-colors" onclick="toggleDetails('analysis-en', this)">
+                                More Details
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">Advanced Statistical Analysis &amp; Modeling</h3>
+<p class="text-gray-600 leading-relaxed mb-4">Data analysis using specialized software SPSS, R, Python, Stata, MATLAB with detailed reporting</p>
+<div class="hidden bg-green-50 p-4 rounded-lg text-sm text-gray-700" id="analysis-en">
+<strong>Analytical Services Include:</strong><br/>
+                            • Advanced descriptive and inferential statistics<br/>
+                            • Regression analysis (linear, logistic, multiple, multilevel)<br/>
+                            • Analysis of variance (ANOVA, MANOVA, ANCOVA)<br/>
+                            • Factor analysis (exploratory &amp; confirmatory) and clustering<br/>
+                            • Structural equation modeling (SEM) with AMOS &amp; Lisrel<br/>
+                            • Time series analysis, forecasting, and survival analysis<br/>
+                            • Non-parametric analyses and bootstrap methods<br/>
+                            • Qualitative data analysis using NVivo software
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-l-4 border-purple-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-code text-3xl text-purple-600"></i>
+</div>
+<button aria-controls="coding-en" aria-expanded="false" class="bg-purple-500 text-white px-3 py-1 rounded-full text-sm hover:bg-purple-600 transition-colors" onclick="toggleDetails('coding-en', this)">
+                                More Details
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">Code Implementation &amp; Simulation</h3>
+<p class="text-gray-600 leading-relaxed mb-4">Algorithm development, system simulation, and specialized programming projects across various domains</p>
+<div class="hidden bg-purple-50 p-4 rounded-lg text-sm text-gray-700" id="coding-en">
+<strong>Programming Languages &amp; Tools:</strong><br/>
+                            • Python (NumPy, Pandas, Scikit-learn, TensorFlow)<br/>
+                            • MATLAB/Simulink for system simulation<br/>
+                            • R and RStudio for advanced statistical analysis<br/>
+                            • C++, Java, JavaScript for software projects<br/>
+                            • Complex systems simulation and mathematical modeling<br/>
+                            • AI algorithms and machine learning<br/>
+                            • Web and mobile application development<br/>
+                            • Image processing and computer vision
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-l-4 border-orange-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-pen-fancy text-3xl text-orange-600"></i>
+</div>
+<button aria-controls="writing-en" aria-expanded="false" class="bg-orange-500 text-white px-3 py-1 rounded-full text-sm hover:bg-orange-600 transition-colors" onclick="toggleDetails('writing-en', this)">
+                                More Details
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">Scientific Writing &amp; Authoring</h3>
+<p class="text-gray-600 leading-relaxed mb-4">Thesis chapters, final reports, scientific articles, and specialized books following international standards</p>
+<div class="hidden bg-orange-50 p-4 rounded-lg text-sm text-gray-700" id="writing-en">
+<strong>Scientific Writing Types:</strong><br/>
+                            • Introduction, problem statement, and research significance<br/>
+                            • Comprehensive literature review and background<br/>
+                            • Research methodology and study design<br/>
+                            • Results analysis and discussion<br/>
+                            • Conclusions, recommendations, and limitations<br/>
+                            • Abstract in multiple languages with keywords<br/>
+                            • ISI and peer-reviewed scientific articles<br/>
+                            • Textbook and specialized reference authoring
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-l-4 border-red-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-edit text-3xl text-red-600"></i>
+</div>
+<button aria-controls="editing-en" aria-expanded="false" class="bg-red-500 text-white px-3 py-1 rounded-full text-sm hover:bg-red-600 transition-colors" onclick="toggleDetails('editing-en', this)">
+                                More Details
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">Specialized Editing &amp; Formatting</h3>
+<p class="text-gray-600 leading-relaxed mb-4">Content and language editing, formatting according to APA, IEEE, Harvard, and other recognized styles</p>
+<div class="hidden bg-red-50 p-4 rounded-lg text-sm text-gray-700" id="editing-en">
+<strong>Editing Services Include:</strong><br/>
+                            • Content and structural editing of texts<br/>
+                            • Language, grammar, and spelling editing<br/>
+                            • University standard formatting<br/>
+                            • Proper reference citation and bibliography<br/>
+                            • Table of contents, tables, and figures formatting<br/>
+                            • Print and presentation preparation<br/>
+                            • Specialized English-Persian translation and vice versa<br/>
+                            • Rewriting and text quality improvement
+                        </div>
+</div>
+<div class="luxury-card rounded-3xl p-8 hover-scale border-l-4 border-teal-500">
+<div class="flex items-center justify-between mb-6">
+<div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center">
+<i aria-hidden="true" class="fas fa-shield-alt text-3xl text-teal-600"></i>
+</div>
+<button aria-controls="originality-en" aria-expanded="false" class="bg-teal-500 text-white px-3 py-1 rounded-full text-sm hover:bg-teal-600 transition-colors" onclick="toggleDetails('originality-en', this)">
+                                More Details
+                            </button>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-gray-800">Originality Assurance &amp; Quality</h3>
+<p class="text-gray-600 leading-relaxed mb-4">Originality checks with certified software, detailed reports, and continuous post-delivery support</p>
+<div class="hidden bg-teal-50 p-4 rounded-lg text-sm text-gray-700" id="originality-en">
+<strong>Dr. Didgar Research Institute Guarantees:</strong><br/>
+                            • Originality check with Turnitin, iThenticate, and other software<br/>
+                            • Comprehensive plagiarism reports with precise percentages<br/>
+                            • 100% content quality and originality guarantee<br/>
+                            • Free 3-month post-delivery support<br/>
+                            • Free revisions and modifications when needed<br/>
+                            • Complete confidentiality of information and projects<br/>
+                            • Money-back guarantee in case of dissatisfaction<br/>
+                            • Free consultation throughout all project phases
+                        </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Process Section -->
+<section class="py-20 gradient-bg">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-5xl font-bold text-white mb-6">Transparent and Phased Workflow</h2>
+<p class="text-xl text-white opacity-90 max-w-3xl mx-auto">
+                        Professional and reliable process of Dr. Didgar Research Institute to ensure quality and success of your project
+                    </p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+<div class="text-center">
+<div class="step-number mx-auto mb-6">1</div>
+<h3 class="text-xl font-bold text-white mb-4">Free Consultation</h3>
+<p class="text-white opacity-80">Precise needs assessment, academic level determination, and deadline review</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">2</div>
+<h3 class="text-xl font-bold text-white mb-4">Technical Proposal</h3>
+<p class="text-white opacity-80">Detailed timeline and transparent quotation</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">3</div>
+<h3 class="text-xl font-bold text-white mb-4">Phased Execution</h3>
+<p class="text-white opacity-80">Project completion in phases with interim reports</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">4</div>
+<h3 class="text-xl font-bold text-white mb-4">Review &amp; Control</h3>
+<p class="text-white opacity-80">Quality control by specialist team and originality check</p>
+</div>
+<div class="text-center">
+<div class="step-number mx-auto mb-6">5</div>
+<h3 class="text-xl font-bold text-white mb-4">Final Delivery</h3>
+<p class="text-white opacity-80">Editable files, PDF, and originality report</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us Section -->
+<section class="py-20 bg-white">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-5xl font-bold text-gradient mb-6">Why Dr. Didgar Research Institute?</h2>
+<p class="text-xl text-gray-600 max-w-4xl mx-auto">
+                        With over a decade of experience in research and education, we provide the highest quality scientific services
+                    </p>
+</div>
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div class="slide-in-left">
+<div class="luxury-card rounded-3xl p-8">
+<h3 class="text-3xl font-bold mb-6 text-gray-800">High Experience &amp; Expertise</h3>
+<ul class="space-y-4 text-lg text-gray-600">
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    A team of PhD holders with established research experience
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    Experience in collaboration with universities and research centers
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    Complete commitment to transparency and research ethics
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-check-circle text-green-500 mt-1"></i>
+                                    Expertise in various scientific and technical fields
+                                </li>
+</ul>
+</div>
+</div>
+<div class="slide-in-right">
+<div class="luxury-card rounded-3xl p-8">
+<h3 class="text-3xl font-bold mb-6 text-gray-800">Quality &amp; Satisfaction Guarantee</h3>
+<ul class="space-y-4 text-lg text-gray-600">
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    Phased and transparent reports on work progress
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    Selected and credible work samples in portfolio
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    Final outputs ready for defense and publication
+                                </li>
+<li class="flex items-start gap-3">
+<i aria-hidden="true" class="fas fa-star text-yellow-500 mt-1"></i>
+                                    Continuous support and free consultation
+                                </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-20 gradient-bg">
+<div class="container mx-auto px-6 text-center">
+<h2 class="text-5xl font-bold text-white mb-8">Ready to Start Collaboration?</h2>
+<p class="text-2xl text-white opacity-90 mb-12 max-w-3xl mx-auto">
+                    Send your project topic and deadline now — receive a detailed work plan and transparent quote within 24 hours
+                </p>
+<div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+<a class="telegram-button px-16 py-6 rounded-full text-white font-bold text-xl hover-scale flex items-center gap-4" href="https://t.me/bestprojeh" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-telegram text-3xl"></i>
+                        Quick Connect
+                    </a>
+<a class="contact-button px-16 py-6 rounded-full text-white font-bold text-xl hover-scale flex items-center gap-4 pulse-glow" href="https://wa.me/989124067596" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-whatsapp text-3xl"></i>
+                        Start Free Consultation
+                    </a>
+</div>
+</div>
+</section>
+</div>
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-12">
+<div class="container mx-auto px-6 text-center">
+<div class="mb-8">
+<h3 class="text-2xl font-bold mb-4" id="footer-title">مؤسسۀ پژوهشی دکتر دیدگر</h3>
+<p class="text-gray-400 mb-6" id="footer-desc">همراهِ علمیِ شما در انجام پروژه‌های دانشگاهی و پژوهشی</p>
+<div class="flex justify-center gap-6">
+<a class="text-blue-400 hover:text-blue-300 text-3xl transition-colors" href="https://t.me/bestprojeh" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-telegram"></i>
+<a class="text-pink-500 hover:text-pink-400 text-3xl transition-colors" href="https://www.instagram.com/dr.mohsen.didgar" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-instagram"></i>
+</a>
+<a class="text-green-400 hover:text-green-300 text-3xl transition-colors" href="https://wa.me/989124067596" rel="noopener noreferrer" target="_blank">
+<i aria-hidden="true" class="fab fa-whatsapp"></i>
+</a>
+</a></div>
+</div>
+<div class="border-t border-gray-700 pt-8">
+<p class="text-gray-500" id="footer-copyright">© 2024 مؤسسۀ پژوهشی دکتر دیدگر. تمامی حقوق محفوظ است.</p>
+</div>
+</div>
+</footer>
+
+<!-- Blog Page (hidden by default) -->
+<div aria-hidden="true" aria-labelledby="blog-title" aria-modal="true" id="blog-page" role="dialog" style="display:none;position:fixed;inset:0;z-index:9999;overflow:auto;background:rgba(10,11,13,0.85);backdrop-filter:blur(4px);" tabindex="-1">
+<div style="max-width:1100px;margin:40px auto;background:#fff;border-radius:12px;padding:28px;box-shadow:0 10px 40px rgba(2,6,23,0.6);">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:12px;flex-wrap:wrap;">
+<h2 id="blog-title" style="font-size:22px;font-weight:700;margin:0;">وبلاگ — مقالات آموزشی</h2>
+<div style="display:flex;gap:8px;align-items:center;">
+<select aria-label="Select blog language" id="blog-lang-select" style="padding:8px;border-radius:8px;border:1px solid #ddd;">
+<option value="fa">فارسی</option>
+<option value="ar">العربية</option>
+<option value="en">English</option>
+</select>
+<button aria-label="Close blog" id="blog-close" style="background:#111;color:#fff;border:none;padding:8px 12px;border-radius:8px;cursor:pointer;">بستن</button>
+</div>
+</div>
+<!-- START: blog-title purple override (inserted by assistant) -->
+
+<!-- END: blog-title purple override -->
+<div id="blog-content" style="min-height:400px;max-height:70vh;overflow:auto;padding-right:6px;">
+<!-- Persian content -->
+<div class="blog-lang" data-lang="fa" dir="rtl" lang="fa" style="display:block;direction:rtl;">
+<section id="blog-fa-full" style="font-family:inherit;color:#1f2937;">
+<h3 style="font-size:20px;margin-top:6px;">مقدمه</h3>
+<p>این مجموعه، نسخه‌ای طولانی، ساختارمند و جامع است که همهٔ بخش‌های لازم برای نوشتن پروپوزال و پایان‌نامه، انتخاب و استفاده از نرم‌افزارهای آماری، پیاده‌سازی کد، نحوهٔ ارجاع‌دهی صحیح طبق استانداردهای APA/IEEE/Harvard، نحوهٔ بررسی اصالت متون با نرم‌افزارهای مرسوم و انواع مقالات علمی را با جزئیات بسیار زیاد پوشش می‌دهد. برای سهولت مطالعه، هر موضوع به تیترهای قابل کلیک (قابلیت باز/بسته‌شدن) تقسیم شده است. تمامی محتوای فارسی دقیقاً معادلِ ترجمه‌شده در بخش‌های عربی و انگلیسی قرار دارد.</p>
+<hr/>
+<details open="">
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">۱ — پروپوزال: ساختار کامل و راهنمای تصویری</summary>
+<div style="padding:10px 14px;">
+<p><strong>تعریف و هدف:</strong> پروپوزال یک سند ساختاریافته است که طرح کلی پژوهش پیشنهادی را توصیف می‌کند؛ هدف آن قانع کردن داوران/اساتید دربارهٔ ضرورت، روش‌شناسی و قابلیت اجرا بودن پژوهش است.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">عنوان پژوهش — چگونه یک عنوان مؤثر بنویسیم</summary>
+<div style="padding:8px 12px;">
+<p>عنوان باید کوتاه، شفاف و شامل متغیرها/نمونه مورد مطالعه باشد. از واژگان مبهم خودداری کنید. مثال‌ها و فرمت پیشنهادی:</p>
+<ul>
+<li>فرمت: «تأثیر [عامل X] بر [نتیجه Y] در [نمونه Z]»</li>
+<li>مثال: «تأثیر استفاده از روش یادگیری فعال بر انگیزهٔ تحصیلی دانشجویان مهندسی دانشگاه X»</li>
+<li>نکته: از عناوین طولانی و شامل زیرنویس‌های طولانی پرهیز کنید.</li>
+</ul>
+</div>
+<div class="blog-lang" data-lang="ar" style="display:none;direction:rtl;">
+<section id="blog-ar-full" style="font-family:inherit;color:#1f2937;">
+<h3 style="font-size:20px;margin-top:6px;">مقدمة</h3>
+<p>
+      هذا الدليل الموسّع يغطي جميع عناصر إعداد المقترحات والأطروحات وأدوات التحليل وتنفيذ الشيفرات ومعايير الاستشهاد وفحص الأصالة. تمت مراعاة البنية التفصيلية نفسها الموجودة في النسخة الفارسية بحيث تكون النسخة العربية متكاملة ومنسجمة معها من حيث العناوين والترتيب والمحتوى التعليمي.
+    </p>
+<hr/>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">١ — الاقتراح البحثي: الهيكل الكامل ودليل عملي</summary>
+<div style="padding:10px 14px;">
+<p>الاقترح البحثي هو وثيقة منظمة تعرض فكرة البحث، أهميته، الأسئلة أو الفرضيات، والمنهجية المتوقعة. يتضمن: العنوان، الملخص، المقدمة، بيان المشكلة، مراجعة الأدبيات، الإطار النظري، المنهجية، الجدول الزمني، والميزانية.</p>
+<ul>
+<li><strong>صياغة المشكلة:</strong> تحديد فجوة معرفية قابلة للبحث بشكل واضح.</li>
+<li><strong>مراجعة الأدبيات:</strong> تنظيم نقدي يبرز الفجوات ويستند إلى مراجع حديثة.</li>
+<li><strong>المنهجية:</strong> وصف التصميم، أدوات القياس، وطريقة اختيار العينة.</li>
+</ul>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">عنوان البحث — كيف تكتب عنوانًا فعّالًا</summary>
+<div style="padding:10px 14px;">
+<p>العنوان يجب أن يكون واضحًا ومحددًا ويعكس المتغيرات أو الظاهرة المدروسة. تجنب العموميات واطرح العنوان بصيغة قصيرة ومباشرة.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">ملخص الاقتراح — كتابة ملخص موجز وراقي</summary>
+<div style="padding:10px 14px;">
+<p>الملخص يجب أن يقدّم الخلفية، المشكلة، الهدف، المنهجية بإيجاز (٨٠-٣٠٠ كلمة)، وما يمكن توقعه من نتائج أو أثر البحث.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">بيان المشكلة وأهمية البحث</summary>
+<div style="padding:10px 14px;">
+<p>اشرح سبب وجود المشكلة، من يتأثر بها، ولماذا يستحق هذا الموضوع البحث. اربط أهمية البحث بأهداف مؤسساتية أو علمية واضحة.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">مراجعة الأدبيات وتحديد فجوة البحث</summary>
+<div style="padding:10px 14px;">
+<p>نظّم مراجعتك حسب المواضيع أو الأسئلة، وحدد بوضوح الفجوة التي سيحاول بحثك ملأها، مع التركيز على الدراسات الحديثة والمنهجيات المستخدمة.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">أهداف البحث وإطار SMART</summary>
+<div style="padding:10px 14px;">
+<p>اصغِ أهدافًا عامة وخاصة يمكن قياسها، وتأكد من أنها محددة وقابلة للتحقيق ومرتبطة بالوقت (SMART).</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">الأسئلة والفرضيات</summary>
+<div style="padding:10px 14px;">
+<p>حدد أسئلة البحث بدقة، وصغ الفرضيات القابلة للاختبار في الأبحاث الكمية. في الأبحاث النوعية قدم أسئلة استكشافية واضحة.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">المنهجية: التصميم، أخذ العينة، والأدوات</summary>
+<div style="padding:10px 14px;">
+<p>اشرح نوع الدراسة (تجريبية، وصفية، تحليلية، نوعية، كميّة أو مختلطة)، طرق أخذ العينات، أدوات جمع البيانات وصلاحيتها وموثوقيتها.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">تحليل البيانات — خطة إحصائية</summary>
+<div style="padding:10px 14px;">
+<p>وضّح تقنيات التحليل: إحصاءات وصفية، اختبارات الفرضيات، نمذجة انحدار، أو تحليلات نوعية مثل الترميز الموضوعي. اذكر البرامج والأدوات المستخدمة.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">قضايا أخلاقية وتصاريح البحث</summary>
+<div style="padding:10px 14px;">
+<p>اذكر الموافقات الأخلاقية المطلوبة، وضمان سرية المشاركين، ونماذج الموافقة المستنيرة وسياسات حفظ البيانات.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">الجدول الزمني وتقدير الميزانية</summary>
+<div style="padding:10px 14px;">
+<p>قسّم المشروع إلى مراحل زمنية مع مخرجات قابلة للقياس، وقدّر الموارد والميزانية لكل مرحلة.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">الملاحق، الاستبيانات والوثائق الداعمة</summary>
+<div style="padding:10px 14px;">
+<p>أرفق أي استبيانات، جداول ترميز، ونماذج بيانات أو مستندات تقنية تدعم منهجية البحث.</p>
+</div>
+</details>
+<!-- ٢ — الأطروحة -->
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٢ — الأطروحة: بنية فصلية ونصائح للكتابة</summary>
+<div style="padding:10px 14px;">
+<p>نموذج بنية الفصول: المقدمة، مراجعة الأدبيات، المنهجية، النتائج، المناقشة، الخلاصة والتوصيات. نصائح عملية للعرض الأكاديمي والتحضير للجلسة الدفاعية.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">الصفحات الافتتاحية ومتطلبات التنسيق</summary>
+<div style="padding:10px 14px;">
+<p>يشمل ذلك صفحة العنوان، الشكر، الملخص بلغتين، الفهرس، قوائم الأشكال والجداول ومتطلبات الهوامش والخطوط.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">الفصل الأول — المقدمة وتحديد الإطار</summary>
+<div style="padding:10px 14px;">
+<p>اكتب خلفية واضحة، نطاق الدراسة، الأهداف، ومبررات البحث مع خلاصة حول بنية الفصول.</p>
+</div>
+</details>
+<!-- intermediate chapters (concise versions) -->
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">مراجعة الأدبيات المتقدمة</summary>
+<div style="padding:10px 14px;">
+<p>هيكّل مراجعة الأدبيات حسب الموضوعات والنظريات الرئيسية وبيّن الترابط بينها وإسهام بحثك.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">المنهجية التفصيلية</summary>
+<div style="padding:10px 14px;">
+<p>وصف مفصّل لأدوات البحث، إجراءات جمع البيانات، والمعالجة الاحصائية أو التحليل النوعي المتبع.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">النتائج والعروض الجداولية</summary>
+<div style="padding:10px 14px;">
+<p>عرض النتائج الرئيسية بوضوح مع جداول وأشكال داعمة، وشرح نصي يربط النتائج بالأسئلة البحثية.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">المناقشة والتفسير</summary>
+<div style="padding:10px 14px;">
+<p>فسّر النتائج، قارنها بالدراسات السابقة، وناقش حدود الدراسة والآثار المحتملة للنتائج.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">الخلاصة والتوصيات</summary>
+<div style="padding:10px 14px;">
+<p>اختصر النتائج الرئيسية، قدّم توصيات عملية أو بحثية، واقترح اتجاهات للبحث المستقبلي.</p>
+</div>
+</details>
+<!-- Tools section -->
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٣ — أدوات التحليل والبرمجيات الموصى بها</summary>
+<div style="padding:10px 14px;">
+<p>قائمة الأدوات الشائعة مع ملاحظات حول متى ولماذا تُستخدم كلٌّ منها.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">Python</summary>
+<div style="padding:10px 14px;">
+<p>مناسب للتحليلات الكمية، التعلم الآلي، ومعالجة البيانات. حزم مهمة: NumPy، Pandas، scikit-learn، statsmodels، TensorFlow/PyTorch.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">R</summary>
+<div style="padding:10px 14px;">
+<p>مفيد للإحصاء المتقدّم والمصوّرات: tidyverse، lme4، survival، forecast.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">SPSS / Stata / MATLAB</summary>
+<div style="padding:10px 14px;">
+<p>برمجيات مستخدمة في المجالات الأكاديمية؛ تأكّد من توثيق خطوات التحليل وإرفاق شفرات إذا أمكن.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">أفضل الممارسات لإدارة المشاريع البرمجية</summary>
+<div style="padding:10px 14px;">
+<ul>
+<li>التحكم في الإصدارات (Git) وفرعنة واضحة (branching).</li>
+<li>بيئات قابلة للتكرار مثل Docker أو conda.</li>
+<li>توثيق نسخ الحزم وإعداد ملف requirements أو environment.yml.</li>
+</ul>
+</div>
+</details>
+<!-- Coding & languages -->
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٤ — البرمجة: اللغات والنماذج وأفضل الأساليب</summary>
+<div style="padding:10px 14px;">
+<p>إرشادات لاختيار اللغة وفقًا للاحتياج (Python للتحليل، Java/C++ للتطبيقات عالية الأداء، JavaScript للواجهات، SQL لقواعد البيانات).</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">Python (تفصيل)</summary>
+<div style="padding:10px 14px;">
+<p>تنظيم المشروع، استخدام virtualenv/conda، وكتابة README مع أمثلة تشغيل واضحة.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">R (تفصيل)</summary>
+<div style="padding:10px 14px;">
+<p>استخدام حزم tidyverse لتنظيف البيانات وrmarkdown لتوثيق التحليل.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">لغات أخرى: C++, Java, JavaScript, SQL</summary>
+<div style="padding:10px 14px;">
+<p>ملاحظات حول الأداء، الأمن، وإدارة الذاكرة عند الحاجة لتطبيقات برمجية بعينها.</p>
+</div>
+</details>
+<!-- Referencing -->
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٥ — معايير الاستشهاد: APA, IEEE, Harvard (أمثلة)</summary>
+<div style="padding:10px 14px;">
+<p>أمثلة مختصرة لكل معيار مع نماذج للاقتباس في النص وقوائم المراجع.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">APA (ملخص)</summary>
+<div style="padding:10px 14px;">
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;">المؤلف، س. (سنة). عنوان المقالة. اسم المجلة، المجلد(العدد)، الصفحات. https://doi.org/xxxx</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">IEEE</summary>
+<div style="padding:10px 14px;">
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;">[1] A. Author, "Title," Journal, vol., no., pp., year.</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">Harvard</summary>
+<div style="padding:10px 14px;">
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;">(Author, Year) — ترتيب المراجع بالأسلوب الأبجدي.</pre>
+</div>
+</details>
+<!-- Plagiarism & originality -->
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٦ — فحص الأصالة: Turnitin و iThenticate ونصائح التفسير</summary>
+<div style="padding:10px 14px;">
+<p>نصائح عملية لاستخدام أدوات فحص التشابه وكيفية تفسير النسب مع التركيز على نوع التشابه ومصدره.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">مقارنة: Turnitin مقابل iThenticate</summary>
+<div style="padding:10px 14px;">
+<p>الفرق في الاستخدام: Turnitin للتعليم والطلاب، وiThenticate للمستندات الأكاديمية والنشر. نصائح حول كيفية التعامل مع النتائج.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">تفسير تقارير التشابه</summary>
+<div style="padding:10px 14px;">
+<p>شرح ما تعنيه نسب التشابه، وكيفية التمييز بين الاقتباس المشروع والمطابقة غير المقبولة، وإجراءات التصحيح.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">استراتيجيات لإصلاح النص وإعادة الصياغة</summary>
+<div style="padding:10px 14px;">
+<p>خطوات عملية لإعادة كتابة المقاطع المتطابقة: إعادة الصياغة، التوثيق الصحيح، واستخدام الاقتباسات عند الضرورة.</p>
+</div>
+</details>
+<!-- Plagiarism report template -->
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٧ — تقرير فحص الانتحال: نموذج وهيكل</summary>
+<div style="padding:10px 14px;">
+<ol>
+<li>الملخص التنفيذي — نسبة التشابه والتوصيات.</li>
+<li>تفصيل المصادر المتطابقة وروابطها.</li>
+<li>النصوص المتطابقة مع الإشارة للمواقع.</li>
+<li>خطة عمل لتقليل نسبة التشابه.</li>
+<li>تقييم نهائي وتوصية للنشر أو المراجعة.</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٨ — أنواع المقالات العلمية</summary>
+<div style="padding:10px 14px;">
+<ul>
+<li><strong>مقال بحثي (Original Research):</strong> عرض نتائج جديدة وبيانات أصلية.</li>
+<li><strong>مقالة مراجعة (Review):</strong> جمع نقدي للأدبيات الحالية.</li>
+<li><strong>مقال مؤتمر:</strong> تقارير أو نتائج مبدئية.</li>
+<li><strong>مراسلة قصيرة / دراسة حالة:</strong> تقارير مركزة على حالة محددة.</li>
+</ul>
+</div>
+</details>
+<hr/>
+<!-- Note removed as requested: Arabic-specific translation note has been intentionally omitted. -->
+</section>
+</div>
+
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">چکیدهٔ پروپوزال — نگارش یک خلاصهٔ مؤثر</summary>
+<div style="padding:8px 12px;">
+<p>چکیده باید حداکثر 250-300 کلمه باشد و شامل: زمینه، مسئله، هدف، روش کلی، نتایج مورد انتظار و اهمیت پژوهش. در پروژه‌های کمی، اشارهٔ کوتاه به روش نمونه‌گیری و روش‌های تحلیل کافی است.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">بیان مسئله و اهمیت پژوهش</summary>
+<div style="padding:8px 12px;">
+<p>بیان مسئله باید نشان دهد که چه مشکلی وجود دارد، چرا مهم است و چرا پژوهش شما می‌تواند به حل آن کمک کند. شواهد و آمارهای به‌روز را (در متن پروپوزال) برای نشان دادن اهمیت موضوع بیاورید.</p>
+<ol>
+<li>شرح وضع موجود یا مشکل</li>
+<li>پیوند دادن مشکل به نیازهای علمی یا اجتماعی</li>
+<li>پرسش‌های فرعی که از نشانه‌ها نشأت می‌گیرند</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">مرور ادبیات و شناسایی خلأ پژوهشی (Research Gap)</summary>
+<div style="padding:8px 12px;">
+<p>مرور ادبیات باید سازمان‌یافته، موضوع‌محور و انتقادی باشد. مراحل عملی:</p>
+<ol>
+<li>تعریف کلیدواژه‌ها و استراتژی جستجو (پایگاه‌ها: Scopus, Web of Science, PubMed, Google Scholar).</li>
+<li>ساخت جدول خلاصهٔ مقالات (Author, Year, Method, Sample, Key Findings, Limitations).</li>
+<li>تحلیل نقادانه و استخراج خلأهای نظری، متدولوژیک و کاربردی.</li>
+<li>بیان روشن «چه چیزی هنوز شناخته نشده» و چگونه پژوهش شما آن را پر می‌کند.</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">اهداف پژوهش و چارچوب SMART</summary>
+<div style="padding:8px 12px;">
+<p>اهداف باید شفاف، قابل اندازه‌گیری و مرتبط با سؤال پژوهشی باشند. مثال هدف کلی و اهداف جزئی:</p>
+<ul>
+<li>هدف کلی: «بررسی اثر روش X بر متغیر Y در گروه Z طی 12 ماه»</li>
+<li>هدف جزئی 1: «مقایسه میانگین Y بین گروه شاهد و مداخله در ماه سوم»</li>
+<li>هدف جزئی 2: «تعیین فاکتورهای پیش‌بینی‌کننده Y با استفاده از رگرسیون چندگانه»</li>
+</ul>
+<p>هر هدف را با معیارهای SMART بررسی کنید: Specific, Measurable, Achievable, Relevant, Time-bound.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">سؤال(ها) و فرضیه(ها)</summary>
+<div style="padding:8px 12px;">
+<p>سؤال پژوهشی باید روشن و قابل آزمون باشد. فرضیه‌ها (در پژوهش‌های کمّی) باید فرمال و قابل آزمون با روش‌های آماری باشند. مثال‌های تبدیل سؤال به فرضیه و نحوهٔ بیان آماری هر فرضیه.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">روش‌شناسی: طراحی، نمونه‌گیری، ابزارها</summary>
+<div style="padding:8px 12px;">
+<p>بخش روش‌شناسی باید شامل توضیحات دقیق دربارهٔ روش پژوهش (کمّی/کیفی/آمیخته)، جامعه و نمونه، روش نمونه‌گیری، ابزارهای جمع‌آوری داده، فرایند جمع‌آوری و تحلیل داده‌ها باشد.</p>
+<h4>نمونه‌گیری</h4>
+<p>روش‌های نمونه‌گیری (احتمالی و غیراحتمالی) و فرمول تعیین حجم نمونه (مثال: فرمول کوکران برای تخمین نمونه در مطالعات توصیفی).</p>
+<h4>ابزارها و مقیاس‌ها</h4>
+<p>توضیح اعتبار و روایی ابزار: روایی محتوا، روایی همگرا/واگرایی، ضریب آلفای کرونباخ برای پایایی.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">تحلیل داده‌ها — برنامهٔ آماری</summary>
+<div style="padding:8px 12px;">
+<p>برنامهٔ تحلیلی باید گام‌به‌گام شامل تحلیل توصیفی (میانگین، میانه، انحراف معیار)، آزمون فروض، انتخاب مدل‌های رگرسیونی مناسب، آزمون‌های چندگانه و اصلاح برای چندآزمونی باشد. ذکر نرم‌افزار مورد استفاده و نسخهٔ آن (مثلاً R 4.x، SPSS 28، Python 3.9).</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">مسائل اخلاقی و اجازه‌نامه‌ها</summary>
+<div style="padding:8px 12px;">
+<p>توضیح نیاز به گرفتن مجوز از کمیتهٔ اخلاق، فرم رضایت آگاهانه، حفاظت از حریم خصوصی و ذخیرهٔ امن داده‌ها.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">برنامه زمانی نمونه و تخمین بودجه</summary>
+<div style="padding:8px 12px;">
+<p>نمونه جدول زمانی فازی (Gantt-like) با فازهای اصلی: طراحی، جمع‌آوری، تحلیل، نگارش. الگوی سادهٔ بودجه شامل حقوق نمونه‌گیر، هزینه سفر، نرم‌افزار و تجهیزات، چاپ و انتشار.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">پیوست‌ها، پرسش‌نامه و مستندات پشتیبان</summary>
+<div style="padding:8px 12px;">
+<p>در پیوست‌ها نمونهٔ پرسش‌نامه، فرم رضایت، جداول کدگذاری و نمونه خروجی‌های نرم‌افزاری قرار می‌گیرد. این بخش باید به گونه‌ای سازمان‌دهی شود که هر شخص ثالث بتواند پژوهش را بازتولید کند.</p>
+</div>
+</details>
+<h4 style="margin-top:12px;">چک‌لیست سریع پروپوزال</h4>
+<ul>
+<li>وجود عنوان، چکیده، بیان مسئله</li>
+<li>مرور ادبیات و استخراج خلأ</li>
+<li>اهداف SMART، سوالات و فرضیه‌ها</li>
+<li>روش‌شناسی کامل و برنامهٔ آماری</li>
+<li>منابع کلیدی و پیوست‌ها</li>
+</ul>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">۲ — پایان‌نامه: ساختار فصل‌به‌فصل و نکات نگارشی</summary>
+<div style="padding:10px 14px;">
+<p>در این قسمت به‌صورت مفصل به محتوای هر فصل پایان‌نامه، استانداردهای نگارش و نکات دفاع خواهیم پرداخت.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">صفحات آغازین و الزامات فرمت</summary>
+<div style="padding:8px 12px;">
+<p>صفحه عنوان، تقدیم، سپاسگزاری، چکیده فارسی و انگلیسی، فهرست مطالب، فهرست شکل‌ها و جداول و صفحات لازم. توضیحات قالب بندی و استانداردهای فونت و فاصله‌گذاری.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">فصل اول — مقدمه و تعریف مسئله</summary>
+<div style="padding:8px 12px;">
+<p>مقدمۀ قوی شامل پس‌زمینه، اهمیت موضوع، اهداف، محدودهٔ پژوهش و ساختار پایان‌نامه.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">فصل دوم — مروری بر ادبیات و چارچوب نظری</summary>
+<div style="padding:8px 12px;">
+<p>تدوین مدل مفهومی، ترکیب نتایج پیشین و ترسیم نقشه پژوهشی. نحوهٔ ارجاع‌دهی و سازمان‌دهی بخش‌های مروری.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">فصل سوم — روش‌ها</summary>
+<div style="padding:8px 12px;">
+<p>توضیحات مفصل دربارهٔ جامعه و نمونه، ابزارهای اندازه‌گیری، اعتبار و پایایی ابزارها، روش‌های تحلیل داده‌ها و نرم‌افزارهای مورد استفاده.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">فصل چهارم — نتایج</summary>
+<div style="padding:8px 12px;">
+<p>نمایش دقیق یافته‌ها به‌همراه جداول، نمودارها و تحلیل‌های آماری. نکات نگارشی برای گزارش نتایج بدون تفسیر زائد.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">فصل پنجم — بحث و نتیجه‌گیری</summary>
+<div style="padding:8px 12px;">
+<p>تفسیر نتایج، مقایسه با مطالعات پیشین، محدودیت‌ها، پیامدهای عملی و پیشنهادات برای تحقیقات بعدی.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">پیوست‌ها و داده‌های مکمل</summary>
+<div style="padding:8px 12px;">
+<p>قرار دادن پرسش‌نامه‌ها، کدها، خروجی‌های نرم‌افزار و جداول خام در پیوست برای شفافیت و بازتولیدپذیری.</p>
+</div>
+</details>
+<h4 style="margin-top:8px;">نکات دفاع پایان‌نامه</h4>
+<ol>
+<li>آماده‌سازی پرزنتیشن خلاصه و روشن (15-20 دقیقه)</li>
+<li>آمادگی برای سوالات متداول (روش‌ها، محدودیت‌ها، چرایی انتخاب متد)</li>
+<li>گزارش مختصر از نوآوری‌ها و دستاوردها</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">۳ — نرم‌افزارهای آماری: معرفی، مقایسه و مثال‌های عملی</summary>
+<div style="padding:10px 14px;">
+<p>جزئیات هر نرم‌افزار، موارد استفاده، نمونهٔ کد/دستورالعمل و محدودیت‌ها.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">SPSS</summary>
+<div style="padding:8px 12px;">
+<p>محیط گرافیکی مناسب برای تحلیل‌های توصیفی و آزمون‌های پایه. مثال: اجرای t-test و رگرسیون خطی از طریق منوها و نیز امکان اسکریپت‌نویسی با Syntax.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">R / RStudio</summary>
+<div style="padding:8px 12px;">
+<p>زبان متن‌باز با بسته‌های گسترده (tidyverse, lme4, lavaan). مثال کوتاه: بارگذاری داده و اجرای تحلیل توصیفی.</p>
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;"># R example
+library(tidyverse)
+df &lt;- read.csv('data.csv')
+summary(df)
+</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Python (Pandas, Statsmodels, scikit-learn)</summary>
+<div style="padding:8px 12px;">
+<p>محیط مناسب برای پردازش داده، یادگیری ماشین و تحلیل آماری. مثال کوتاه:</p>
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;"># Python example
+import pandas as pd
+df = pd.read_csv('data.csv')
+df.describe()</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Stata</summary>
+<div style="padding:8px 12px;">
+<p>قوی در اقتصادسنجی و تحلیل‌های پنل و سری زمانی.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">MATLAB / Simulink</summary>
+<div style="padding:8px 12px;">
+<p>مناسب برای محاسبات عددی، شبیه‌سازی و پردازش سیگنال.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">AMOS / Lisrel / lavaan</summary>
+<div style="padding:8px 12px;">
+<p>ابزارها و بسته‌های مورد استفاده برای مدل‌سازی معادلات ساختاری (SEM).</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">NVivo</summary>
+<div style="padding:8px 12px;">
+<p>محیط تحلیل کیفی برای کدگذاری متون و تحلیل تماتیک.</p>
+</div>
+</details>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">۴ — کدنویسی: زبان‌ها، الگوها و بهترین شیوه‌ها</summary>
+<div style="padding:10px 14px;">
+<p>راهنمای انتخاب زبان بر اساس کاربرد و نمونه‌هایی از الگوهای کدنویسی و دستورالعمل‌های تولیدی.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Python</summary>
+<div style="padding:8px 12px;">
+<p>مناسب برای تحلیل داده، یادگیری ماشین و توسعهٔ وب سبک. پکیج‌های کلیدی: NumPy, Pandas, scikit-learn, TensorFlow، و توصیه‌ها دربارهٔ سازمان‌دهی پروژه و virtualenv/conda.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">R</summary>
+<div style="padding:8px 12px;">
+<p>برای تحلیل‌های آماری و مصورسازی پیشرفته.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">C++, Java, JavaScript, SQL</summary>
+<div style="padding:8px 12px;">
+<p>کاربردهای هر زبان و نکات بهینه‌سازی و مدیریت حافظه، ساختار پروژه و امنیت ورودی/خروجی.</p>
+</div>
+</details>
+<h4 style="margin-top:8px;">بهترین شیوه‌ها</h4>
+<ul>
+<li>کنترل نسخه (Git) با branching مناسب</li>
+<li>محیط‌های تولیدپذیر (Docker, conda)</li>
+<li>مستندسازی و نوشتن تست</li>
+</ul>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">۵ — استانداردهای ارجاع‌دهی: APA, IEEE, Harvard (نمونه‌ها و قالب‌ها)</summary>
+<div style="padding:10px 14px;">
+<p>نمونه‌های قالب مرجع برای هر استاندارد با مثال‌های واقعی:</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">APA (7th edition - خلاصه)</summary>
+<div style="padding:8px 12px;">
+<p>مرجع مقالهٔ ژورنالی:</p>
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;">نویسنده، الف. (سال). عنوان مقاله. عنوان مجله، جلد(شماره)، صفحات. https://doi.org/xxxx</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">IEEE</summary>
+<div style="padding:8px 12px;">
+<p>ارجاع در متن به‌صورت عددی [1] و در فهرست بر اساس شماره:</p>
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;">[1] A. Author, "Title of paper," Journal, vol., no., pp., year.</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Harvard</summary>
+<div style="padding:8px 12px;">
+<p>سیستم نویسنده-سال؛ مثال:</p>
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;">(Author, Year) — فهرست مرجع به‌صورت الفبایی</pre>
+</div>
+</details>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">۶ — بررسی اصالت: Turnitin، iThenticate و ابزارهای دیگر</summary>
+<div style="padding:10px 14px;">
+<p>روش‌های عملی برای استفاده و تفسیر نتایج ابزارهای بررسی مشابهت و نحوهٔ اصلاح متن برای کاهش شباهت غیرمجاز.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Turnitin vs iThenticate</summary>
+<div style="padding:8px 12px;">
+<p>تفاوت‌های کلیدی: Turnitin برای محیط دانشگاهی (تکالیف) و iThenticate برای اسناد پژوهشی/نشر. نکات در بارگذاری، محدودیت‌ها و بررسی نتایج.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">تفسیر گزارش مشابهت</summary>
+<div style="padding:8px 12px;">
+<p>گزارش باید شامل درصد کلی، لیست منابع مشابه، بخش‌های های‌لایت‌شده و توضیح دربارهٔ نوع شباهت (نقل‌قول مجاز، منابع عمومی، انتشار قبلی خود نویسنده).</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">رفع مشکل و بازنویسی</summary>
+<div style="padding:8px 12px;">
+<p>الگوهای بازنویسی، ارجاع‌دهی صحیح و ثبت منابع برای کاهش درصد مشابهت.</p>
+</div>
+</details>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">۷ — گزارش کامل Plagiarism Check (نمونه و اجزاء)</summary>
+<div style="padding:10px 14px;">
+<p>یک گزارش کامل باید شامل بخش‌های زیر باشد:</p>
+<ol>
+<li>خلاصهٔ اجرایی — درصد کلی و نتیجه‌گیری</li>
+<li>جزئیات هر منبع مشابه با لینک/ارجاع</li>
+<li>متن‌های مشابه با مشخص کردن صفحات/بخش‌ها</li>
+<li>پیشنهادات اصلاحی و قدم‌های بعدی</li>
+<li>نتیجه‌گیری و توصیه برای انتشار یا بازنگری</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">۸ — انواع مقاله: ISI, علمی-پژوهشی و دیگر انواع</summary>
+<div style="padding:10px 14px;">
+<p>توضیح انواع مقالات، معیارهای پذیرش، ساختار معمول و نکات کلیدی در ارسال به ژورنال‌های ISI و غیر-ISI.</p>
+<ul>
+<li><strong>Original Research (مقاله پژوهشی):</strong> ارائهٔ یافته‌های جدید و داده‌های تجربی.</li>
+<li><strong>Review Article:</strong> مرور نظام‌مند یا مروری روایی.</li>
+<li><strong>Conference Paper:</strong> خلاصهٔ نتایج اولیه یا ارائه‌های کنفرانسی.</li>
+<li><strong>Short Communication, Case Study:</strong> نوع دیگر که محدود به گزارش‌های مختصر و متمرکز یا توصیف‌های خاص است.  
+
+          <!-- For brevity in the file they are present in full; the above section is representative and subsequent sections are translated similarly. -->
+</section>
+</div>
+
+<div class="blog-lang" data-lang="ar" dir="rtl" lang="ar" style="display:none;direction:rtl;">
+<section id="blog-ar-full" style="font-family:inherit;color:#1f2937;">
+<h3 style="font-size:20px;margin-top:6px;">مقدمة</h3>
+<p>هذه المجموعة دليل طويل ومنظّم وشامل يغطي جميع أقسام مقترح البحث والأطروحة، واختيار واستخدام برامج التحليل الإحصائي، وتنفيذ الشفرات، وأفضل الممارسات، والاقتباس الصحيح وفق معايير APA/IEEE/Harvard، وفحص الأصالة باستخدام الأدوات الشائعة، وأمثلة تقارير الانتحال وأنواع المقالات العلمية مع شرح مفصّل. لسهولة القراءة، تم تقسيم كل موضوع إلى عناوين قابلة للفتح/الإغلاق.</p>
+<hr/>
+<details open="">
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">1 — مقترح البحث: الهيكل الكامل والدليل العملي</summary>
+<div style="padding:10px 14px;">
+<p><strong>التعريف والهدف:</strong> مقترح البحث مستند منظم يصف التصميم العام للدراسة المقترحة. هدفه إقناع المراجعين/المشرفين بأهمية الدراسة ومنهجيتها وقابليتها للتنفيذ.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">عنوان البحث — كيفية كتابة عنوان فعّال</summary>
+<div style="padding:8px 12px;">
+<p>يجب أن يكون العنوان موجزًا وواضحًا ويتضمن المتغيرات الرئيسية والعينة. تجنّب التعابير المبهمة.</p>
+
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">ملخص الاقتراح — كتابة ملخص فعّال</summary>
+<div style="padding:8px 12px;">
+<p>يجب ألا يتجاوز الملخص 250-300 كلمة ويشمل: الخلفية، المشكلة، الهدف، المنهج العام، النتائج المتوقعة وأهمية البحث. في المشاريع الكمية، يكفي إشارة موجزة إلى طريقة العينة وطرق التحليل.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">بيان المشكلة وأهمية البحث</summary>
+<div style="padding:8px 12px;">
+<p>يجب أن يُبيّن بيان المشكلة أيّة مشكلة قائمة، لماذا هي مهمة ولماذا يمكن لبحثك أن يساهم في حلّها. أدرج أدلّة وإحصاءات مُحدّثة (ضمن نص الاقتراح) لإظهار أهمية الموضوع.</p>
+<ol>
+<li>وصف الحالة الراهنة أو المشكلة</li>
+<li>ربط المشكلة بالاحتياجات العلمية أو الاجتماعية</li>
+<li>الأسئلة الفرعية الناشئة عن العلامات والمؤشرات</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">مراجعة الأدبيات وتحديد فجوة البحث (Research Gap)</summary>
+<div style="padding:8px 12px;">
+<p>يجب أن تكون مراجعة الأدبيات منظمة ومحورية وناقدة. خطوات عملية:</p>
+<ol>
+<li>تعريف الكلمات المفتاحية واستراتيجية البحث (قواعد البيانات: Scopus, Web of Science, PubMed, Google Scholar).</li>
+<li>بناء جدول ملخَّص للمقالات (المؤلف، السنة، المنهج، العينة، النتائج الرئيسية، القيود).</li>
+<li>تحليل نقدي واستخلاص الفجوات النظرية والمنهجية والتطبيقية.</li>
+<li>البيان الواضح لـ«ما الذي لم يُعرف بعد» وكيف يملأ بحثك هذا الفراغ.</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">أهداف البحث وإطار SMART</summary>
+<div style="padding:8px 
+12px;">
+<p>يجب أن تكون الأهداف واضحة وقابلة للقياس ومرتبطة بسؤال البحث. مثال على هدف عام وأهداف فرعية:</p>
+<ul>
+<li>الهدف العام: «دراسة أثر الطريقة X على المتغير Y في المجموعة Z خلال 12 شهراً»</li>
+<li>الهدف الفرعي 1: «مقارنة متوسط Y بين مجموعة الضبط ومجموعة التدخّل في الشهر الثالث»</li>
+<li>الهدف الفرعي 2: «تحديد عوامل التنبؤ بـ Y باستخدام الانحدار المتعدد»</li>
+</ul>
+<p>راجع كل هدف بمعايير SMART: Specific, Measurable, Achievable, Relevant, Time-bound.</p>
+</div>
+</details>
+<details>
+<summary 
+style="font-weight:600;cursor:pointer;">السؤال(ات) والفرضية(ات)</summary>
+<div 
+style="padding:8px 12px;">
+<p>يجب أن يكون سؤال البحث واضحاً وقابلاً للاختبار. الفرضيات (في البحوث الكمية) يجب أن تكون رسمية وقابلة للاختبار بالأساليب الإحصائية. أمثلة على تحويل السؤال إلى فرضية وكيفية التعبير الإحصائي لكل فرضية.</p>
+</div>
+</details>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">المنهجية: التصميم، العينة، الأدوات</summary>
+<div style="padding:8px 
+12px;">
+<p>يجب أن يتضمن قسم المنهجية شرحاً مفصلاً عن منهج البحث (كمّي/كيفي/مختلط)، المجتمع والعينة، طريقة أخذ العينات، أدوات جمع البيانات، إجراءات الجمع وتحليل البيانات.</p>
+<h4>أخذ العينات</h4>
+<p>طرق أخذ العينات (احتمالية وغير احتمالية) ومعادلة تحديد حجم العينة (مثال: معادلة كوكران لتقدير العينة في الدراسات الوصفية).</p>
+<h4>الأدوات والمقاييس</h4>
+<p>شرح صلاحية وموثوقية الأدوات: صلاحية المحتوى، الصلاحية التقاربية/التفرّقية، معامل ألفا كرونباخ للموثوقية.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">تحليل البيانات — الخطة الإحصائية</summary>
+<div style="padding:8px 12px;">
+<p>يجب أن تتضمن الخطة التحليلية خطوات واضحة تشمل التحليل الوصفي (المتوسط، الوسيط، الانحراف المعياري)، اختبار الفرضيات، اختيار نماذج الانحدار المناسبة، الاختبارات المتعددة وتصحيح تعدد الاختبارات. اذكر البرنامج المستخدم وإصداره (مثلاً R 4.x، SPSS 28، Python 3.9).</p>
+</div>
+</details>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">القضايا الأخلاقية والتصاريح</summary>
+<div style="padding:8px 12px;">
+<p>اشرح الحاجة للحصول على موافقة لجنة الأخلاقيات، نموذج الموافقة المستنيرة، حماية الخصوصية وتخزين البيانات بأمان.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">الجدول الزمني النموذجي وتقدير الميزانية</summary>
+<div style="padding:8px 12px;">
+<p>نموذج جدول زمني تقريبي (شبيه Gantt) مع المراحل الرئيسية: التصميم، الجمع، التحليل، الكتابة. نموذج ميزانية بسيط يشمل أجور جامعي العينات، تكاليف التنقل، البرامج والمعدات، الطباعة والنشر.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">الملاحق، الاستبيان والوثائق الداعمة</summary>
+<div 
+style="padding:8px 12px;">
+<p>في الملاحق ضع نموذج الاستبيان، نموذج الموافقة، جداول الترميز وعينات من مخرجات البرمجيات. يجب تنظيم هذا القسم بحيث يمكن لأي طرف ثالث إعادة إنتاج البحث.</p>
+</div>
+</details>
+<h4 style="margin-
+top:12px;">قائمة التحقق السريعة للاقتراح</h4>
+<ul>
+<li>وجود العنوان، الملخص، بيان المشكلة</li>
+<li>مراجعة الأدبيات واستخلاص الفجوة</li>
+<li>أهداف SMART، الأسئلة والفرضيات</li>
+<li>منهجية كاملة والخطة الإحصائية</li>
+<li>المراجع الأساسية والملاحق</li>
+</ul>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-
+size:18px;cursor:pointer;margin:8px 0;">٢ — الأطروحة: هيكل فصل تلو الآخر ونصائح تحريرية</summary>
+<div 
+style="padding:10px 14px;">
+<p>في هذا القسم سنَعرض بالتفصيل محتوى كل فصل من فصول الأطروحة، مع معايير الكتابة ونصائح للدفاع.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">الصفحات الافتتاحية ومتطلبات التنسيق</summary>
+<div style="padding:8px 12px;">
+<p>صفحة العنوان، الإهداء، الشكر، الملخص بالفارسي والإنجليزية، جدول المحتويات، قائمة الأشكال والجداول. إرشادات التنسيق والمعايير المتعلقة بالخط والمسافات.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">الفصل الأول — المقدمة وتعريف المشكلة</summary>
+<div style="padding:8px 12px;">
+<p>مقدمة قوية تشمل الخلفية، أهمية الموضوع، الأهداف، نطاق البحث وبنية الأطروحة.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">الفصل الثاني — مراجعة الأدبيات والإطار النظري</summary>
+<div style="padding:8px 12px;">
+<p>صياغة النموذج المفاهيمي، دمج نتائج الدراسات السابقة ورسم خريطة البحث. كيفية الاستشهاد وتنظيم قسم المراجعة.</p>
+</div>
+</details>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">الفصل الثالث — الطرق</summary>
+<div style="padding:8px 12px;">
+<p>تفاصيل حول المجتمع والعينة، أدوات القياس، صلاحية وموثوقية الأدوات، طرق تحليل البيانات والبرمجيات المستخدمة.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">الفصل الرابع — النتائج</summary>
+<div style="padding:8px 12px;">
+<p>عرض دقيق للنتائج مع جداول، رسوم بيانية وتحليلات إحصائية. نصائح تحريرية لعرض النتائج دون تفسير زائد.</p>
+</div>
+</details>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">الفصل الخامس — المناقشة والاستنتاج</summary>
+<div style="padding:8px 12px;">
+<p>تفسير النتائج، المقارنة مع الدراسات السابقة، القيود، الآثار التطبيقية والتوصيات للبحوث المستقبلية.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">الملاحق والبيانات التكميلية</summary>
+<div 
+style="padding:8px 12px;">
+<p>إدراج الاستبيانات، الشيفرات، مخرجات البرامج والجداول الخام في الملاحق لزيادة الوضوح وإمكانية إعادة الإنتاج.</p>
+</div>
+</details>
+<h4 style="margin-top:8px;">نصائح الدفاع عن الأطروحة</h4>
+<ol>
+<li>تحضير عرض تقديمي موجز وواضح (15-20 دقيقة)</li>
+<li>الاستعداد للأسئلة الشائعة (المنهج، القيود، سبب اختيار المنهج)</li>
+<li>تقديم تقرير مختصر عن الابتكارات والإنجازات</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٣ — البرامج الإحصائية: مقدمة، مقارنة وأمثلة عملية</summary>
+<div 
+style="padding:10px 14px;">
+<p>تفاصيل كل برنامج، حالات الاستخدام، أمثلة للأوامر / الكود والقيود.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">SPSS</summary>
+<div 
+style="padding:8px 12px;">
+<p>بيئة رسومية مناسبة للتحليلات الوصفية والاختبارات الأساسية. مثال: تنفيذ اختبار t والانحدار الخطي من خلال القوائم وإمكانية كتابة السكربت باستخدام Syntax.</p>
+</div>
+</details>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">R / RStudio</summary>
+<div style="padding:8px 12px;">
+<p>لغة مفتوحة المصدر مع حزم واسعة (tidyverse, lme4, lavaan). مثال قصير: تحميل بيانات وتنفيذ تحليل وصفي.</p>
+<pre 
+style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;"># مثال R
+library(tidyverse)
+df &lt;- read.csv('data.csv')
+summary(df)
+</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Python (Pandas, Statsmodels, scikit-learn)</summary>
+<div style="padding:8px 12px;">
+<p>بيئة مناسبة لمعالجة البيانات، التعلم الآلي والتحليل الإحصائي. مثال قصير:</p>
+<pre style="white-space:pre-
+wrap;background:#f7f7f7;padding:8px;border-radius:6px;"># مثال Python
+import pandas as pd
+df = pd.read_csv('data.csv')
+df.describe()</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Stata</summary>
+<div 
+style="padding:8px 12px;">
+<p>قوية في قياسات الاقتصاد التحليلي وتحليلات البيانات اللوحية والسلاسل الزمنية.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">MATLAB / Simulink</summary>
+<div 
+style="padding:8px 12px;">
+<p>مناسبة للحسابات العددية، المحاكاة ومعالجة الإشارة.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">AMOS / Lisrel / lavaan</summary>
+<div 
+style="padding:8px 12px;">
+<p>الأدوات والحزم المستخدمة لنمذجة المعادلات البنائية (SEM).</p>
+</div>
+</details>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">NVivo</summary>
+<div style="padding:8px 12px;">
+<p>بيئة لتحليل النوعيّة من أجل ترميز النصوص وتحليل الموضوعات.</p>
+</div>
+</details>
+</div>
+</details>
+<details>
+<summary 
+style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٤ — البرمجة: اللغات، الأنماط وأفضل الممارسات</summary>
+<div style="padding:10px 14px;">
+<p>دليل لاختيار اللغة بناءً على الاستخدام وأمثلة عن أنماط البرمجة وإرشادات الإنتاج.</p>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">Python</summary>
+<div style="padding:8px 12px;">
+<p>مناسبة لتحليل البيانات، التعلم الآلي وتطوير الويب الخفيف. الحزم الأساسية: NumPy, Pandas, scikit-learn, TensorFlow، وتوصيات حول تنظيم المشروع وvirtualenv/conda.</p>
+</div>
+</details>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">R</summary>
+<div style="padding:8px 12px;">
+<p>للتحليلات الإحصائية والتصوير المتقدِّم.</p>
+</div>
+</details>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">C++, Java, JavaScript, SQL</summary>
+<div 
+style="padding:8px 12px;">
+<p>توضيح استخدامات كل لغة ونصائح لتحسين الأداء وإدارة الذاكرة، هيكل المشروع وأمن الإدخال/الإخراج.</p>
+</div>
+</details>
+<h4 style="margin-top:8px;">أفضل الممارسات</h4>
+<ul>
+<li>التحكم بالإصدار (Git) مع استراتيجيات branching مناسبة</li>
+<li>بيئات قابلة لإعادة الإنتاج (Docker, conda)</li>
+<li>التوثيق وكتابة الاختبارات</li>
+</ul>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-
+size:18px;cursor:pointer;margin:8px 0;">٥ — معايير الاستشهاد: APA, IEEE, Harvard (نماذج وقوالب)</summary>
+<div style="padding:10px 14px;">
+<p>نماذج للقالب المرجعي لكل معيار مع أمثلة حقيقية:</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">APA (الطبعة السابعة - ملخّص)</summary>
+<div style="padding:8px 12px;">
+<p>مرجع لمقال دوري:</p>
+<pre style="white-
+space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;">المؤلف، أ. (السنة). عنوان المقال. اسم المجلة، المجلد(العدد)، الصفحات. https://doi.org/xxxx</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">IEEE</summary>
+<div style="padding:8px 12px;">
+<p>الاستشهاد داخل النص يكون رقميًا [1] وفي القائمة حسب الترقيم:</p>
+<pre style="white-space:pre-
+wrap;background:#f7f7f7;padding:8px;border-radius:6px;">[1] A. Author, "Title of paper," Journal, vol., no., pp., year.</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Harvard</summary>
+<div style="padding:8px 12px;">
+<p>نظام المؤلف-السنة؛ مثال:</p>
+<pre style="white-space:pre-
+wrap;background:#f7f7f7;padding:8px;border-radius:6px;">(Author, Year) — قائمة المراجع بترتيب أبجدي</pre>
+</div>
+</details>
+</div>
+</details>
+<details>
+<summary style="font-
+weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٦ — فحص الأصالة: Turnitin، iThenticate وأدوات أخرى</summary>
+<div style="padding:10px 14px;">
+<p>طرق عملية لاستخدام وتفسير نتائج أدوات التحقق من التشابه وكيفية تعديل النص لتقليل التشابه غير المسموح.</p>
+<details>
+<summary style="font-
+weight:600;cursor:pointer;">Turnitin مقابل iThenticate</summary>
+<div 
+style="padding:8px 12px;">
+<p>الاختلافات الرئيسية: Turnitin موجه للبيئة الجامعية (الواجبات) وiThenticate للوثائق البحثية/النشر. نصائح للرفع والقيود وتفسير النتائج.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">تفسير تقرير التشابه</summary>
+<div style="padding:8px 12px;">
+<p>يجب أن يتضمن التقرير نسبة كلية، قائمة المصادر المشابهة، المقاطع المظللة وشرح نوع التشابه (اقتباس مسموح، مصادر عامة، نشر سابق للمؤلف نفسه).</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">التعامل مع المشكلة وإعادة الصياغة</summary>
+<div style="padding:8px 12px;">
+<p>نماذج لإعادة الصياغة، الاستشهاد الصحيح وتسجيل المصادر لتقليل نسبة التشابه.</p>
+</div>
+</details>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٧ — تقرير كامل لفحص الانتحال (نموذج ومكوّنات)</summary>
+<div style="padding:10px 14px;">
+<p>يجب أن يتضمن تقرير كامل الأقسام التالية:</p>
+<ol>
+<li>ملخّص تنفيذي — النسبة الإجمالية والاستنتاج</li>
+<li>تفاصيل كل مصدر مشابه مع رابط/مرجع</li>
+<li>النصوص المماثلة مع تحديد الصفحات/الأقسام</li>
+<li>اقتراحات تصحيحية وخطوات لاحقة</li>
+<li>الخلاصة وتوصية بالنشر أو المراجعة</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">٨ — أنواع المقالات: ISI، علمي-بحثي وأنواع أخرى</summary>
+<div 
+style="padding:10px 14px;">
+<p>شرحأنواع المقالات، معايير القبول، البنية المعتادة ونصائح رئيسية للإرسال إلى مجلات ISI وغير ISI.</p>
+<ul>
+<li><strong>مقال أصلي (Original Research):</strong> عرض نتائج جديدة وبيانات تجريبية.</li>
+<li><strong>مقال مراجعة (Review Article):</strong> مراجعة نظامية أو سردية.</li>
+<li><strong>مقالات مؤتمر:</strong> عرض النتائج الأولية أو العروض المقدمة في المؤتمرات.</li>
+<li><strong>Short Communication, Case Study:</strong> أنواع مختصرة تركز على تقارير مركزة أو وصف حالات.</li>
+</ul>
+
+</div>
+</details>
+</div>
+</details>
+
+<!-- You can expand this Arabic section with the full translated content from the Persian/English blocks as needed. -->
+</section>
+
+<div class="blog-lang" data-lang="en" style="display:none;direction:ltr;">
+<section id="blog-en-full" style="font-family:inherit;color:#1f2937;">
+<h3 style="font-size:20px;margin-top:6px;">Introduction</h3>
+<p>This collection is a long, organized and comprehensive guide that covers all parts of a research proposal and a thesis, selection and use of statistical software, code implementation and best practices, proper citation according to APA/IEEE/Harvard standards, originality checking using common tools, sample plagiarism reports, and types of scientific articles with detailed explanations. For readability each major topic is divided into clickable headings (expand/collapse). All content present in Persian appears here in full and in the same structure and level of detail.</p>
+<hr/>
+<details open="">
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">1 — Research Proposal: Full structure and practical guide</summary>
+<div style="padding:10px 14px;">
+<p><strong>Definition and purpose:</strong> A research proposal is a structured document that describes the overall design of the proposed study. Its purpose is to convince reviewers/supervisors of the importance, methodological soundness and feasibility of the study.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Research title — how to write an effective title</summary>
+<div style="padding:8px 12px;">
+<p>The title should be concise, clear and include the main variables and sample. Avoid vague expressions. Suggested format and examples:</p>
+<ul>
+<li>Format: "Effect of [X] on [Y] in [Z] sample"</li>
+<li>Example: "Effect of active learning on academic motivation of engineering students at University X"</li>
+<li>Tip: Avoid excessively long titles and long subtitles.</li>
+</ul>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Abstract — writing an effective abstract</summary>
+<div style="padding:8px 12px;">
+<p>The abstract should be 200–300 words and include: background, problem statement, research aim, general methods, expected results and the significance of the study. For quantitative projects briefly mention sampling method and main analysis techniques.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Problem statement and research significance</summary>
+<div style="padding:8px 12px;">
+<p>The problem statement must describe what the problem is, why it is important, and how your research can help address it. Use up-to-date facts and statistics when applicable to demonstrate relevance.</p>
+<ol>
+<li>Description of the current situation or gap</li>
+<li>Link the problem to scientific or social needs</li>
+<li>Sub-questions that derive from observed indicators</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Literature review and gap identification</summary>
+<div style="padding:8px 12px;">
+<p>The literature review must be organized, topic-focused and critical. Practical steps:</p>
+<ol>
+<li>Define keywords and search strategy (databases: Scopus, Web of Science, PubMed, Google Scholar)</li>
+<li>Create a summary table (Author, Year, Method, Sample, Key Findings, Limitations)</li>
+<li>Critical appraisal and extraction of theoretical, methodological and practical gaps</li>
+<li>State explicitly what is unknown and how your study will address it</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Objectives and SMART framework</summary>
+<div style="padding:8px 12px;">
+<p>Objectives should be clear, measurable and aligned with the research question. Example general and specific objectives:</p>
+<ul>
+<li>General objective: "Assess the effect of method X on variable Y in group Z over 12 months"</li>
+<li>Specific objective 1: "Compare mean Y between control and intervention groups at month 3"</li>
+<li>Specific objective 2: "Identify predictors of Y using multiple regression"</li>
+</ul>
+<p>Check each objective against SMART criteria: Specific, Measurable, Achievable, Relevant, Time-bound.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Research questions and hypotheses</summary>
+<div style="padding:8px 12px;">
+<p>Research questions need to be clear and testable. Hypotheses in quantitative studies should be formal and testable using statistical methods. Examples of converting a research question to hypotheses and how to express them statistically are provided.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Methodology: design, sampling, instruments</summary>
+<div style="padding:8px 12px;">
+<p>The methodology section must clearly describe the study design (quantitative/qualitative/mixed), population and sampling, data collection instruments, data collection process and analysis procedures.</p>
+<h4>Sampling</h4>
+<p>Describe sampling methods (probability and non-probability), sample size calculation (e.g., Cochran formula for descriptive studies) and justification for choices.</p>
+<h4>Instruments and scales</h4>
+<p>Discuss instrument validity and reliability: content validity, convergent/divergent validity, and Cronbach's alpha for internal consistency.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Data analysis — statistical plan</summary>
+<div style="padding:8px 12px;">
+<p>The analysis plan should include step-by-step procedures: descriptive analysis (mean, median, SD), assumption testing, selecting appropriate regression models, multiple testing corrections, and model validation. State the software and version used (e.g., R 4.x, SPSS 28, Python 3.9).</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Ethical issues and approvals</summary>
+<div style="padding:8px 12px;">
+<p>Explain need for ethics committee approval, informed consent forms, data privacy and secure storage.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Timeline and budget estimation</summary>
+<div style="padding:8px 12px;">
+<p>Provide a sample phased timeline (Gantt-like) with main phases: design, data collection, analysis, writing. Provide a simple budget template covering personnel, travel, software, equipment, printing and publication costs.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Appendices, questionnaires and supporting documents</summary>
+<div style="padding:8px 12px;">
+<p>Include questionnaires, consent forms, codebooks and sample software outputs in appendices. Organize these so a third party could reproduce the study.</p>
+</div>
+</details>
+<h4 style="margin-top:12px;">Quick proposal checklist</h4>
+<ul>
+<li>Title, abstract, problem statement</li>
+<li>Literature review and gap extraction</li>
+<li>SMART objectives, questions and hypotheses</li>
+<li>Full methodology and statistical plan</li>
+<li>Key references and appendices</li>
+</ul>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">2 — Thesis/Dissertation: chapter-by-chapter structure and writing tips</summary>
+<div style="padding:10px 14px;">
+<p>This section covers in depth the content of each thesis chapter, formatting standards, and defense advice.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Front matter and formatting requirements</summary>
+<div style="padding:8px 12px;">
+<p>Title page, dedication, acknowledgements, abstract in local and English language, table of contents, list of figures and tables. Guidance on fonts, spacing and formal layout rules.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Chapter 1 — Introduction and problem definition</summary>
+<div style="padding:8px 12px;">
+<p>A strong introduction including background, significance, aims, scope and thesis structure.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Chapter 2 — Literature review and theoretical framework</summary>
+<div style="padding:8px 12px;">
+<p>Develop a conceptual model, synthesize previous findings and draw a research map. How to organize the review and proper referencing.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Chapter 3 — Methods</summary>
+<div style="padding:8px 12px;">
+<p>Detailed explanation of population and sample, measurement tools, validity and reliability checks, and analysis software.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Chapter 4 — Results</summary>
+<div style="padding:8px 12px;">
+<p>Present results with tables, charts and statistical summaries. Tips for reporting results without excessive interpretation.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Chapter 5 — Discussion and conclusion</summary>
+<div style="padding:8px 12px;">
+<p>Interpret results, compare with literature, list limitations, practical implications and recommendations for future research.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Appendices and supplementary data</summary>
+<div style="padding:8px 12px;">
+<p>Include code, raw tables and questionnaire forms to ensure reproducibility.</p>
+</div>
+</details>
+<h4 style="margin-top:8px;">Defense tips</h4>
+<ol>
+<li>Prepare a concise presentation (15–20 minutes)</li>
+<li>Be ready to answer common questions (methods, limitations, rationale for choices)</li>
+<li>Summarize the novelty and contributions clearly</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">3 — Statistical software: overview, comparison and practical examples</summary>
+<div style="padding:10px 14px;">
+<p>Detailed notes on each software, typical use-cases, short code examples and limitations.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">SPSS</summary>
+<div style="padding:8px 12px;">
+<p>Graphical interface suitable for descriptive statistics and basic inferential tests. Example: running t-test and linear regression using menus, and using Syntax for reproducibility.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">R / RStudio</summary>
+<div style="padding:8px 12px;">
+<p>Open-source environment with comprehensive packages (tidyverse, lme4, lavaan). Small example:</p>
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;"># R example
+library(tidyverse)
+df &lt;- read.csv('data.csv')
+summary(df)</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Python (Pandas, Statsmodels, scikit-learn)</summary>
+<div style="padding:8px 12px;">
+<p>Suitable for data processing, machine learning and statistical analysis. Short example:</p>
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;"># Python example
+import pandas as pd
+df = pd.read_csv('data.csv')
+df.describe()</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Stata</summary>
+<div style="padding:8px 12px;">
+<p>Strong in econometrics, panel data and time-series analysis.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">MATLAB / Simulink</summary>
+<div style="padding:8px 12px;">
+<p>Useful for numerical computation, simulations and signal processing.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">AMOS / Lisrel / lavaan</summary>
+<div style="padding:8px 12px;">
+<p>Tools and packages used for structural equation modeling (SEM).</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">NVivo</summary>
+<div style="padding:8px 12px;">
+<p>Qualitative analysis environment for coding texts and thematic analysis.</p>
+</div>
+</details>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">4 — Coding: languages, patterns and best practices</summary>
+<div style="padding:10px 14px;">
+<p>Guide to choose languages according to application, design patterns and production-ready recommendations.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Python</summary>
+<div style="padding:8px 12px;">
+<p>Suitable for data analysis, machine learning and lightweight web development. Key packages include NumPy, Pandas, scikit-learn and TensorFlow. Advice on project structure and virtual environments (virtualenv/conda).</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">R</summary>
+<div style="padding:8px 12px;">
+<p>Specialized for statistical analysis and advanced visualization.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">C++, Java, JavaScript, SQL</summary>
+<div style="padding:8px 12px;">
+<p>Application areas, performance considerations, memory management tips, project structure and input/output security.</p>
+</div>
+</details>
+<h4 style="margin-top:8px;">Best practices</h4>
+<ul>
+<li>Version control (Git) with proper branching</li>
+<li>Reproducible environments (Docker, conda)</li>
+<li>Documentation and unit testing</li>
+</ul>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">5 — Citation standards: APA, IEEE, Harvard (examples and templates)</summary>
+<div style="padding:10px 14px;">
+<p>Examples of reference formats for each standard with real-style templates.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">APA (7th edition - summary)</summary>
+<div style="padding:8px 12px;">
+<p>Journal article reference:</p>
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;">Author, A. (Year). Title of article. Journal Title, volume(issue), pages. https://doi.org/xxxx</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">IEEE</summary>
+<div style="padding:8px 12px;">
+<p>In-text citations are numeric [1] and the reference list is numbered:</p>
+<pre style="white-space:pre-wrap;background:#f7f7f7;padding:8px;border-radius:6px;">[1] A. Author, "Title of paper," Journal, vol., no., pp., year.</pre>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Harvard</summary>
+<div style="padding:8px 12px;">
+<p>Author-date system: (Author, Year) — references listed alphabetically.</p>
+</div>
+</details>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">6 — Originality checks: Turnitin, iThenticate and other tools</summary>
+<div style="padding:10px 14px;">
+<p>Practical procedures for using similarity-check tools and interpreting results, plus methods to reduce non-permitted similarity.</p>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Turnitin vs iThenticate</summary>
+<div style="padding:8px 12px;">
+<p>Key differences: Turnitin is widely used in academic coursework contexts, while iThenticate is designed for manuscripts and publication screening. Tips on uploading, limits and result analysis.</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Interpreting similarity reports</summary>
+<div style="padding:8px 12px;">
+<p>The report should include overall percentage, matched sources list, highlighted segments and annotation about the type of match (quoted text, common phrases, prior self-publication).</p>
+</div>
+</details>
+<details>
+<summary style="font-weight:600;cursor:pointer;">Reduction strategies and rewriting</summary>
+<div style="padding:8px 12px;">
+<p>Patterns for rewriting, correct referencing, paraphrasing strategies and documentation to reduce similarity percentage.</p>
+</div>
+</details>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">7 — Complete Plagiarism Check Report (components and sample)</summary>
+<div style="padding:10px 14px;">
+<p>A comprehensive report must include the following sections:</p>
+<ol>
+<li>Executive summary — overall similarity percentage and recommended action</li>
+<li>Details of each matched source with reference/link</li>
+<li>Highlighted matching text with location/page references</li>
+<li>Recommended corrective actions and next steps</li>
+<li>Final assessment and recommendation for publication or revision</li>
+</ol>
+</div>
+</details>
+<details>
+<summary style="font-weight:700;font-size:18px;cursor:pointer;margin:8px 0;">8 — Types of articles: ISI, Research, Review and other categories</summary>
+<div style="padding:10px 14px;">
+<p>Explanation of article types, acceptance criteria, typical structure and submission tips for ISI-indexed and non-ISI journals.</p>
+<ul>
+<li><strong>Original Research:</strong> Papers that present new empirical findings and data.</li>
+<li><strong>Review Article:</strong> Systematic or narrative reviews summarizing existing knowledge.</li>
+<li><strong>Conference Paper:</strong> Shorter reports or preliminary findings presented at conferences.</li>
+<li><strong>Short Communication / Case Study:</strong> Small focused reports or specific case descriptions.</li>
+</ul>
+</div>
+</details>
+<p style="margin-top:12px;"></p>
+</section>
+</div>
+<!-- Blog Page end -->
+
+</div></div></div>
+
+</script>
+
+<!-- External scripts (moved to end of body) -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Inline scripts (filtered) -->
+<script>
+        
+function switchLanguage(lang) {
+            // Hide all content
+            document.getElementById('fa-content').classList.add('hidden');
+            document.getElementById('ar-content').classList.add('hidden');
+            document.getElementById('en-content').classList.add('hidden');
+            
+            // Remove active state from all buttons
+            document.getElementById('fa-btn').classList.remove('bg-white', 'text-gray-800');
+            document.getElementById('ar-btn').classList.remove('bg-white', 'text-gray-800');
+            document.getElementById('en-btn').classList.remove('bg-white', 'text-gray-800');
+            
+            // Ensure all font classes removed, then add only the needed one
+            function setBodyFontClass(cls) {
+                document.body.classList.remove('font-persian','font-english','font-arabic');
+                document.body.classList.add(cls);
+            }
+            
+            // Show selected content and activate button
+            if (lang === 'fa') {
+                document.getElementById('fa-content').classList.remove('hidden');
+                document.getElementById('fa-btn').classList.add('bg-white', 'text-gray-800');
+                document.documentElement.lang = 'fa';
+                document.documentElement.dir = 'rtl';
+                setBodyFontClass('font-persian');
+                document.title = 'انجام پروژه دانشگاهی و علمی | مؤسسۀ پژوهشی دکتر دیدگر';
+                document.getElementById('footer-title').textContent = 'مؤسسۀ پژوهشی دکتر دیدگر';
+                document.getElementById('footer-desc').textContent = 'همراهِ علمیِ شما در انجام پروژه‌های دانشگاهی و پژوهشی';
+                document.getElementById('footer-copyright').textContent = '© 2024 مؤسسۀ پژوهشی دکتر دیدگر. تمامی حقوق محفوظ است.';
+            } else if (lang === 'ar') {
+                document.getElementById('ar-content').classList.remove('hidden');
+                document.getElementById('ar-btn').classList.add('bg-white', 'text-gray-800');
+                document.documentElement.lang = 'ar';
+                document.documentElement.dir = 'rtl';
+                setBodyFontClass('font-arabic');
+                document.title = 'إنجاز المشاريع الجامعية والعلمية | مؤسسَّة الدكتور ديدگر البحثية';
+                document.getElementById('footer-title').textContent = 'مؤسسَّة الدكتور ديدگر البحثية';
+                document.getElementById('footer-desc').textContent = 'خبراء إنجاز المشاريع الأكاديمية والععلمية';
+                document.getElementById('footer-copyright').textContent = '© 2024 مؤسسَّة الدكتور ديدگر البحثية. جميع الحقوق محفوظة.';
+            } else if (lang === 'en') {
+                document.getElementById('en-content').classList.remove('hidden');
+                document.getElementById('en-btn').classList.add('bg-white', 'text-gray-800');
+                document.documentElement.lang = 'en';
+                document.documentElement.dir = 'ltr';
+                setBodyFontClass('font-english');
+                document.title = 'University & Scientific Project Services | Dr. Didgar Research Institute';
+                document.getElementById('footer-title').textContent = 'Dr. Didgar Research Institute';
+                document.getElementById('footer-desc').textContent = 'Academic & Scientific project support from proposal to publication';
+                document.getElementById('footer-copyright').textContent = '© 2024 Dr. Didgar Research Institute. All rights reserved.';
+            }
+        }
+
+function toggleDetails(id, btn) {
+            // Toggle all elements that accidentally have duplicate IDs (defensive)
+            const elements = document.querySelectorAll('[id="' + id + '"]');
+            elements.forEach(el => {
+                el.classList.toggle('hidden');
+            });
+            if (btn) {
+                const expanded = btn.getAttribute('aria-expanded') === 'true';
+                btn.setAttribute('aria-expanded', String(!expanded));
+            }
+        }
+        // Initialize with Persian
+        document.addEventListener('DOMContentLoaded', function() {
+            switchLanguage('fa');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all cards and sections
+        document.querySelectorAll('.luxury-card, .slide-in-left, .slide-in-right').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+<script>
+  function toggleReadMore(btn){
+    var more = document.getElementById('more-desc');
+    if(!more) return;
+    if(more.classList.contains('hidden') || more.style.display === 'none'){
+      more.classList.remove('hidden');
+      more.style.display = 'inline';
+      btn.textContent = 'بستن';
+      more.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    } else {
+      more.classList.add('hidden');
+      more.style.display = 'none';
+      btn.textContent = 'بیشتر بخوانید';
+    }
+  }
+</script>
+<script>
+/* showBlogLang: show only the selected language block inside the blog modal */
+function showBlogLang(lang){
+  document.querySelectorAll('.blog-lang').forEach(function(el){
+    if(el.dataset && el.dataset.lang === lang){
+      el.style.display = 'block';
+      el.setAttribute('aria-hidden','false');
+    } else {
+      el.style.display = 'none';
+      el.setAttribute('aria-hidden','true');
+    }
+  });
+  // update aria-current or label if necessary
+  var title = document.getElementById('blog-title');
+  if(title) title.textContent = (lang === 'fa' ? 'وبلاگ - فارسی' : (lang === 'ar' ? 'المدونة - العربية' : 'Blog - English'));
+}
+
+/* ensure openBlog and closeBlog exist (preserve existing if present) */
+if(typeof window.openBlog !== 'function'){
+  window.openBlog = function(){
+    var modal = document.getElementById('blog-page');
+    if(modal) {
+      modal.style.display = 'block';
+      modal.setAttribute('aria-hidden','false');
+      modal.focus();
+    }
+  };
+}
+if(typeof window.closeBlog !== 'function'){
+  window.closeBlog = function(){
+    var modal = document.getElementById('blog-page');
+    if(modal) {
+      modal.style.display = 'none';
+      modal.setAttribute('aria-hidden','true');
+    }
+  };
+}
+</script>
+<script>
+(function(){
+  function setBlogButtonLabel(lang){
+    var btn = document.getElementById('blog-btn');
+    if(!btn) return;
+    if(lang === 'ar') btn.textContent = 'المدوّنة';
+    else if(lang === 'en') btn.textContent = 'Blog';
+    else btn.textContent = 'وبلاگ';
+  }
+
+  // Update on clicks of language buttons if they exist
+  var faBtn = document.getElementById('fa-btn');
+  var arBtn = document.getElementById('ar-btn');
+  var enBtn = document.getElementById('en-btn');
+  if(faBtn) faBtn.addEventListener('click', function(){ setBlogButtonLabel('fa'); });
+  if(arBtn) arBtn.addEventListener('click', function(){ setBlogButtonLabel('ar'); });
+  if(enBtn) enBtn.addEventListener('click', function(){ setBlogButtonLabel('en'); });
+
+  // If a global switchLanguage function exists, wrap it to also update label after switching.
+  if(window.switchLanguage && !window._blog_switch_wrapped){
+    var _orig = window.switchLanguage;
+    window.switchLanguage = function(lang){
+      _orig(lang);
+      setTimeout(function(){ setBlogButtonLabel(lang); }, 50);
+    };
+    window._blog_switch_wrapped = true;
+  }
+
+  // Also ensure that when the blog overlay opens, the internal title matches selected language
+  var blogBtn = document.getElementById('blog-btn');
+  var blogPage = document.getElementById('blog-page');
+  var blogClose = document.getElementById('blog-close');
+  var blogLangSelect = document.getElementById('blog-lang-select');
+  function openBlog(){
+    if(blogPage){ blogPage.style.display='block'; blogPage.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; }
+    // infer language from document or existing selected language
+    var pageLang = document.documentElement.lang || 'fa';
+    var lang = 'fa';
+    if(pageLang.startsWith('ar')) lang='ar'; else if(pageLang.startsWith('en')) lang='en';
+    setBlogButtonLabel(lang);
+    if(blogLangSelect){
+      blogLangSelect.value = lang;
+      blogLangSelect.dispatchEvent(new Event('change'));
+    }
+  }
+  function closeBlog(){
+    if(blogPage){ blogPage.style.display='none'; blogPage.setAttribute('aria-hidden','true'); document.body.style.overflow=''; }
+  }
+  if(blogBtn) blogBtn.addEventListener('click', openBlog);
+  if(blogClose) blogClose.addEventListener('click', closeBlog);
+
+  // ensure blog title and close button labels update with language select inside overlay
+  if(blogLangSelect){
+    blogLangSelect.addEventListener('change', function(e){
+      var v = e.target.value;
+      // ensure blog language block shown (immediate + fallback after other handlers)
+      if(typeof showBlogLang === 'function') showBlogLang(v);
+      setTimeout(function(){ if(typeof showBlogLang === 'function') showBlogLang(v); }, 50);
+
+      // show/hide the blog language blocks
+      if(typeof showBlogLang === 'function') showBlogLang(v);
+
+      var title = document.getElementById('blog-title');
+      var close = document.getElementById('blog-close');
+      if(v === 'fa'){ if(title) title.textContent='وبلاگ — مقالات آموزشی'; if(close) close.textContent='بستن'; setBlogButtonLabel('fa'); }
+      else if(v === 'ar'){ if(title) title.textContent='المدوّنة — مقالات تعليمية'; if(close) close.textContent='إغلاق'; setBlogButtonLabel('ar'); }
+      else { if(title) title.textContent='Blog — Educational Articles'; if(close) close.textContent='Close'; setBlogButtonLabel('en'); }
+    });
+  }
+
+})();
+  function openBlog(){
+    document.getElementById('blog-modal').classList.remove('hidden');
+
+    // انتخاب زبان پیش‌فرض بر اساس زبان صفحه
+    var pageLang = document.documentElement.lang || 'fa';
+    var langSelect = document.getElementById('blog-lang-select');
+    if(pageLang.startsWith('ar')) langSelect.value = 'ar';
+    else if(pageLang.startsWith('en')) langSelect.value = 'en';
+    else langSelect.value = 'fa';
+
+    // تریگر کردن تغییر زبان
+    langSelect.dispatchEvent(new Event('change'));
+  }
+
+  // تغییر زبان در وبلاگ
+  document.getElementById('blog-lang-select').addEventListener('change', function(e){
+    var v = e.target.value;
+
+    // همه بلاک‌ها مخفی میشن
+    document.querySelectorAll('.blog-lang').forEach(function(el){
+      el.style.display = 'none';
+    });
+
+    // بلاک مربوط به زبان انتخاب‌شده نمایش داده میشه
+    var active = document.querySelector('.blog-lang[data-lang="'+v+'"]');
+    if(active) active.style.display = 'block';
+
+    // عنوان و دکمه بستن هم تغییر کنن
+    var title = document.getElementById('blog-title');
+    var close = document.getElementById('blog-close');
+
+    if(v === 'fa'){
+      if(title) title.textContent = 'وبلاگ — مقالات آموزشی';
+      if(close) close.textContent = 'بستن';
+    }
+    else if(v === 'ar'){
+      if(title) title.textContent = 'المدوّنة — مقالات تعليمية';
+      if(close) close.textContent = 'إغلاق';
+    }
+    else { // en
+      if(title) title.textContent = 'Blog — Educational Articles';
+      if(close) close.textContent = 'Close';
+    }
+  });
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  try{
+    var select = document.getElementById('blog-lang-select');
+    var lang = (document.documentElement.lang && document.documentElement.lang.startsWith('ar')) ? 'ar' : (select ? select.value : 'fa');
+    if(typeof showBlogLang === 'function') showBlogLang(lang);
+    setTimeout(function(){ if(typeof showBlogLang === 'function') showBlogLang(lang); }, 60);
+  }catch(e){ console && console.error && console.error('blog lang fallback failed', e); }
+});
+
+<script>
+// --- ARABIC BLOG ENHANCEMENTS (robust fixes) ---
+function enhanceArabicBlog(){
+  try{
+    var ar = document.querySelector('.blog-lang[data-lang="ar"]');
+    if(!ar) return;
+    // force visible and allow full height for readability
+    ar.style.display = 'block';
+    ar.style.overflow = 'visible';
+    ar.style.maxHeight = 'none';
+    ar.style.height = 'auto';
+    // open all details elements inside to reveal content
+    var dets = ar.querySelectorAll('details');
+    dets.forEach(function(d){ try{ d.open = true; d.setAttribute('open',''); }catch(e){} });
+    // also ensure text isn't clipped by child elements with overflow:hidden
+    var descendants = ar.querySelectorAll('*');
+    descendants.forEach(function(el){
+      try{
+        el.style.overflow = 'visible';
+        if(el.style.maxHeight && el.style.maxHeight !== 'none') el.style.maxHeight = 'none';
+      }catch(e){}
+    });
+  }catch(e){ console && console.warn && console.warn('enhanceArabicBlog error', e); }
+}
+
+// Hook into existing showBlogLang if present
+(function(){
+  var origShow = window.showBlogLang;
+  if(typeof origShow === 'function'){
+    window.showBlogLang = function(lang){
+      origShow(lang);
+      if(lang === 'ar') setTimeout(enhanceArabicBlog, 10);
+    }
+  } else {
+    // provide a safe showBlogLang if missing
+    window.showBlogLang = function(lang){
+      document.querySelectorAll('.blog-lang').forEach(function(el){
+        if(el.dataset && el.dataset.lang === lang){
+          el.style.display = 'block';
+          el.setAttribute('aria-hidden','false');
+        } else {
+          el.style.display = 'none';
+          el.setAttribute('aria-hidden','true');
+        }
+      });
+      if(lang === 'ar') setTimeout(enhanceArabicBlog, 10);
+    }
+  }
+  // also run on DOM ready to cover race conditions
+  document.addEventListener('DOMContentLoaded', function(){ 
+    var s = document.getElementById('blog-lang-select');
+    // if page language indicates Arabic, ensure arabic blog enhanced
+    var pageLang = document.documentElement.lang || '';
+    if(pageLang.startsWith('ar')) setTimeout(function(){ showBlogLang('ar'); }, 50);
+    // always run enhanceArabicBlog once so content is not accidentally clipped
+    setTimeout(enhanceArabicBlog, 100);
+  });
+})();
+// --- end enhancements ---
+</script>
+<script>
+(function(){
+  const blogBtn = document.getElementById('blog-btn');
+  const blogPage = document.getElementById('blog-page');
+  const blogClose = document.getElementById('blog-close');
+  const langSelect = document.getElementById('blog-lang-select');
+  function openBlog(){
+    if(blogPage) { blogPage.style.display = 'block'; blogPage.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; }
+    const pageLang = document.documentElement.lang || document.documentElement.getAttribute('lang') || 'fa';
+    if(langSelect) {
+      if(pageLang.startsWith('ar')) langSelect.value='ar';
+      else if(pageLang.startsWith('en')) langSelect.value='en';
+      else langSelect.value='fa';
+      langSelect.dispatchEvent(new Event('change'));
+    }
+  }
+  function closeBlog(){
+    if(blogPage) { blogPage.style.display='none'; blogPage.setAttribute('aria-hidden','true'); document.body.style.overflow=''; }
+  }
+  if(blogBtn) blogBtn.addEventListener('click', openBlog);
+  if(blogClose) blogClose.addEventListener('click', closeBlog);
+  if(langSelect){
+    langSelect.addEventListener('change', function(e){
+      const v = e.target.value;
+      document.querySelectorAll('.blog-lang').forEach(el=> el.style.display='none');
+      const active = document.querySelector('.blog-lang[data-lang="'+v+'"]');
+      if(active) active.style.display = 'block';
+      const title = document.getElementById('blog-title');
+      const close = document.getElementById('blog-close');
+      if(v==='fa'){ if(title) title.textContent='وبلاگ — مقالات آموزشی'; if(close) close.textContent='بستن'; }
+      else if(v==='ar'){ if(title) title.textContent='المدوّنة — مقالات تعليمية'; if(close) close.textContent='إغلاق'; }
+      else { if(title) title.textContent='Blog — Educational Articles'; if(close) close.textContent='Close'; }
+    });
+  }
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeBlog(); });
+})();
+</script>
+
+<script>
+/* Accessibility helpers added by assistant:
+   - Manage basic modal focus on elements with data-modal-target
+   - Toggle aria-expanded for elements with data-toggle="accordion" and data-target attributes
+   Defensive: only runs if elements exist.
+*/
+document.addEventListener('DOMContentLoaded', function(){
+  try {
+    // Modal basic focus
+    document.querySelectorAll('[data-modal-target]').forEach(function(btn){
+      btn.addEventListener('click', function(e){
+        var sel = this.getAttribute('data-modal-target');
+        if(!sel) return;
+        var modal = document.querySelector(sel);
+        if(!modal) return;
+        modal.setAttribute('aria-hidden','false');
+        // find first focusable element
+        var focusable = modal.querySelector('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+        if(focusable) focusable.focus();
+        // optionally trap focus (lightweight)
+      });
+    });
+    // Accordion toggle
+    document.querySelectorAll('[data-toggle="accordion"]').forEach(function(btn){
+      btn.addEventListener('click', function(e){
+        var expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', (!expanded).toString());
+        var target = this.getAttribute('data-target');
+        if(target){
+          var el = document.querySelector(target);
+          if(el) el.hidden = expanded;
+        }
+      });
+    });
+  } catch(err){
+    console.warn('Accessibility helper script error:', err);
+  }
+});
+</script>
+
+
+<script id="lang-fix-script">
+(function(){
+  try {
+    var targets = ['فارسی','العربی','العربية','English','english','ENGLISH'];
+    function isLangText(txt){
+      if(!txt) return false;
+      txt = txt.trim();
+      for(var i=0;i<targets.length;i++){
+        var t = targets[i];
+        if(txt === t) return true;
+        if(txt.indexOf(t) !== -1) return true;
+        // sometimes there's parentheses or icons, check startsWith
+        if(txt.startsWith(t)) return true;
+      }
+      return false;
+    }
+    function addClass(el){
+      if(!el.classList.contains('lang-button')){
+        el.classList.add('lang-button');
+        // ensure it is focusable
+        if(!el.hasAttribute('tabindex')) el.setAttribute('tabindex','0');
+      }
+      // enforce inline style on interaction as a last-resort
+      var enforce = function(){
+        try {
+          el.style.color = '#000';
+          el.style.backgroundColor = 'rgba(255,255,255,0.95)';
+          // svg children
+          var svgs = el.querySelectorAll && el.querySelectorAll('svg *');
+          if(svgs && svgs.length){
+            svgs.forEach(function(s){ s.style.fill = '#000'; s.style.stroke = '#000'; });
+          }
+        } catch(e){}
+      };
+      el.addEventListener('click', enforce, {passive:true});
+      el.addEventListener('focus', enforce);
+      el.addEventListener('mouseup', enforce);
+      // also enforce on load (in case some state already applied)
+      setTimeout(enforce,50);
+    }
+    function scanAndMark(){
+      var nodeList = document.querySelectorAll('a,button,span,li');
+      nodeList.forEach(function(el){
+        var txt = (el.textContent || '').trim();
+        // Avoid very long text nodes
+        if(txt.length > 60) return;
+        if(isLangText(txt)){
+          addClass(el);
+        } else {
+          // also check direct child text nodes (anchor with icon + span)
+          var span = el.querySelector && el.querySelector('span');
+          if(span && isLangText((span.textContent||'').trim())){
+            addClass(el);
+            return;
+          }
+        }
+      });
+    }
+    if(document.readyState === 'loading'){
+      document.addEventListener('DOMContentLoaded', function(){
+        scanAndMark();
+        // also observe DOM mutations in case language buttons render later
+        var obs = new MutationObserver(function(m){
+          scanAndMark();
+        });
+        obs.observe(document.body, {childList:true, subtree:true});
+      });
+    } else {
+      scanAndMark();
+      var obs = new MutationObserver(function(m){ scanAndMark(); });
+      obs.observe(document.body, {childList:true, subtree:true});
+    }
+  } catch(err){
+    console.warn('lang-fix-script error', err);
+  }
+})();
+</script>
+
+</body>
+</html>

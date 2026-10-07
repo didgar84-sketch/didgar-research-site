@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "command": [
+        "python3",
+        "scripts/generate_content.py"
+      ],
+      "exit_code": 0,
+      "output": "Generated 126 canonical pages, 28 guides per language and image sitemap entries."
+    },
+    {
+      "command": [
+        "node",
+        "scripts/build.mjs"
+      ],
+      "exit_code": 0,
+      "output": "Built 126 canonical pages for https://dr17.vercel.app"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/standalone.py"
+      ],
+      "exit_code": 0,
+      "output": "Created didgar-preview.html: 126 pages, embedded CSS/JS and 10 images (5,777,057 bytes)."
+    },
+    {
+      "command": [
+        "node",
+        "scripts/check.mjs"
+      ],
+      "exit_code": 0,
+      "output": "PASS: 126 pages; internal links, unique IDs, language metadata, structured data and consultation API validation.\nPASS: whitespace, impossible dates, invalid language/types, consent and JSON media type edge cases."
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/seo-check.py"
+      ],
+      "exit_code": 0,
+      "output": "PASS: {\"internal_links_and_assets\": 5361, \"visible_images\": 387, \"article_entities\": 84, \"responsive_image_candidates\": 1566, \"canonical_pages\": 126, \"service_entities\": 18, \"reachable_pages\": 126}"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/interaction-check.mjs"
+      ],
+      "exit_code": 0,
+      "output": "PASS: real shipped JS; normalized multiword search, category intersections, empty search, DOI formatting and unsafe inputs, three-language timelines, online/offline consultation preparation and invalid offline requests. No messages sent."
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/standalone-check.py",
+        "../deliverables/didgar-preview.html"
+      ],
+      "exit_code": 0,
+      "output": "PASS: 126 offline templates, 387 preserved image elements, 261 nonempty pictures, 19 directly embedded home images, routes/fragments, fonts and JavaScript syntax."
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/release-check.py"
+      ],
+      "exit_code": 0,
+      "output": "PASS: {\"canonical_pages\": 126, \"contact_channels\": 15, \"embedded_offline_fonts\": 2}"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/seo-check.py",
+        "dist"
+      ],
+      "exit_code": 0,
+      "output": "PASS: {\"internal_links_and_assets\": 5361, \"visible_images\": 387, \"article_entities\": 84, \"responsive_image_candidates\": 1566, \"canonical_pages\": 126, \"service_entities\": 18, \"reachable_pages\": 126}"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/build-check.mjs"
+      ],
+      "exit_code": 0,
+      "output": "PASS: production origin, explicit origin, preview noindex, optional verification, invalid input rejection and clean publication output."
+    },
+    {
+      "command": [
+        "node",
+        "scripts/http-check.mjs"
+      ],
+      "exit_code": 0,
+      "output": "PASS: 126 HTTP pages, 324 permanent aliases, query preservation, slash normalization, 404/noindex, HEAD, static assets and consultation API."
+    }
+  ]
+}

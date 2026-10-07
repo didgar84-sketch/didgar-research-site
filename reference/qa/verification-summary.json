@@ -1,0 +1,83 @@
+{
+  "edition": "2026-10-06",
+  "status": "passed within stated scope",
+  "checks": [
+    {
+      "name": "base",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "output": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n\n> didgar-research@3.0.0 test\n> node scripts/check.mjs\n\nPASS: 183 pages; internal links, unique IDs, language metadata, structured data and consultation API validation.\nPASS: whitespace, impossible dates, invalid language/types, consent and JSON media type edge cases.\n"
+    },
+    {
+      "name": "seo-source",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "output": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n\n> didgar-research@3.0.0 test:seo\n> python3 scripts/seo-check.py\n\nPASS: {\"internal_links_and_assets\": 9245, \"visible_images\": 552, \"article_entities\": 135, \"responsive_image_candidates\": 2214, \"canonical_pages\": 183, \"service_entities\": 18, \"reachable_pages\": 183}\n"
+    },
+    {
+      "name": "seo-build",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "output": "PASS: {\"internal_links_and_assets\": 9245, \"visible_images\": 552, \"responsive_image_candidates\": 2214, \"canonical_pages\": 183, \"article_entities\": 135, \"service_entities\": 18, \"reachable_pages\": 183}\n"
+    },
+    {
+      "name": "content",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "output": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n\n> didgar-research@3.0.0 test:content\n> python3 scripts/content-check.py\n\nPASS: 135 guide cases, 135 workbooks, complete learning-route coverage, sourced article metadata and exact example ZIP agreement.\n"
+    },
+    {
+      "name": "interactions",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "output": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n\n> didgar-research@3.0.0 test:interactions\n> node scripts/interaction-check.mjs\n\nPASS: shipped JS; multilingual letters/numerals, half-spaces, acronym search, categories, DOI unsafe inputs, timelines and online/offline consultation preparation. No messages sent.\n"
+    },
+    {
+      "name": "http",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "output": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n\n> didgar-research@3.0.0 test:http\n> node scripts/http-check.mjs\n\nPASS: 183 HTTP pages, 734 permanent aliases, query preservation, slash normalization, 404/noindex, HEAD, exact downloads and consultation API.\n"
+    },
+    {
+      "name": "standalone",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "output": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n\n> didgar-research@3.0.0 test:standalone\n> python3 scripts/standalone-check.py ../deliverables/didgar-preview.html\n\nPASS: 183 offline templates, 552 preserved images, 312 exact embedded downloads, initial home images, routes/fragments, fonts and JavaScript syntax.\n"
+    },
+    {
+      "name": "release",
+      "status": "fulfilled",
+      "exit_code": 0,
+      "output": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n\n> didgar-research@3.0.0 test:release\n> python3 scripts/release-check.py\n\nPASS: {\"canonical_pages\": 183, \"contact_channels\": 15, \"embedded_offline_fonts\": 2}\n"
+    }
+  ],
+  "examples": {
+    "passed": true,
+    "tests": 6,
+    "execution": "npm run generate invokes the Python pipeline and its tests"
+  },
+  "build": {
+    "passed": true,
+    "report": "build-check.json"
+  },
+  "browser": {
+    "status": "unavailable",
+    "reason": "Chromium executable is absent; an attempted Playwright launch failed before any browser inspection."
+  },
+  "quarto": {
+    "status": "unavailable",
+    "reason": "Quarto CLI is absent; document rendering was not executed."
+  },
+  "liveSearch": {
+    "status": "not measured",
+    "scope": [
+      "Google index coverage",
+      "ranking",
+      "Search Console",
+      "Rich Results Test",
+      "Core Web Vitals",
+      "Lighthouse"
+    ]
+  },
+  "specialistReview": "not claimed"
+}

@@ -1,0 +1,33 @@
+$ python3 scripts/generate_content.py
+Generated 126 canonical pages, 28 guides per language and image sitemap entries.
+
+$ node scripts/build.mjs
+Built 126 canonical pages for https://dr17.vercel.app
+
+$ python3 scripts/standalone.py
+Created didgar-preview.html: 126 pages, embedded CSS/JS and 10 images (5,777,057 bytes).
+
+$ node scripts/check.mjs
+PASS: 126 pages; internal links, unique IDs, language metadata, structured data and consultation API validation.
+PASS: whitespace, impossible dates, invalid language/types, consent and JSON media type edge cases.
+
+$ python3 scripts/seo-check.py
+PASS: {"internal_links_and_assets": 5361, "visible_images": 387, "article_entities": 84, "responsive_image_candidates": 1566, "canonical_pages": 126, "service_entities": 18, "reachable_pages": 126}
+
+$ node scripts/interaction-check.mjs
+PASS: real shipped JS; normalized multiword search, category intersections, empty search, DOI formatting and unsafe inputs, three-language timelines, online/offline consultation preparation and invalid offline requests. No messages sent.
+
+$ python3 scripts/standalone-check.py ../deliverables/didgar-preview.html
+PASS: 126 offline templates, 387 preserved image elements, 261 nonempty pictures, 19 directly embedded home images, routes/fragments, fonts and JavaScript syntax.
+
+$ python3 scripts/release-check.py
+PASS: {"canonical_pages": 126, "contact_channels": 15, "embedded_offline_fonts": 2}
+
+$ python3 scripts/seo-check.py dist
+PASS: {"internal_links_and_assets": 5361, "visible_images": 387, "article_entities": 84, "responsive_image_candidates": 1566, "canonical_pages": 126, "service_entities": 18, "reachable_pages": 126}
+
+$ node scripts/build-check.mjs
+PASS: production origin, explicit origin, preview noindex, optional verification, invalid input rejection and clean publication output.
+
+$ node scripts/http-check.mjs
+PASS: 126 HTTP pages, 324 permanent aliases, query preservation, slash normalization, 404/noindex, HEAD, static assets and consultation API.

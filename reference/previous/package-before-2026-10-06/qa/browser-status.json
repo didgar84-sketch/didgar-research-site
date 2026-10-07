@@ -1,0 +1,8 @@
+{
+  "browser_rendering_completed": false,
+  "reason": "Local Chromium unavailable; cloud browser blocked localhost and rejected file protocol under browser URL security policy. No bypass attempted.",
+  "lighthouse_run": false,
+  "core_web_vitals_measured": false,
+  "responsive_css_source_review": true,
+  "full_wcag_conformance_claimed": false
+}

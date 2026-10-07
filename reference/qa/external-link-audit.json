@@ -1,0 +1,377 @@
+{
+  "checked_at_utc": "2026-10-04T22:59:41.371227+00:00",
+  "purpose": "External source URL reachability; this is not a review of all source content.",
+  "results": [
+    {
+      "key": "harvard",
+      "url": "https://library.harvard.edu/services-tools/hollis-catalog",
+      "status": 200,
+      "final_url": "https://library.harvard.edu/services-tools/hollis-catalog",
+      "bytes_read": 64686,
+      "content_type": "text/html; charset=utf-8",
+      "title": "HOLLIS Catalog | Harvard Library",
+      "verified": true
+    },
+    {
+      "key": "mit",
+      "url": "https://libraries.mit.edu/data-management/",
+      "status": 200,
+      "final_url": "https://libraries.mit.edu/data-management/",
+      "bytes_read": 140684,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Data management | Helping MIT faculty and researchers manage, store, and share data they produce",
+      "verified": true
+    },
+    {
+      "key": "dmp",
+      "url": "https://libraries.mit.edu/data-management/plan/write/",
+      "status": 200,
+      "final_url": "https://libraries.mit.edu/data-management/plan/write/",
+      "bytes_read": 143370,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Write a data management plan | Data management",
+      "verified": true
+    },
+    {
+      "key": "cornell",
+      "url": "https://data.research.cornell.edu/data-management/",
+      "status": 200,
+      "final_url": "https://data.research.cornell.edu/data-management/",
+      "bytes_read": 41756,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Data Management – Cornell Data Services",
+      "verified": true
+    },
+    {
+      "key": "readme",
+      "url": "https://data.research.cornell.edu/data-management/sharing/readme/",
+      "status": 200,
+      "final_url": "https://data.research.cornell.edu/data-management/sharing/readme/",
+      "bytes_read": 55110,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Writing READMEs for Research Data – Cornell Data Services",
+      "verified": true
+    },
+    {
+      "key": "stanford",
+      "url": "https://library.stanford.edu/research-support/data-support-and-services",
+      "status": 200,
+      "final_url": "https://library.stanford.edu/research-support/data-support-and-services",
+      "bytes_read": 183453,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Data support and services | University Libraries",
+      "verified": true
+    },
+    {
+      "key": "oxford",
+      "url": "https://www.bodleian.ox.ac.uk/open-research/open-access-publishing",
+      "status": 200,
+      "final_url": "https://www.bodleian.ox.ac.uk/open-research/open-access-publishing",
+      "bytes_read": 147458,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Open access publishing | Bodleian Libraries",
+      "verified": true
+    },
+    {
+      "key": "cambridge",
+      "url": "https://www.repository.cam.ac.uk/",
+      "status": 200,
+      "final_url": "https://www.repository.cam.ac.uk/",
+      "bytes_read": 350000,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Apollo :: Home",
+      "verified": true
+    },
+    {
+      "key": "uct",
+      "url": "https://open.uct.ac.za/",
+      "status": 200,
+      "final_url": "https://open.uct.ac.za/",
+      "bytes_read": 350000,
+      "content_type": "text/html; charset=utf-8",
+      "title": "OpenUCT :: Home",
+      "verified": true
+    },
+    {
+      "key": "pubmed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/help/",
+      "status": 200,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/help/",
+      "bytes_read": 319631,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Help - PubMed",
+      "verified": true
+    },
+    {
+      "key": "prisma",
+      "url": "https://www.prisma-statement.org/prisma-2020",
+      "status": 200,
+      "final_url": "https://www.prisma-statement.org/prisma-2020",
+      "bytes_read": 91827,
+      "content_type": "text/html;charset=utf-8",
+      "title": "PRISMA 2020 statement — PRISMA statement",
+      "verified": true
+    },
+    {
+      "key": "equator",
+      "url": "https://www.equator-network.org/",
+      "status": 200,
+      "final_url": "https://www.equator-network.org/",
+      "bytes_read": 60110,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "EQUATOR Network | Enhancing the QUAlity and Transparency Of Health Research",
+      "verified": true
+    },
+    {
+      "key": "consort",
+      "url": "https://www.consort-spirit.org/published-statements",
+      "status": 200,
+      "final_url": "https://www.consort-spirit.org/published-statements",
+      "bytes_read": 350000,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Published statements | Consort Spirit",
+      "verified": true
+    },
+    {
+      "key": "coreq",
+      "url": "https://www.equator-network.org/reporting-guidelines/coreq/",
+      "status": 200,
+      "final_url": "https://www.equator-network.org/reporting-guidelines/coreq/",
+      "bytes_read": 53716,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups | EQUATOR Network",
+      "verified": true
+    },
+    {
+      "key": "prereg",
+      "url": "https://www.cos.io/initiatives/prereg",
+      "status": 200,
+      "final_url": "https://www.cos.io/initiatives/prereg",
+      "bytes_read": 106786,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Preregistration",
+      "verified": true
+    },
+    {
+      "key": "ucla",
+      "url": "https://stats.oarc.ucla.edu/other/gpower/",
+      "status": 200,
+      "final_url": "https://stats.oarc.ucla.edu/other/gpower/",
+      "bytes_read": 35459,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "G*Power",
+      "verified": true
+    },
+    {
+      "key": "asa",
+      "url": "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf",
+      "status": 200,
+      "final_url": "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf",
+      "bytes_read": 242050,
+      "content_type": "application/pdf",
+      "verified": true
+    },
+    {
+      "key": "mice",
+      "url": "https://amices.org/mice/reference/mice.html",
+      "status": 200,
+      "final_url": "https://amices.org/mice/reference/mice.html",
+      "bytes_read": 55183,
+      "content_type": "text/html; charset=utf-8",
+      "title": "mice: Multivariate Imputation by Chained Equations — mice • mice",
+      "verified": true
+    },
+    {
+      "key": "fair",
+      "url": "https://doi.org/10.1038/sdata.2016.18",
+      "status": 200,
+      "final_url": "https://www.nature.com/articles/sdata201618?error=cookies_not_supported&code=a4823969-9df1-4711-a432-768ae28f8f1a",
+      "bytes_read": 350000,
+      "content_type": "text/html; charset=utf-8",
+      "title": "The FAIR Guiding Principles for scientific data management and stewardship | Scientific Data",
+      "verified": true
+    },
+    {
+      "key": "causal",
+      "url": "https://hsph.harvard.edu/profile/miguel-hernan/",
+      "status": 200,
+      "final_url": "https://hsph.harvard.edu/profile/miguel-hernan/",
+      "bytes_read": 275031,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Miguel Hernan | Harvard T.H. Chan School of Public Health",
+      "verified": true
+    },
+    {
+      "key": "pew",
+      "url": "https://www.pewresearch.org/writing-survey-questions/",
+      "status": 200,
+      "final_url": "https://www.pewresearch.org/writing-survey-questions/",
+      "bytes_read": 335339,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Writing Survey Questions | Pew Research Center",
+      "verified": true
+    },
+    {
+      "key": "jupyter",
+      "url": "https://jupyterlab.readthedocs.io/en/stable/user/notebook.html",
+      "status": 200,
+      "final_url": "https://jupyterlab.readthedocs.io/en/stable/user/notebook.html",
+      "bytes_read": 59191,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Notebooks — JupyterLab 4.6.4 documentation",
+      "verified": true
+    },
+    {
+      "key": "zotero",
+      "url": "https://www.zotero.org/support/quick_start_guide",
+      "status": 200,
+      "final_url": "https://www.zotero.org/support/quick_start_guide",
+      "bytes_read": 54358,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "The Basics | Zotero Documentation",
+      "verified": true
+    },
+    {
+      "key": "orcid",
+      "url": "https://info.orcid.org/what-is-orcid/",
+      "status": 200,
+      "final_url": "https://info.orcid.org/what-is-orcid/",
+      "bytes_read": 142390,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "About ORCID - ORCID",
+      "verified": true
+    },
+    {
+      "key": "crossref",
+      "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+      "status": 200,
+      "final_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+      "bytes_read": 70857,
+      "content_type": "text/html",
+      "title": "REST API - Crossref",
+      "verified": true
+    },
+    {
+      "key": "datacite",
+      "url": "https://datacite.org/",
+      "verified": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "openalex",
+      "url": "https://help.openalex.org/",
+      "status": 200,
+      "final_url": "https://help.openalex.org/",
+      "bytes_read": 20608,
+      "content_type": "text/html; charset=utf-8",
+      "title": "OpenAlex Help Center",
+      "verified": true
+    },
+    {
+      "key": "doaj",
+      "url": "https://doaj.org/about/",
+      "status": 200,
+      "final_url": "https://doaj.org/about/",
+      "bytes_read": 63408,
+      "content_type": "text/html; charset=utf-8",
+      "title": "About DOAJ – DOAJ",
+      "verified": true
+    },
+    {
+      "key": "zenodo",
+      "url": "https://zenodo.org/",
+      "status": 200,
+      "final_url": "https://zenodo.org/",
+      "bytes_read": 67680,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Zenodo",
+      "verified": true
+    },
+    {
+      "key": "tcs",
+      "url": "https://thinkchecksubmit.org/journals/",
+      "verified": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "casp",
+      "url": "https://casp-uk.net/casp-tools-checklists/",
+      "status": 200,
+      "final_url": "https://casp-uk.net/casp-tools-checklists/",
+      "bytes_read": 38474,
+      "content_type": "text/html; charset=utf-8",
+      "title": "CASP Checklists - Critical Appraisal Skills Programme",
+      "verified": true
+    },
+    {
+      "key": "nih",
+      "url": "https://grants.nih.gov/grants-process/plan-to-apply",
+      "status": 200,
+      "final_url": "https://grants.nih.gov/grants-process/plan-to-apply",
+      "bytes_read": 106741,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Plan to Apply | Grants & Funding",
+      "verified": true
+    },
+    {
+      "key": "nihwrite",
+      "url": "https://grants.nih.gov/grants-process/write-application",
+      "status": 200,
+      "final_url": "https://grants.nih.gov/grants-process/write-application",
+      "bytes_read": 302425,
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Write Application | Grants & Funding",
+      "verified": true
+    },
+    {
+      "key": "apa",
+      "url": "https://apastyle.apa.org/style-grammar-guidelines/references/examples",
+      "status": 200,
+      "final_url": "https://apastyle.apa.org/style-grammar-guidelines/references/examples",
+      "bytes_read": 212,
+      "content_type": "text/html",
+      "title": "",
+      "verified": false
+    },
+    {
+      "key": "icmje",
+      "url": "https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html",
+      "status": 200,
+      "final_url": "https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html",
+      "bytes_read": 29644,
+      "content_type": "text/html",
+      "title": "ICMJE | Recommendations | Defining the Role of Authors and Contributors",
+      "verified": true
+    },
+    {
+      "key": "ithenticate",
+      "url": "https://guides.ithenticate.com/hc/en-us/articles/27842305774605-Understanding-the-Similarity-Report",
+      "status": 200,
+      "final_url": "https://guides.ithenticate.com/hc/en-us/articles/27842305774605-Understanding-the-Similarity-Report",
+      "bytes_read": 39760,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Understanding the Similarity Report – iThenticate Guides",
+      "verified": true
+    },
+    {
+      "key": "r",
+      "url": "https://www.r-project.org/",
+      "status": 200,
+      "final_url": "https://www.r-project.org/",
+      "bytes_read": 7454,
+      "content_type": "text/html",
+      "title": "R: The R Project for Statistical Computing",
+      "verified": true
+    },
+    {
+      "key": "python",
+      "url": "https://docs.python.org/3/",
+      "status": 200,
+      "final_url": "https://docs.python.org/3/",
+      "bytes_read": 19635,
+      "content_type": "text/html",
+      "title": "3.14.8 Documentation",
+      "verified": true
+    }
+  ]
+}

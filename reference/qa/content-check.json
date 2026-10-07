@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "edition": "2026-10-06",
+  "pages": 183,
+  "localized_guides": 135,
+  "workbooks": 135,
+  "foundation_templates": 18,
+  "resources_per_language": 61,
+  "learning_paths_per_language": 8,
+  "terms_per_language": 40,
+  "article_body_words": {
+    "fa": 21345,
+    "en": 17410,
+    "ar": 12604
+  },
+  "verified_example_output": {
+    "project_version": "1.0.0",
+    "status": "entirely synthetic teaching data",
+    "n": 12,
+    "mean_score": 67.33333333333333,
+    "sd_score": 9.128709291752768,
+    "source_sha256": "4de731b0f3032d6812290ae08463729e66fcc976ebeb29f46e1dbf5f4e569325",
+    "analysis_paths": 6,
+    "coefficient_units": "score points per study hour",
+    "limitations": "Descriptive OLS examples; no inference, causality or real-population estimates."
+  },
+  "quarto_rendering": "not run; Quarto is unavailable",
+  "expert_peer_review": "not claimed"
+}
